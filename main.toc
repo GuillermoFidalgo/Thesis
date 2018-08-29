@@ -1,0 +1,59 @@
+\contentsline {chapter}{List of Figures}{iv}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Large Hadron Collider and the Compact Muon Solenoid}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}The LHC Machine}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}The CMS Detector}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Silicon Tracking System}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Electromagnetic Calorimeter}{7}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Hadron Calorimeter}{8}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Magnet}{10}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Muon Detector}{10}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Trigger and Data Acquisition}{11}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Event Reconstruction}{12}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.8}Future Upgrade of Pixel Detector}{13}{subsection.2.2.8}
+\contentsline {chapter}{\numberline {3}Theoretical Motivation}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Standard Model}{16}{section.3.1}
+\contentsline {section}{\numberline {3.2}Indications of Physics Beyond the Standard Model}{17}{section.3.2}
+\contentsline {section}{\numberline {3.3}Supersymmetric extension of the Standard Model}{18}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Simplified Models Approach to Supersymmetry}{19}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Optimizing the Phase-2 Pixel Geometry for the Level-1 Trigger in the Outer Tracker}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Upgraded Phase-2 Tracker}{21}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Phase-2 Tracker Layout}{22}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Tracker Input to the L1-Trigger}{22}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Tracker Stub Simulation}{23}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Results of Effect of the Phase 2 Pixel Detector on the L1 Stub Rate}{25}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Results}{29}{section.4.3}
+\contentsline {chapter}{\numberline {5}Search for SUSY in the 0-Lepton Final State}{30}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{30}{section.5.1}
+\contentsline {section}{\numberline {5.2}Analysis Description}{30}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Signal Models}{31}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Top Tagger}{32}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Lepton and Track Vetoes}{33}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Baseline Event Selection}{34}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Search Bin Definition}{34}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Background Estimation}{35}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Background from t$\bar {\text {t}}$, Single Top Quark and W+jets Events}{35}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}The Z $\rightarrow \nu \bar {\nu }$ Background}{37}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}The QCD Multijet Background}{38}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Background From Rare and Other Processes}{39}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Results and Interpretation}{39}{section.5.4}
+\contentsline {chapter}{\numberline {6}Estimation of the Z$\rightarrow \nu \bar {\nu }$ Background}{42}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{42}{section.6.1}
+\contentsline {section}{\numberline {6.2}The Irreducible Z$\rightarrow \nu \bar {\nu }$ Background}{42}{section.6.2}
+\contentsline {section}{\numberline {6.3}The Loose $\gamma $+jets Control Region}{43}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Photon ID and Isolation}{43}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Photon Selection}{44}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Photon Purity and Fake Rate}{45}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}The Z$\rightarrow \mu ^{+}\mu ^{-}$ Control Region}{47}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Muon ID and Isolation}{48}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Muon Selection in the Tight Control Region}{48}{subsection.6.4.2}
+\contentsline {section}{\numberline {6.5}Analysis}{49}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Shape Correction Using the $\gamma $ + jets Control Sample}{49}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Normalization Correction Using the tight Z$\rightarrow \mu ^{+}\mu ^{-}$ Control Sample}{51}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Results}{53}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Systematics}{53}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Z$\rightarrow \nu \bar {\nu }$ Estimation for the Search Bins}{54}{subsection.6.6.2}
+\contentsline {chapter}{\numberline {7}Conclusion}{56}{chapter.7}
+\contentsline {section}{\numberline {7.1}L1 Stub Counting for the HL-LHC CMS Tracker Upgrade}{56}{section.7.1}
+\contentsline {section}{\numberline {7.2}Search for SUSY in the All-Hadronic Channel}{57}{section.7.2}
+\contentsline {section}{\numberline {7.3}Estimation of the Z$\rightarrow \nu \bar {\nu }$+ jets Background with a Hybrid Method}{57}{section.7.3}
