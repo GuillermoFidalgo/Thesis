@@ -1,21 +1,21 @@
-\BOOKMARK [0][-]{chapter*.4}{List of Figures}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
-\BOOKMARK [0][-]{chapter.2}{Large Hadron Collider and the Compact Muon Solenoid}{}% 3
-\BOOKMARK [1][-]{section.2.1}{The LHC Machine}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{The CMS Detector}{chapter.2}% 5
-\BOOKMARK [2][-]{subsection.2.2.1}{Silicon Tracking System}{section.2.2}% 6
-\BOOKMARK [2][-]{subsection.2.2.2}{Electromagnetic Calorimeter}{section.2.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.3}{Hadron Calorimeter}{section.2.2}% 8
-\BOOKMARK [2][-]{subsection.2.2.4}{Magnet}{section.2.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.5}{Muon Detector}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.6}{Trigger and Data Acquisition}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.7}{Event Reconstruction}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.8}{Future Upgrade of Pixel Detector}{section.2.2}% 13
-\BOOKMARK [0][-]{chapter.3}{Theoretical Motivation}{}% 14
-\BOOKMARK [1][-]{section.3.1}{The Standard Model}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.2}{Indications of Physics Beyond the Standard Model}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.3}{Supersymmetric extension of the Standard Model}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.3.1}{Simplified Models Approach to Supersymmetry}{section.3.3}% 18
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Acknowledgments}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [0][-]{chapter.2}{The CMS Experiment}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Supersymmetric extension of the Standard Model}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Simplified Models Approach to Supersymmetry}{section.2.1}% 7
+\BOOKMARK [0][-]{chapter.3}{Theoretical Motivation}{}% 8
+\BOOKMARK [1][-]{section.3.1}{The LHC Machine}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.2}{The CMS Detector}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.2.1}{Silicon Tracking System}{section.3.2}% 11
+\BOOKMARK [2][-]{subsection.3.2.2}{Electromagnetic Calorimeter}{section.3.2}% 12
+\BOOKMARK [2][-]{subsection.3.2.3}{Hadron Calorimeter}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.4}{Magnet}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.5}{Muon Detector}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.6}{Trigger and Data Acquisition}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.7}{Event Reconstruction}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.8}{Future Upgrade of Pixel Detector}{section.3.2}% 18
 \BOOKMARK [0][-]{chapter.4}{Optimizing the Phase-2 Pixel Geometry for the Level-1 Trigger in the Outer Tracker}{}% 19
 \BOOKMARK [1][-]{section.4.1}{Upgraded Phase-2 Tracker}{chapter.4}% 20
 \BOOKMARK [2][-]{subsection.4.1.1}{Phase-2 Tracker Layout}{section.4.1}% 21
@@ -57,3 +57,4 @@
 \BOOKMARK [1][-]{section.7.1}{L1 Stub Counting for the HL-LHC CMS Tracker Upgrade}{chapter.7}% 57
 \BOOKMARK [1][-]{section.7.2}{Search for SUSY in the All-Hadronic Channel}{chapter.7}% 58
 \BOOKMARK [1][-]{section.7.3}{Estimation of the Zbar+ jets Background with a Hybrid Method}{chapter.7}% 59
+\BOOKMARK [0][-]{appendix.A}{References}{}% 60

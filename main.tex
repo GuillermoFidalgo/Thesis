@@ -3,6 +3,7 @@
 
 %Packages to include
 \usepackage[utf8]{inputenc}
+\usepackage{setspace}
 \usepackage{times}
 \usepackage[a4paper,width=150mm,top=30mm,bottom=1in,bindingoffset=6mm]{geometry}
 \usepackage{graphicx,wrapfig,lipsum}
@@ -94,35 +95,32 @@ contents={\includegraphics[width=\textwidth]{university.png}}
 \input{Title.tex}
 
 \frontmatter
-\chapter*{Abstract}
+
+\doublespace
+\chapter{Abstract}
 The Data Quality Monitoring (DQM) of CMS is a key asset to deliver high-quality data for physics analysis and it is used both in the online and offline environment. The current paradigm of the quality assessment is labor intensive and it is based on the scrutiny of a large number of histograms by detector experts comparing them with a reference. This project aims at applying recent progress in Machine Learning techniques to the automation of the DQM scrutiny. In particular the use of convolutional neural networks to spot problems in the acquired data is presented with particular attention to semi-supervised models (e.g. autoencoders) to define a classification strategy that doesn’t assume previous knowledge of failure modes. Real data from the hadron calorimeter of CMS are used to demonstrate the effectiveness of the proposed approach. 
+	
 
-
-The Large Hadron Collider (LHC) is the world's largest and most powerful particle accelerator designed to discover physics Beyond the Standard Model (BSM). The Standard Model (SM) of fundamental particles and their interactions has been extremely successful in describing phenomena in the atomic and subatomic realms in the last 100 years. After the discovery of a boson with properties consistent with the SM Higgs boson at the LHC (by CMS and ATLAS Experiments in 2012), attention has shifted to searches for new physics that can explain the fine-tuned cancellation of large quantum corrections required to stabilize the Higgs boson mass at 125 GeV. Among BSM scenarios, Supersymmetry (SUSY) is a new symmetry between fermions and bosons that provides an elegant mechanism to mitigate this hierarchy problem and overcome shortcomings of the Standard Model. However, the data from the LHC has so far shown no signs of BSM, however, stringent limits have been placed on its possible signatures. The future High Luminosity run of the LHC (HL-HLC) from 2023-2035 will enable us to make precise measurements of several of the SM parameters, in particular, the scalar sector and open the search for new physics proposed by many BSM models and identify any new physics hint, including SUSY, that could also possibly be observed during the current run. This requires the CMS collaboration to perform a series of upgrades that will ensure the capabilities of the CMS detector to match the HL-LHC running conditions. One of these upgrades is to build an entire new silicon Tracker that includes Pixel Detector and Outer Tracker. The work presented in this thesis is aligned with evolution of the CMS experiment. A simulation study is performed to determine the effect of HL-LHC Pixel Detector on stubs (matching hit pairs from the same particle track on two adjacent silicon layers of the modules in Outer Tracker) which is key to future possible BSM discoveries and SUSY in particular. A new method to measure the Z-invisible (Z$\rightarrow \nu\bar{\nu}$) background for the stop quark searches in all-hadronic channel is presented. The method based on $\gamma$+jets provides an improvement over the method used for Z-invisible background in analysis presented here that searches for SUSY in the all-hadronic channel with missing transverse momentum and a customized top tagger. The data was collected by the CMS Detector from proton-proton collisions at the LHC at a center-of-mass energy of 13 TeV with an integrated luminosity of 35 fb$^{-1}$ collected in 2016.
-
-\chapter*{Resumen}
-
-El Large Hadron Collider (LHC) constituye el acelerador de part\'iculas m\'as poderoso y m\'as grande del mundo, dise\~nado con el prop\'osito de descubrir evidencia de fen\'omenos f\'isicos que trascienden el modelo est\'andar. El modelo est\'andar de part\'iculas elementales, y las interacciones que describe, han sido extremadamente exitosos en explicar fen\'omenos de la f\'isica al nivel at\'omico y sub-at\'omico durante el pasado siglo. Luego del descubrimiento de un bos\'on con propiedades consistentes con el bos\'on de Higgs (como se ha descrito por el modelo est\'andar), el enfoque se ha tornado hacia b\'usquedas de fen\'omenos f\'isicos que sean capaces de explicar la cancelaci\'on de correcciones cu\'anticas grandes, necesarias para obtener un bos\'on de Higgs con una masa de 125 GeV. Dentro de los modelos propuestos, la Supersimetria (SUSY) consiste de un tipo nuevo de simetria entre fermiones y bosones que provee una soluci\'on elegante para este problema de jerarqu\'ia, entre otras deficiencias. Sin embargo, hasta el momento no se ha logrado observar ninguna evidencia (de data obtenida del LHC) de fen\'omenos que van m\'as all\'a del modelo est\'andar, aunque si se han impuesto l\'imites sobre las posibles se\~nales de b\'usqueda. La implementaci\'on del LHC de alta luminosidad (HL-LHC, por sus siglas en ingles) entre 2023-2035, va a proveer la posibilidad de realizar medidas precisas de varios de los par\'ametros del modelo est\'andar facilitando la b\'usqueda de varios modelos propuestos, incluyendo SUSY. Esto est\'a sujeto a que la colaboraci\'on de CMS actualice el detector para que pueda funcionar bajo las nuevas condiciones de funcionamiento del LHC. Una de estas actualizaciones incluye la construcci\'on total de un nuevo sistema de rastreo de silicio, el cual incluye un detector de pixeles y un rastreador externo. El trabajo presentado en esta tesis est\'a alineado con la evoluci\'on del detector CMS. Se realiz\'o un estudio basado en simulaci\'on con el prop\'osito de determinar el efecto que va tener el nuevo detector de pixeles sobre la formaci\'on de ``stubs'' (definido como la coincidencia de un par de se\~nales en capas de silicio adyacentes en los componentes del rastreador externo), los cuales forman la base para el descubrimiento de f\'isica nueva, en particular SUSY. Se presenta un m\'etodo nuevo para estimar las interacciones de fondo relacionadas el decaimiento de Z en un par de neutrinos (Z$\rightarrow \nu\bar{\nu}$) para b\'usquedas del top squark en estados finales con cero leptones. El m\'etodo est\'a basado en la realizaci\'on que una muestra de eventos de $\gamma$+jets debe exhibir mejores resultados que el m\'etodo utilizado previamente para b\'usquedas de SUSY en estados finales de cero leptones, con momentum transverso desaparecido y un identificador de top-quarks. La data utilizada para el estudio fue obtenida de colisiones de protones generadas por el LHC en el detector CMS con un centro de masa de 13 TeV y una luminosidad integrada de 35 fb$^{-1}$ durante el 2016.
-
-%\chapter*{Dedication}
-\chapter*{Acknowledgements}
-
+\chapter{Acknowledgments}
 
 I wish to thank United States State Department and University of Michigan for providing the opportunity to work abroad at CERN during the 2018 Winter Semester. I also wish to thank CERN staff, CMS Experiment , Texas Tech University, and the University of Puerto Rico at Mayagüez, with special thanks to Dr. Federico de Guio for his local mentorship and Dr. Nural Akchurin, and Dr. Sudhir Malik for their guidance. A very special thanks to Dr. Jean Krisch for accepting me for this great research opportunity and Dr. Steven Goldfarb for being a wonderful host and overall local guidance at CERN.
+\singlespace
 
 \listoffigures
 
 \tableofcontents
 
+
+\doublespace
 \mainmatter
 \chapter{Introduction}
 \input{chapters/introduction}
 
-\chapter{Large Hadron Collider and the Compact Muon Solenoid}\label{LHCCMS}
-\input{chapters/chapter03}
+\chapter{The CMS Experiment}\label{LHCCMS}
+\input{chapters/chapter02}
 
 \chapter{Theoretical Motivation}\label{theory}
-\input{chapters/chapter02}
+\input{chapters/chapter03}
 
 \chapter{Optimizing the Phase-2 Pixel Geometry for the Level-1 Trigger in the Outer Tracker}\label{stubs}
 \input{chapters/stubsChapter}

@@ -1,0 +1,389 @@
+\begin{thebibliography}{10}
+
+\bibitem{LHCcomplex}
+C.~Lefevre, ``{The CERN accelerator complex. Complexe des accelerateurs du
+  CERN}.'' Available on the \href{https://cds.cern.ch/record/1260465}{CERN
+  document server}, Dec 2008.
+
+\bibitem{CMSlayout}
+T.~Sakuma and T.~McCauley, ``{Detector and Event Visualization with SketchUp at
+  the CMS Experiment},'' {\em J. Phys. Conf. Ser.}, vol.~513, p.~022032, 2014.
+\newblock
+  \href{http://dx.doi.org/10.1088/1742-6596/513/2/022032}{doi:10.1088/1742-6596/513/2/022032}.
+
+\bibitem{CMSdet2}
+S.~Spannagel, {\em {CMS Pixel Detector Upgrade and Top Quark Pole Mass
+  Determination}}, vol.~27.
+\newblock Springer, 2017.
+\newblock
+  \href{https://www.researchgate.net/publication/51965849_Top_Quark_Production_at_the_LHC}{doi:10.1007/978-3-319-58880-3}.
+
+\bibitem{CMSLHC}
+{CMS Collaboration}, ``{CMS Physics Technical Design Report Volume 1: Detector
+  Performance and Software},''
+\newblock Technical Design Report CERN-LHCC-2006-001, CERN (2006).
+
+\bibitem{CMSdet1}
+{CMS Collaboration}, ``{The CMS Experiment at the CERN LHC},'' {\em JINST},
+  vol.~3, p.~S08004, 2008.
+\newblock
+  \href{http://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08004/meta}{doi:10.1088/1748-0221/3/08/S08004}.
+
+\bibitem{CMShcal}
+{CMS Collaboration}, ``{Performance of the CMS Hadron Calorimeter with Cosmic
+  Ray Muons and LHC Beam Data},'' {\em JINST}, vol.~5, p.~T03012, 2010.
+\newblock
+  \href{http://iopscience.iop.org/article/10.1088/1748-0221/5/03/T03012/meta}{doi:10.1088/1748-0221/5/03/T03012}.
+
+\bibitem{CMSslice}
+J.~Nielsen, ``{Fundamentals of LHC Experiments},'' in {\em {Proceedings,
+  Theoretical Advanced Study Institute in Elementary Particle Physics (TASI
+  2010). String Theory and Its Applications: From meV to the Planck Scale:
+  Boulder, Colorado, USA, June 1-25, 2010}}, pp.~127--152, 2011.
+\newblock \href{http://arxiv.org/abs/arXiv:1106.2516}{arXiv:1106.2516}.
+
+\bibitem{NLONLL}
+C.~Borschensky, M.~Kramer, A.~Kulesza, M.~Mangano, S.~Padhi, T.~Plehn, and
+  X.~Portell, ``{Squark and gluino production cross sections in pp collisions
+  at $\sqrt{s}$ = 13, 14, 33 and 100 TeV},'' {\em Eur. Phys. J.}, vol.~C74,
+  no.~12, p.~3174, 2014.
+\newblock
+  \href{https://doi.org/10.1140/epjc/s10052-014-3174-y}{doi:10.1140/epjc/s10052-014-3174-y}.
+
+\bibitem{mSugra1}
+S.~Ferrara, R.~Kallosh, A.~Linde, and M.~Porrati, ``{Minimal Supergravity
+  Models of Inflation},'' {\em Phys. Rev.}, vol.~D88, no.~8, p.~085038, 2013.
+\newblock
+  \href{https://doi.org/10.1103/PhysRevD.88.085038}{doi:10.1103/PhysRevD.88.085038}.
+
+\bibitem{mSugra2}
+A.~B. Lahanas and D.~V. Nanopoulos, ``{The Road to No Scale Supergravity},''
+  {\em Phys. Rept.}, vol.~145, p.~1, 1987.
+\newblock
+  \href{https://doi.org/10.1016/0370-1573(87)90034-2}{doi:10.1016/0370-1573(87)90034-2}.
+
+\bibitem{GMSB1}
+G.~F. Giudice and R.~Rattazzi, ``{Theories with gauge mediated supersymmetry
+  breaking},'' {\em Phys. Rept.}, vol.~322, pp.~419--499, 1999.
+\newblock
+  \href{https://doi.org/10.1016/S0370-1573(99)00042-3}{doi:10.1016/S0370-1573(99)00042-3}.
+
+\bibitem{GMSB2}
+S.~P. Martin and J.~D. Wells, ``{Implications of gauge-mediated supersymmetry
+  breaking with vector-like quarks and a ~125 GeV Higgs boson},'' {\em Phys.
+  Rev.}, vol.~D86, p.~035017, 2012.
+\newblock
+  \href{https://doi.org/10.1103/PhysRevD.86.035017}{doi:10.1103/PhysRevD.86.035017}.
+
+\bibitem{GMSB3}
+R.~Barbieri and G.~F. Giudice, ``{Upper Bounds on Supersymmetric Particle
+  Masses},'' {\em Nucl. Phys.}, vol.~B306, pp.~63--76, 1988.
+\newblock
+  \href{https://doi.org/10.1016/0550-3213(88)90171-X}{doi:10.1016/0550-3213(88)90171-X}.
+
+\bibitem{Rparity1}
+R.~Barbieri {\em et~al.}, ``{R-parity violating supersymmetry},'' {\em Phys.
+  Rept.}, vol.~420, pp.~1--202, 2005.
+\newblock
+  \href{https://doi.org/10.1016/j.physrep.2005.08.006}{doi:10.1016/j.physrep.2005.08.006}.
+
+\bibitem{Rparity2}
+D.~Dercks, H.~Dreiner, M.~E. Krauss, T.~Opferkuch, and A.~Reinert, ``{R-Parity
+  Violation at the LHC},'' {\em Eur. Phys. J.}, vol.~C77, no.~12, p.~856, 2017.
+\newblock
+  \href{https://doi.org/10.1140/epjc/s10052-017-5414-4}{doi:10.1140/epjc/s10052-017-5414-4}.
+
+\bibitem{pDecay1}
+P.~Langacker, ``{Grand Unified Theories and Proton Decay},'' {\em Phys. Rept.},
+  vol.~72, p.~185, 1981.
+\newblock
+  \href{https://doi.org/10.1016/0370-1573(81)90059-4}{doi:10.1016/0370-1573(81)90059-4}.
+
+\bibitem{SSM}
+{CMS Collaboration}, ``{Interpretation of Searches for Supersymmetry with
+  simplified Models},'' {\em Phys. Rev.}, vol.~D88, no.~5, p.~052017, 2013.
+\newblock
+  \href{https://doi.org/10.1103/PhysRevD.88.052017}{doi:10.1103/PhysRevD.88.052017}.
+
+\bibitem{cMSSM}
+P.~Bechtle {\em et~al.}, ``{Killing the cMSSM softly},'' {\em PoS},
+  vol.~EPS-HEP2015, p.~139, 2015.
+\newblock \href{https://doi.org/10.22323/1.234.0139}{doi:10.22323/1.234.0139}.
+
+\bibitem{LHC}
+L.~Evans and P.~Bryant, ``{LHC Machine},'' {\em JINST}, vol.~3, p.~S08001,
+  2008.
+\newblock
+  \href{http://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08001/meta}{doi:10.1088/1748-0221/3/08/S08001}.
+
+\bibitem{BSM}
+R.~Rosenfeld, ``{Physics Beyond the Standard Model},'' in {\em {Proceedings,
+  8th CERN--Latin-American School of High-Energy Physics (CLASHEP2015): Ibarra,
+  Ecuador, March 05-17, 2015}}, pp.~159--164, 2016.
+\newblock
+  \href{http://dx.doi.org/10.5170/CERN-2016-005.159}{doi:10.5170/CERN-2016-005.159}.
+
+\bibitem{SPS}
+N.~{Doble}, L.~{Gatignon}, K.~{H{\"u}bner}, and E.~{Wilson}, {\em {The Super
+  Proton Synchrotron (SPS): A Tale of Two Lives}}, pp.~135--177.
+\newblock World Scientific Publishing Co, 2017.
+
+\bibitem{ATLAS}
+{ATLAS Collaboration}, ``{The ATLAS Experiment at the CERN Large Hadron
+  Collider},'' {\em JINST}, vol.~3, p.~S08003, 2008.
+\newblock
+  \href{http://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08003/meta}{doi:10.1088/1748-0221/3/08/S08003}.
+
+\bibitem{LHCb}
+{LHCb Collaboration}, ``{The LHCb Detector at the LHC},'' {\em JINST}, vol.~3,
+  p.~S08005, 2008.
+\newblock
+  \href{http://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08005/meta}{doi:10.1088/1748-0221/3/08/S08005}.
+
+\bibitem{ALICE}
+K.~Aamodt {\em et~al.}, ``{The ALICE experiment at the CERN LHC},'' {\em
+  JINST}, vol.~3, p.~S08002, 2008.
+\newblock
+  \href{http://iopscience.iop.org/article/10.1088/1748-0221/3/08/S08002/meta}{doi:10.1088/1748-0221/3/08/S08002}.
+
+\bibitem{DM}
+K.~Garrett and G.~Duda, ``{Dark Matter: A Primer},'' {\em Adv. Astron.},
+  vol.~2011, p.~968283, 2011.
+\newblock
+  \href{http://dx.doi.org/10.1155/2011/968283}{doi:10.1155/2011/968283}.
+
+\bibitem{DS}
+R.~C.~G. Landim, {\em {Dark Sector Cosmology}}.
+\newblock PhD thesis, Sao Paulo U., 2017.
+\newblock \href{http://arxiv.org/abs/arXiv:1702.06024}{arXiv:1702.06024}.
+
+\bibitem{VPT}
+K.~W. Bell {\em et~al.}, ``{Vacuum phototriodes for the CMS electromagnetic
+  calorimeter endcap},'' {\em IEEE Trans. Nucl. Sci.}, vol.~51, pp.~2284--2287,
+  2004.
+\newblock
+  \href{http://ieeexplore.ieee.org/document/1344324/}{doi:10.1109/TNS.2004.836053}.
+
+\bibitem{MIPs}
+H.~Bichsel, D.~E. Groom, and S.~R. Klein, ``{Passage of particles through
+  matter},'' 2004.
+
+\bibitem{muonAlignment}
+{CMS Collaboration}, ``{Alignment of the CMS Muon System with Cosmic-Ray and
+  Beam-Halo Muons},'' {\em JINST}, vol.~5, p.~T03020, 2010.
+\newblock
+  \href{https://doi.org/10.1088/1748-0221/5/03/T03020}{doi:10.1088/1748-0221/5/03/T03020}.
+
+\bibitem{MuDet}
+``{Muon Detectors}.'' \url{http://cms.web.cern.ch/news/muon-detectors}.
+\newblock Accessed: 2018-04-08.
+
+\bibitem{L1T}
+A.~Tapper and D.~Acosta, ``{CMS Technical Design Report for the Level-1 Trigger
+  Upgrade},'' 2013.
+
+\bibitem{HLT}
+W.~Adam {\em et~al.}, ``{The CMS high level trigger},'' {\em Eur. Phys. J.},
+  vol.~C46, pp.~605--667, 2006.
+\newblock
+  \href{https://doi.org/10.1140/epjc/s2006-02495-8}{doi:10.1140/epjc/s2006-02495-8}.
+
+\bibitem{PFref}
+F.~Beaudette, {\em \href{https://arxiv.org/pdf/1401.8155.pdf}{The CMS Particle
+  Flow Algorithm}}, 2013.
+
+\bibitem{Reco1}
+A.~K. Nayak, ``{Reconstruction of physics objects in the CMS detector},'' {\em
+  PoS}, vol.~CHARGED2012, p.~010, 2012.
+
+\bibitem{CMScomp1}
+{CMS Collaboration}, ``{CMS: The computing project. Technical design report},''
+\newblock Technical Design Report CERN-LHCC-2005-023, CERN (2005).
+
+\bibitem{ROOT}
+R.~Brun and F.~Rademakers, ``{ROOT: An object oriented data analysis
+  framework},'' {\em Nucl. Instrum. Meth.}, vol.~A389, pp.~81--86, 1997.
+\newblock
+  \href{http://dx.doi.org/10.1016/S0168-9002(97)00048-X}{doi:10.1016/S0168-9002(97)00048-X}.
+
+\bibitem{Phase1FPix}
+M.~Lipinski, ``{The Phase-1 upgrade of the CMS pixel detector},'' {\em JINST},
+  vol.~12, no.~07, p.~C07009, 2017.
+\newblock
+  \href{https://doi.org/10.1088/1748-0221/12/07/C07009}{doi:10.1088/1748-0221/12/07/C07009}.
+
+\bibitem{HLLHC}
+G.~Apollinari, I.~Bejar~Alonso, O.~Bruning, M.~Lamont, and L.~Rossi,
+  ``{High-Luminosity Large Hadron Collider (HL-LHC) : Preliminary Design
+  Report},'' 2015.
+\newblock
+  \href{https://doi.org/10.5170/CERN-2015-005}{doi:10.5170/CERN-2015-005}.
+
+\bibitem{CMSPhase2}
+D.~Contardo, M.~Klute, J.~Mans, L.~Silvestris, and J.~Butler, ``{Technical
+  Proposal for the Phase-II Upgrade of the CMS Detector},'' 2015.
+\newblock \href{http://inspirehep.net/record/1614097?ln=en}{CMS-TDR-15-02}.
+
+\bibitem{CMSupgrades}
+J.~Pilot, ``{Future of the CMS Muon System: Upgrades and Aging},'' {\em PoS},
+  vol.~ICHEP2016, p.~281, 2016.
+\newblock \href{https://doi.org/10.22323/1.282.0281}{doi:10.22323/1.282.0281}.
+
+\bibitem{Phase2Tracker}
+K.~Klein, ``{The Phase-2 Upgrade of the CMS Tracker},'' 2017.
+\newblock \href{https://cds.cern.ch/record/2272264?ln=en}{CMS-TDR-014}.
+
+\bibitem{Phase2Tracker2}
+S.~Mersi, ``{Phase-2 Upgrade of the CMS Tracker},'' {\em Nucl. Part. Phys.
+  Proc.}, vol.~273-275, pp.~1034--1041, 2016.
+\newblock
+  \href{https://doi.org/10.1016/j.nuclphysbps.2015.09.162}{doi:10.1016/j.nuclphysbps.2015.09.162}.
+
+\bibitem{Phase2Tracker1}
+C.~Foudas, A.~Rose, J.~Jones, and G.~Hall, ``{A Study for a tracking trigger at
+  first level for CMS at SLHC},'' in {\em {Proceedings, eleventh Workshop on
+  Electronics for LHC and Future Experiments, Heidelberg, Germany, 12-16
+  September 2005}}, p.~90, 2005.
+\newblock \href{http://arxiv.org/abs/physics/0510227}{arXiv:physics/0510227}.
+
+\bibitem{tkLayout}
+N.~{De Maio}, G.~{Bianchi}, S.~Martina, Z.~Drasal, G.~Hugo, and S.~Mersi.
+\newblock \href{http://tklayout.web.cern.ch}{http://tklayout.web.cern.ch}.
+
+\bibitem{SUSYanalysis}
+{CMS Collaboration}, ``Search for supersymmetry in proton-proton collisions at
+  13 tev using identified top quarks,'' {\em Phys. Rev. D}, vol.~97, p.~012007,
+  Jan 2018.
+\newblock
+  \href{https://link.aps.org/doi/10.1103/PhysRevD.97.012007}{doi:10.1103/PhysRevD.97.012007}.
+
+\bibitem{SMS}
+H.~E. Haber and L.~Stephenson~Haskins, ``{Supersymmetric Theory and Models},''
+  in {\em {Theoretical Advanced Study Institute in Elementary Particle Physics:
+  Anticipating the Next Discoveries in Particle Physics (TASI 2016) Boulder,
+  CO, USA, June 6-July 1, 2016}}, 2017.
+\newblock \href{http://arxiv.org/abs/arXiv:1712.05926}{arXiv:1712.05926}.
+
+\bibitem{AntiKt}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, ``{The Anti-k(t) jet clustering
+  algorithm},'' {\em JHEP}, vol.~04, p.~063, 2008.
+\newblock
+  \href{https://doi.org/10.1088/1126-6708/2008/04/063}{doi:10.1088/1126-6708/2008/04/063}.
+
+\bibitem{JetAlg1}
+{CMS Collaboration}, ``{A Cambridge-Aachen (C-A) based Jet Algorithm for
+  boosted top-jet tagging},'' 2009.
+
+\bibitem{SoftDrop}
+A.~J. Larkoski, S.~Marzani, G.~Soyez, and J.~Thaler, ``{Soft Drop},'' {\em
+  JHEP}, vol.~05, p.~146, 2014.
+\newblock
+  \href{https://doi.org/10.1007/JHEP05(2014)146}{doi:10.1007/JHEP05(2014)146}.
+
+\bibitem{RandForest1}
+L.~Breiman, ``{Random Forests},'' {\em Machine Learning}, vol.~45, no.~1,
+  pp.~5--32, 2001.
+\newblock
+  \href{https://doi.org/10.1023/A:1010933404324}{doi:10.1023/A:1010933404324}.
+
+\bibitem{CL1}
+T.~Junk, ``{Confidence level computation for combining searches with small
+  statistics},'' {\em Nucl. Instrum. Meth.}, vol.~A434, pp.~435--443, 1999.
+\newblock
+  \href{https://doi.org/10.1016/S0168-9002(99)00498-2}{doi:10.1016/S0168-9002(99)00498-2}.
+
+\bibitem{CL2}
+A.~L. Read, ``{Presentation of search results: The CL(s) technique},'' {\em J.
+  Phys.}, vol.~G28, pp.~2693--2704, 2002.
+\newblock [,11(2002)],
+  \href{https://doi.org/10.1088/0954-3899/28/10/313}{doi:10.1088/0954-3899/28/10/313}.
+
+\bibitem{stat1}
+G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``{Asymptotic formulae for
+  likelihood-based tests of new physics},'' {\em Eur. Phys. J.}, vol.~C71,
+  p.~1554, 2011.
+\newblock [Erratum: Eur. Phys. J.C73,2501(2013)],
+  \href{https://doi.org/10.1140/epjc/s10052-013-2501-z}{doi:10.1140/epjc/s10052-013-2501-z}.
+
+\bibitem{Lumi}
+{CMS Collaboration}, ``{CMS Luminosity Measurements for the 2016 Data Taking
+  Period},'' Tech. Rep. CMS-PAS-LUM-17-001, CERN, Geneva, 2017.
+\newblock \href{https://cds.cern.ch/record/2257069}{CMS-PAS-LUM-17-001}.
+
+\bibitem{Zgamma}
+{CMS Collaboration}, ``{Comparison of the Z/$\gamma$$^{\ast}$ + jets to
+  $\gamma$ + jets cross sections in pp collisions at $ \sqrt{s}=8 $ TeV},''
+  {\em JHEP}, vol.~10, p.~128, 2015.
+\newblock [Erratum: JHEP04,010(2016)],
+  {\href{https://doi.org/10.1007/JHEP04(2016)010}{doi:10.1007/JHEP04(2016)010}},
+  {\href{10.1007/JHEP10(2015)128}{doi:10.1007/JHEP10(2015)128}}.
+
+\bibitem{OtherAna1}
+{CMS Collaboration}, ``{Search for supersymmetry in the multijet and missing
+  transverse momentum final state in pp collisions at 13 TeV},'' {\em Phys.
+  Lett.}, vol.~B758, pp.~152--180, 2016.
+\newblock
+  \href{https://doi.org/10.1016/j.physletb.2016.05.002}{doi:10.1016/j.physletb.2016.05.002}.
+
+\bibitem{OtherAna2}
+{CMS Collaboration}, ``{Search for supersymmetry in multijet events with
+  missing transverse momentum in proton-proton collisions at 13 TeV},'' {\em
+  Phys. Rev.}, vol.~D96, no.~3, p.~032003, 2017.
+\newblock
+  \href{https://doi.org/10.1103/PhysRevD.96.032003}{doi:10.1103/PhysRevD.96.032003}.
+
+\bibitem{ZInv}
+``{Data-Driven Estimation of the Invisible Z Background to the SUSY MET Plus
+  Jets Search},'' 2009.
+\newblock \href{http://inspirehep.net/record/925388?ln=en}{CMS-PAS-SUS-08-002}.
+
+\bibitem{photonID}
+F.~Micheli, ``{Cut Based Photon ID for Run 2}.''
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/CutBasedPhotonIdentificationRun2}.
+\newblock Accessed: 2018-01-27.
+
+\bibitem{egamma}
+J.~Berryhill, ``{Electron Detection at CMS}.'' The Egamma Physics Object Group,
+  2009.
+\newblock
+  \href{https://indico.cern.ch/event/46651/contribution/19/attachments/950877/1349268/berryhill_ele_090113.ppt}{ppt}.
+
+\bibitem{showershape}
+{CMS Collaboration}, ``{Performance of Photon Reconstruction and Identification
+  with the CMS Detector in Proton-Proton Collisions at sqrt(s) = 8 TeV},'' {\em
+  JINST}, vol.~10, no.~08, p.~P08010, 2015.
+\newblock
+  \href{https://doi.org/10.1088/1748-0221/10/08/P08010}{doi:10.1088/1748-0221/10/08/P08010}.
+
+\bibitem{PFref2}
+A.~M. Sirunyan {\em et~al.}, ``{Particle-flow reconstruction and global event
+  description with the CMS detector},'' {\em JINST}, vol.~12, no.~10,
+  p.~P10003, 2017.
+\newblock
+  \href{https://doi.org/10.1088/1748-0221/12/10/P10003}{doi:10.1088/1748-0221/12/10/P10003}.
+
+\bibitem{RhoRef}
+J.~de~Favereau, C.~Delaere, P.~Demin, A.~Giammanco, V.~Lemaitre, A.~Mertens,
+  and M.~Selvaggi, ``{DELPHES 3, A modular framework for fast simulation of a
+  generic collider experiment},'' {\em JHEP}, vol.~02, p.~057, 2014.
+\newblock
+  \href{https://doi.org/10.1007/JHEP02(2014)057}{doi:10.1007/JHEP02(2014)057}.
+
+\bibitem{promptPho}
+M.~Klasen, C.~Klein-Bosing, and H.~Poppenborg, ``{Prompt photon production and
+  photon-jet correlations at the LHC},'' {\em JHEP}, vol.~03, p.~081, 2018.
+\newblock
+  \href{https://doi.org/10.1007/JHEP03(2018)081}{doi:10.1007/JHEP03(2018)081}.
+
+\bibitem{muonID}
+S.~Folgueras, ``{Baseline muon selections for Run-II}.''
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideMuonIdRun2}.
+\newblock Accessed: 2018-05-13.
+
+\bibitem{ZtoGamma}
+{CMS Collaboration}, ``{Measurement of the Z/gamma*+jets/photon+jets cross
+  section ratio in pp collisions at sqrt(s)=8 TeV},'' 2014.
+\newblock
+  \href{http://inspirehep.net/search?ln=en&cc=Experiments&p=119__a\%3ACERN-LHC-CMS&of=hd}{CMS-PAS-SMP-14-005}.
+
+\end{thebibliography}
