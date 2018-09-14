@@ -4,6 +4,15 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces CMS Detector \relax }}{4}{figure.caption.5}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces The trajectory of a particle traveling through the layers of the detector leaving behind a it's signature footprint\relax }}{5}{figure.caption.6}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic representation of the Standard Model particles with the added SUSY particles.}}{6}{figure.caption.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The CERN Accelerator Complex\cite {LHCcomplex}.\relax }}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The CMS Detector Layout\cite {CMSlayout}.\relax }}{9}{figure.caption.8}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Overview of the CMS Tracker Layout\cite {CMSdet2}.\relax }}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Geometrical layout of the CMS Electromagnetic Calorimeter\cite {CMSLHC}.\relax }}{13}{figure.caption.10}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Layout of the CMS ECAL illustrating its various components\cite {CMSdet1}.\relax }}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Geometrical layout of the HCAL showing the locations of the hadron barrel (HB), endcap (HE), outer (HO) and forward (HF) calorimeters\cite {CMShcal}.\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Quarter-view of the CMS muon system (left) and a muon in the transverse plane leaves a curved trajectory across the four muon detector stations (right).}}{18}{figure.caption.13}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Transverse slice of the CMS detector, showing the individual detector subsystems and particle signatures in each. The particle type can be inferred by combining the detector response in the different subdetectors\cite {CMSslice}.\relax }}{20}{figure.caption.14}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Phase-2 Pixel Detector Layout[ref].\relax }}{23}{figure.caption.15}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

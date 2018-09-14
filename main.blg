@@ -1,11 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
-Warning--I'm ignoring SUSYanalysis's extra "journal" field
---line 490 of file references.bib
 Warning--empty journal in CMSLHC
 Warning--empty year in CMSLHC
-Warning--can't use both author and editor fields in SPS
 Warning--empty journal in MIPs
 Warning--empty journal in L1T
 Warning--empty journal in CMScomp1
@@ -13,8 +10,4 @@ Warning--empty year in CMScomp1
 Warning--empty journal in HLLHC
 Warning--empty journal in CMSPhase2
 Warning--empty journal in Phase2Tracker
-Warning--empty journal in JetAlg1
-Warning--empty author in ZInv
-Warning--empty journal in ZInv
-Warning--empty journal in ZtoGamma
-(There were 15 warnings)
+(There were 9 warnings)

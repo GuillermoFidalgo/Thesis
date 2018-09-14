@@ -3,7 +3,16 @@
 \contentsline {chapter}{List of Figures}{iii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}The CMS Experiment}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Supersymmetric extension of the Standard Model}{5}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Simplified Models Approach to Supersymmetry}{7}{subsection.2.1.1}
-\contentsline {chapter}{\numberline {A}Appendix Title}{10}{appendix.A}
-\contentsline {chapter}{\numberline {B}References}{11}{appendix.B}
+\contentsline {chapter}{\numberline {3}Data Collection and Data Quality Monitoring }{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}What is Data Collection for CMS?}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}The CMS Detector}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Silicon Tracking System}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Electromagnetic Calorimeter}{13}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Hadron Calorimeter}{15}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Magnet}{17}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Muon Detector}{17}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Trigger and Data Acquisition}{19}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Event Reconstruction}{20}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Future Upgrade of Pixel Detector}{21}{subsection.3.2.8}
+\contentsline {chapter}{\numberline {A}Appendix Title}{24}{appendix.A}
+\contentsline {chapter}{\numberline {B}References}{25}{appendix.B}
