@@ -2,14 +2,7 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
 Warning--entry type for "datataking" isn't style-file defined
---line 1277 of file references.bib
-Warning--empty journal in CMSLHC
-Warning--empty year in CMSLHC
-Warning--empty journal in MIPs
-Warning--empty journal in L1T
-Warning--empty journal in CMScomp1
-Warning--empty year in CMScomp1
-Warning--empty journal in HLLHC
-Warning--empty journal in CMSPhase2
-Warning--empty journal in Phase2Tracker
-(There were 10 warnings)
+--line 1278 of file references.bib
+Warning--entry type for "Coursera" isn't style-file defined
+--line 1285 of file references.bib
+(There were 2 warnings)
