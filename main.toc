@@ -3,17 +3,8 @@
 \contentsline {chapter}{List of Figures}{iii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}The CMS Experiment}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}Data Collection and Data Quality Monitoring }{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}What is Data Collection for CMS?}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}What is Data Quality Monitoring}{8}{section.3.2}
-\contentsline {section}{\numberline {3.3}The CMS Detector}{10}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Silicon Tracking System}{12}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Electromagnetic Calorimeter}{14}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Hadron Calorimeter}{16}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Magnet}{18}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Muon Detector}{18}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Trigger and Data Acquisition}{20}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}Event Reconstruction}{21}{subsection.3.3.7}
-\contentsline {subsection}{\numberline {3.3.8}Future Upgrade of Pixel Detector}{22}{subsection.3.3.8}
-\contentsline {chapter}{\numberline {A}Appendix Title}{25}{appendix.A}
-\contentsline {chapter}{\numberline {B}References}{26}{appendix.B}
+\contentsline {chapter}{\numberline {3}Data Collection and Data Quality Monitoring }{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}What is Data Collection for CMS?}{6}{section.3.1}
+\contentsline {section}{\numberline {3.2}What is Data Quality Monitoring?}{7}{section.3.2}
+\contentsline {chapter}{\numberline {A}Appendix Title}{9}{appendix.A}
+\contentsline {chapter}{\numberline {B}References}{10}{appendix.B}
