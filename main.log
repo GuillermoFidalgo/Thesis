@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.10)  17 SEP 2018 02:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.10)  17 SEP 2018 11:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -1502,7 +1502,7 @@ LaTeX Font Info:    Try loading font information for OT1+phv on input line 9.
 fss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-<images/university.png, id=54, 1204.5pt x 1204.5pt>
+<images/university.png, id=58, 1204.5pt x 1204.5pt>
 File: images/university.png Graphic file (type png)
 <use images/university.png>
 Package pdftex.def Info: images/university.png  used on input line 58.
@@ -1609,7 +1609,7 @@ Chapter 2.
 (Chapters/Chapter02.tex [3
 
 ]
-<images/CMSLayout.png, id=121, 3189.9175pt x 2253.41875pt>
+<images/CMSLayout.png, id=128, 3189.9175pt x 2253.41875pt>
 File: images/CMSLayout.png Graphic file (type png)
 <use images/CMSLayout.png>
 Package pdftex.def Info: images/CMSLayout.png  used on input line 21.
@@ -1617,7 +1617,7 @@ Package pdftex.def Info: images/CMSLayout.png  used on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
  [4 <./images/CMSLayout.png>]
-<images/CMSLayers.PNG, id=131, 746.79pt x 380.92313pt>
+<images/CMSLayers.PNG, id=138, 746.79pt x 380.92313pt>
 File: images/CMSLayers.PNG Graphic file (type png)
 <use images/CMSLayers.PNG>
 Package pdftex.def Info: images/CMSLayers.PNG  used on input line 28.
@@ -1639,31 +1639,66 @@ Underfull \vbox (badness 1635) has occurred while \output is active []
 
 ]
 [10]
-<images/Good_image.jpg, id=164, 130.98938pt x 167.87718pt>
+<images/Good_image.jpg, id=172, 130.98938pt x 167.87718pt>
 File: images/Good_image.jpg Graphic file (type jpg)
 <use images/Good_image.jpg>
 Package pdftex.def Info: images/Good_image.jpg  used on input line 23.
 (pdftex.def)             Requested size: 102.43134pt x 131.27924pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-<images/Dead_image_5x5.jpg, id=165, 146.04562pt x 167.87718pt>
+<images/Dead_image_5x5.jpg, id=173, 146.04562pt x 167.87718pt>
 File: images/Dead_image_5x5.jpg Graphic file (type jpg)
 <use images/Dead_image_5x5.jpg>
 Package pdftex.def Info: images/Dead_image_5x5.jpg  used on input line 29.
 (pdftex.def)             Requested size: 113.95436pt x 130.99234pt.
-<images/Hot_image_5x5.jpg, id=166, 136.25906pt x 167.87718pt>
+<images/Hot_image_5x5.jpg, id=174, 136.25906pt x 167.87718pt>
 File: images/Hot_image_5x5.jpg Graphic file (type jpg)
 <use images/Hot_image_5x5.jpg>
 Package pdftex.def Info: images/Hot_image_5x5.jpg  used on input line 35.
 (pdftex.def)             Requested size: 107.55203pt x 132.5088pt.
  [11 <./images/Good_image.jpg> <./images/Dead_image_5x5.jpg> <./images/Hot_imag
-e_5x5.jpg>]) [12]
+e_5x5.jpg>]
+<images/Weights_and_biases.png, id=180, 261.1575pt x 158.337pt>
+File: images/Weights_and_biases.png Graphic file (type png)
+<use images/Weights_and_biases.png>
+Package pdftex.def Info: images/Weights_and_biases.png  used on input line 51.
+(pdftex.def)             Requested size: 290.21498pt x 175.95425pt.
+
+
+! Package inputenc Error: Unicode character   (U+200A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 ...ctors(X) used in the model. For example 
+                                                  — we call the Weights(...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character   (U+200A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 ...X) used in the model. For example — 
+                                                  we call the Weights(W) and...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[12 <./images/Weights_and_biases.png>]) [13]
 Appendix A.
-(main.bbl [13
+(main.bbl [14
 
 ]
 Appendix B.
-) [14
+) [15
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
@@ -1672,7 +1707,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 586FADBBCDDF82F1C52BA5D60B44FCEE;722.
+(rerunfilecheck)             Checksum: 8CD3242A1840F1403FFDBCFD892C1F86;792.
 
 
 LaTeX Warning: There were undefined references.
@@ -1685,10 +1720,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
 ### semi simple group (level 1) entered at line 99 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33182 strings out of 492972
- 663415 string characters out of 3119962
- 774285 words of memory out of 3000000
- 36529 multiletter control sequences out of 15000+200000
+ 33194 strings out of 492972
+ 663644 string characters out of 3119962
+ 775373 words of memory out of 3000000
+ 36537 multiletter control sequences out of 15000+200000
  560643 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,77p,1823b,1052s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1700,9 +1735,9 @@ s/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/
 utmbi8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/times/utmr8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (19 pages, 3054069 bytes).
+Output written on main.pdf (20 pages, 3131856 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

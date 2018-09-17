@@ -8,5 +8,6 @@
 \contentsline {section}{\numberline {3.2}What is Data Quality Monitoring?}{7}{section.3.2}
 \contentsline {chapter}{\numberline {4}What is Machine Learning?}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Developing the Algorithm}{10}{section.4.1}
-\contentsline {chapter}{\numberline {A}Appendix Title}{13}{appendix.A}
-\contentsline {chapter}{\numberline {B}References}{14}{appendix.B}
+\contentsline {section}{\numberline {4.2}Teaching the Algorithm}{12}{section.4.2}
+\contentsline {chapter}{\numberline {A}Appendix Title}{14}{appendix.A}
+\contentsline {chapter}{\numberline {B}References}{15}{appendix.B}
