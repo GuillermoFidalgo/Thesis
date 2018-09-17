@@ -17,14 +17,28 @@ In this study, I have focused on an SL approach and a variant of the UL approach
 
 To develop an ML algorithm the following are taken into consideration, what is the task? and what is the method to approach the task? In our case, we are looking into images that have information about the activity that the channels in the HCAL are detecting. These images are called "occupancy maps" and they are a visual way of monitoring the health of the detector itself (See Figure 3). There are two common problems that can be identified by viewing occupancy maps which are called "dead channels" and "hot towers". They are referred to as “dead” and “hot” respectively in the rest of this document. Dead channels mean that on a certain place in the occupancy map there is not any readout from the channels on the HCAL and hot channels mean that there are channels that are being triggered by noise or are damaged in a way that makes them readout too much activity.
 
-\begin{center}
-\begin{figure}
-\begin{subfigure}[h]{0.20\linewidth}
-\includegraphics[width=\linewidth]{Good_image.jpg}
-\caption{Good Image\label{Goodimage}}
+\begin{figure}[h]
+\begin{subfigure}{.3\textwidth}
+	\centering
+	\includegraphics[width=.8\textwidth]{Good_image.jpg}
+	\caption{Good Image\label{Goodimage}}
 \end{subfigure}
-\begin{subfigure}[h]{0.30\linewidth}
-\includegraphics[width=\textwidth]{Dead_image_5x5.jpg}
+%
+\begin{subfigure}{.3\linewidth}
+	\centering
+	\includegraphics[width=.89\linewidth]{Dead_image_5x5.jpg}
+	\caption{Dead Image \label{Deadimage}}
 \end{subfigure}
+%
+\begin{subfigure}{0.3\linewidth}
+	\centering
+	\includegraphics[width=.84\linewidth]{Hot_image_5x5.jpg}
+	\caption{Hot Image \label{Hotimage}}
+\end{subfigure}
+\vspace{1cm}
+\caption{Occupancy maps with 5x5 affected regions \label{Occupancymaps5x5}}
 \end{figure}
-\end{center}
+
+The problem is the following, to create a model that can detect and classify what type of scenario is occurring on each occupancy map. For this, we want to go with a SL approach which means that we will give the model the images as the input and it will train on these images by learning to identify patterns or features in the image and try to do a “fit” from the images to their corresponding labels. After the training, the algorithm will be given a testing set for us to evaluate the model’s ability to correctly detect if there is a problem with the image and what type of problem is being detected. The output of the model will be the predicted class of the test image. The predictions are based on the labels and their corresponding images that were given to the model during training. This means that if the model was trained with 3 different types of images with their corresponding label the model will only work well for images that present similar patterns or characteristics to those presented in the training. For example, if we only train the model to distinguish between “good” and “hot” then when the model encounters images that aren’t either of these two, like an image labeled “dead”, then the model will not know what to do with this image and will give it an incorrect label.
+After the SL model has been tested the next step is trying an SSL model. The term semi-supervised simply means that there isn’t a ground truth label that is being given to the model during training because either there isn’t necessarily a ground truth, or we don’t know what the ground truth is. What we do know, is what is considered as a “good” image and what this approach hopes to accomplish is to use the error in the reconstruction of the input image and use that information to discriminate between the “good” vs the “bad” images.
+

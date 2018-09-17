@@ -12,12 +12,12 @@
 \usepackage{verbatim}
 \usepackage{float}
 \usepackage[shortlabels]{enumitem}
-\usepackage{subfigure}
+\usepackage{subcaption}
 \usepackage{titlesec}
 \usepackage[font={footnotesize}]{caption}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage[subfigure,titles]{tocloft}
+%\usepackage[subfigure,titles]{tocloft}
 \usepackage{cite}
 \usepackage{url}
 \usepackage{xfrac}
@@ -82,11 +82,11 @@ contents={\includegraphics[width=\textwidth]{university.png}}
 
 %for list of figures and tables
 \newlength{\mylen}
-
-\renewcommand{\cftfigpresnum}{\figurename\enspace}
-\renewcommand{\cftfigaftersnum}{:}
-\settowidth{\mylen}{\cftfigpresnum\cftfigaftersnum}
-\addtolength{\cftfignumwidth}{\mylen}
+%
+%\renewcommand{\cftfigpresnum}{\figurename\enspace}
+%\renewcommand{\cftfigaftersnum}{:}
+%\settowidth{\mylen}{\cftfigpresnum\cftfigaftersnum}
+%\addtolength{\cftfignumwidth}{\mylen}
 
 %Main Body
 \begin{document}
@@ -120,13 +120,13 @@ I wish to thank United States State Department and University of Michigan for pr
 \input{chapters/introduction}
 
 \chapter{The CMS Experiment}\label{LHCCMS}
-\input{chapters/chapter02}
+\input{Chapters/Chapter02}
 
 \chapter{Data Collection and Data Quality Monitoring }\label{DQMchapter}
-\input{chapters/chapter03}
+\input{Chapters/Chapter03}
 
 \chapter{What is Machine Learning?}\label{ML}
-\input{chapters/chapter04}
+\input{Chapters/Chapter04}
 
 %\chapter{Search for SUSY in the 0-Lepton Final State}\label{AnalysisChap}
 %\input{chapters/chapter04}
