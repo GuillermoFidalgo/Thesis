@@ -57,12 +57,16 @@ The way an ML algorithm learns is by an iterative process called an optimization
 which are used in computing the target values(\textbf{Y}) from the set of \textit{predictors}(\textbf{X}) used in the model. 
 For example - we call the \textbf{Weights(W)} and the \textbf{Bias(b)} values of the neural network as its internal learnable \textit{parameters} 
 which are used in computing the output values and are learned and updated in the direction of optimal solution i.e. 
-minimizing the \textbf{Loss} by the network’s training process and also play a major role in the \textit{\textbf{training}} process of the Neural Network Model.” (Walia, 2018).
+minimizing the \textbf{Loss} by the network’s training process and also play a major role in the \textit{\textbf{training}} process of the Neural Network Model.” \cite{optimizaiton_algorithms}.
 The most basic and probably the most used optimizer is called Gradient Descent (GD). 
-GD is based on the concept of using the gradient of a loss or cost function and moving the weights and biases of the ML model so that the predicted value is taking a step in the decreasing direction of this error function (See Figure 5). In general, the “terrain” of the loss function is not a smooth bowl-shaped surface like the one present in the image. The most general form of the surface is more similar to a rocky mountain (See Figure 6), which presents a problem when using simple optimizers like GD.
+GD is based on the concept of using the gradient of a loss or cost function and moving the weights and biases of the ML model so that the predicted value is taking a step in the decreasing direction of this error function 
+(See \autoref{GD}). In general, the “terrain” of the loss function is not a smooth bowl-shaped surface like the one present in the image. The most general form of the surface is more similar to a rocky mountain (See \autoref{Lossfunction}), which presents a problem when using simple optimizers like GD.
 
 
-
+\begin{figure}
+\includegraphics[width=.8]{GD.png}
+\caption{Gradient Descent algorithm}
+\end{figure}
 
 
 
