@@ -1,12 +1,16 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
-\bibitem{datataking}
-CERN, ``Processing what to record?,'' 2018.
+\bibitem[\protect\astroncite{CERN}{2018}]{datataking}
+CERN (2018).
+\newblock Processing what to record?
 
-\bibitem{cmscomputing}
-CMS, ``{The CMS Computing Project},'' tech. rep., CERN, 2005.
+\bibitem[\protect\astroncite{CMS}{2005}]{cmscomputing}
+CMS (2005).
+\newblock {The CMS Computing Project}.
+\newblock Technical report, CERN.
 
-\bibitem{Coursera}
-Coursera, ``Machine learning,'' 2018.
+\bibitem[\protect\astroncite{Coursera}{2018}]{Coursera}
+Coursera (2018).
+\newblock Machine learning.
 
 \end{thebibliography}

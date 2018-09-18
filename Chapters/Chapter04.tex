@@ -15,7 +15,7 @@ In this study, I have focused on an SL approach and a variant of the UL approach
 
 \section{Developing the Algorithm}
 
-To develop an ML algorithm the following are taken into consideration, what is the task? and what is the method to approach the task? In our case, we are looking into images that have information about the activity that the channels in the HCAL are detecting. These images are called "occupancy maps" and they are a visual way of monitoring the health of the detector itself (see \autoref{Occupancymaps5x5}). There are two common problems that can be identified by viewing occupancy maps which are called "dead channels" and "hot towers". They are referred to as “dead” and “hot” respectively in the rest of this document. Dead channels mean that on a certain place in the occupancy map there is not any readout from the channels on the HCAL and hot channels mean that there are channels that are being triggered by noise or are damaged in a way that makes them readout too much activity.
+To develop an ML algorithm the following are taken into consideration, what is the task? and what is the method to approach the task? In our case, we are looking into images that have information about the activity that the channels in the HCAL are detecting. These images are called "occupancy maps" and they are a visual way of monitoring the health of the detector itself (see \autoref{Occupancymaps5x5}). There are two common problems that can be identified by viewing occupancy maps which are called "dead channels" and "hot towers". They are referred to as “\textbf{dead}” and “\textbf{hot}” respectively in the rest of this document. Dead channels mean that on a certain place in the occupancy map there is not any readout from the channels on the HCAL and hot channels mean that there are channels that are being triggered by noise or are damaged in a way that makes them readout too much activity.
 
 \begin{figure}[h]
 \begin{subfigure}{.3\textwidth}
@@ -52,8 +52,14 @@ The way an ML algorithm learns is by an iterative process called an optimization
 \caption{Weights and Biases \label{WandB}}
 \end{figure}
 
-“Optimization algorithms helps us to \textbf{minimize} (or \textbf{maximize} ) an \textbf{Objective} function \textit{(another name for \textbf{Error} function)} \textbf{E(x)} which is simply a mathematical function dependent on the Model’s internal \textbf{learnable parameters} which are used in computing the target values(\textbf{Y}) from the set of \textit{predictors}(\textbf{X}) used in the model. For example — we call the \textbf{Weights(W)} and the Bias(b) values of the neural network as its internal learnable parameters which are used in computing the output values and are learned and updated in the direction of optimal solution i.e. minimizing the Loss by the network’s training process and also play a major role in the training process of the Neural Network Model.” (Walia, 2018).
-The most basic and probably the most used optimizer is called Gradient Descent (GD). GD is based on the concept of using the gradient of a loss or cost function and moving the weights and biases of the ML model so that the predicted value is taking a step in the decreasing direction of this error function (See Figure 5). In general, the “terrain” of the loss function is not a smooth bowl-shaped surface like the one present in the image. The most general form of the surface is more similar to a rocky mountain (See Figure 6), which presents a problem when using simple optimizers like GD.
+“Optimization algorithms helps us to \textbf{minimize} (or \textbf{maximize}) an \textbf{Objective} function
+\textit{(another name for \textbf{Error} function)} \textbf{E(x)} which is simply a mathematical function dependent on the Model’s internal \textbf{learnable parameters}
+which are used in computing the target values(\textbf{Y}) from the set of \textit{predictors}(\textbf{X}) used in the model. 
+For example - we call the \textbf{Weights(W)} and the \textbf{Bias(b)} values of the neural network as its internal learnable \textit{parameters} 
+which are used in computing the output values and are learned and updated in the direction of optimal solution i.e. 
+minimizing the \textbf{Loss} by the network’s training process and also play a major role in the \textit{\textbf{training}} process of the Neural Network Model.” (Walia, 2018).
+The most basic and probably the most used optimizer is called Gradient Descent (GD). 
+GD is based on the concept of using the gradient of a loss or cost function and moving the weights and biases of the ML model so that the predicted value is taking a step in the decreasing direction of this error function (See Figure 5). In general, the “terrain” of the loss function is not a smooth bowl-shaped surface like the one present in the image. The most general form of the surface is more similar to a rocky mountain (See Figure 6), which presents a problem when using simple optimizers like GD.
 
 
 
