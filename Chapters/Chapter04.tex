@@ -60,13 +60,34 @@ which are used in computing the output values and are learned and updated in the
 minimizing the \textbf{Loss} by the network’s training process and also play a major role in the \textit{\textbf{training}} process of the Neural Network Model.” \cite{optimizaiton_algorithms}.
 The most basic and probably the most used optimizer is called Gradient Descent (GD). 
 GD is based on the concept of using the gradient of a loss or cost function and moving the weights and biases of the ML model so that the predicted value is taking a step in the decreasing direction of this error function 
-(See \autoref{GD}). In general, the “terrain” of the loss function is not a smooth bowl-shaped surface like the one present in the image. The most general form of the surface is more similar to a rocky mountain (See \autoref{Lossfunction}), which presents a problem when using simple optimizers like GD.
+(See \autoref{fig:GD}). In general, the “terrain” of the loss function is not a smooth bowl-shaped surface like the one present in the image. The most general form of the surface is more similar to a rocky mountain (See \autoref{fig:LF}), which presents a problem when using simple optimizers like GD.
 
 
 \begin{figure}
-\includegraphics[width=.8]{GD.png}
-\caption{Gradient Descent algorithm}
+\begin{center}
+
+\includegraphics[width=.8\textwidth]{GD.png}
+\caption{Gradient Descent algorithm\label{fig:GD}}
+\end{center}
+
 \end{figure}
 
+
+
+\begin{figure}
+\begin{center}
+
+\begin{subfigure}{.5\linewidth}
+\includegraphics[width=\textwidth]{Loss_function1.png}
+\end{subfigure}
+
+\begin{subfigure}{.5\linewidth}
+\includegraphics[width=\textwidth]{Loss_function2.png}
+\end{subfigure}
+
+\caption{Loss Function surface\label{fig:LF}}
+\end{center}
+
+\end{figure}
 
 
