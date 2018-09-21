@@ -1,29 +1,25 @@
-\section{Introduction}
+Here first the limitations of Scikit-learn predefined ML models - Logistic Regression(LR) and Multi-Layer-Perceptron(MLP), are described. The Logistic Regression Model seems to work almost perfectly with all 3 classes when the bad region size is 5x5 (as in \autoref{Occupancymaps5x5}) with either the same or randomized location. When the bad region size is 1x1 like in \autoref{Ocuppancymaps1x1} the LR Model performs poorly with an accuracy of approximately 20\%. The MLP does not seem to work in any of the used cases that are studied as it always performs poorly with an accuracy of ~ 40\%.
 
-A detailed explanation for the estimation of the Z$\rightarrow\nu\bar{\nu}$+jets background is presented in this chapter. The following estimation procedure builds upon the 2016 SUSY analysis summarized in \autoref{AnalysisChap} and aims to refine the overall background calculation as well as reduce the uncertainties associated with the previous method. To accomplish this, an additional $\gamma$+jets CS is used in conjunction with the tight Z$\rightarrow\mu^{+}\mu^{-}$ control region used in the 2016 analysis estimation. The new $\gamma$+jets CS provides a more data-driven estimation procedure with the added benefit of a substantially larger production cross-section than Z+jets processes\cite{Zgamma}.  
-
-\section{The Irreducible Z$\rightarrow\nu\bar{\nu}$ Background}
-
-An important source of background in searches for SUSY in the 0-lepton final state comes from events in which a Z boson, accompanied by jets, decays into a pair of neutrinos (Z$\rightarrow\nu\bar{\nu}$+jets). The resulting final state is comprised of a large $p_\text{T}^{miss}$ (from the neutrino pair) and multiple hadron jets, closely mimicking the SUSY signal. For similar searches, the Z$\rightarrow\nu\bar{\nu}$ contribution can make up a large portion of the background in many of the search bin regions (higher than 50\% in some regions)\cite{OtherAna1,OtherAna2}, and can compose up to about a third of the total SM background. For this particular analysis, the Z$\rightarrow\nu\bar{\nu}$ accounts for about 17\% of the total SM background and owes its low value to the dedicated top-tagging algorithm outlined in \autoref{TopTaggerSec}.\\
-
-There are several different methods that have been developed to estimate the Z$\rightarrow\nu\bar{\nu}$+jets background\cite{ZInv}. Two of the commonly used methods involve the use of a control region dominated by Z$\rightarrow ll$+jets, where the $l$ stands for lepton (either a muon or an electron, in this case) or $\gamma$+jets events. The Z$\rightarrow ll$ channel has the advantage of having very similar kinematics to the Z$\rightarrow\nu\bar{\nu}$ region but suffers from low statistics (due in part to its small branching ratio), specially in the tight search regions used in typical SUSY searches. On the other hand, the $\gamma$+jets region has a much higher production cross-section but involves a completely different process. The hybrid method described in this chapter makes use of both control regions in order to estimate the Z$\rightarrow\nu\bar{\nu}$ background corrections, and aims to improve on the results of the 2016 method described in \autoref{ZnunuSection}.
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=0.8\textwidth]{Ztogamma.png}
-\end{center}
-\vspace{-1em}
-\caption[Leading-order Feynman diagrams for Z+ jets and $\gamma$+ jets processes.]{Leading-order Feynman diagrams for Z+ jets and $\gamma$+ jets processes. The `V' in the figure can represent either Z or $\gamma$.}
-\label{Ztogamma}
+\begin{figure}
+\centering
+\begin{subfigure}{.3\textwidth}
+\includegraphics{Good_image_1x1.png}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+\includegraphics[width=\textwidth]{Dead_image_1x1.png}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+\includegraphics{Hot_image_1x1.png}
+\caption{}
+\end{subfigure}
+\vspace{1cm}
+\caption{Occupancy Maps with 1x1 bad regions. A) Good image B) Dead image C) Hot image\label{Ocuppancymaps1x1}}
 \end{figure}
 
-\section{The Loose $\gamma$+jets Control Region}
 
-The loose $\gamma+$jets control region, as well as the photon ID/isolation selection, is described in this section. The $\gamma+$jets control region is chosen with the purpose of substituting the loose muon control region used in the 2016 version of this analysis for the calculation of the shape correction scale factors applied to the final estimation of the Z$\rightarrow\nu\bar{\nu}$ background. The $\gamma+$jets control region is presumed to be better suited for this estimation due to having a much higher cross-section and therefore, an expected reduction in the statistical and systematic uncertainties associated to the shape correction factors are expected. 
-
-\subsection{Photon ID and Isolation}\label{photonID}
-
-Three different working points are provided by the CMS EGM physics object group (POG) for simple cut-based photon identification\cite{photonID}. The three working points, called loose, medium and tight, are chosen according to the requirements of the particular analysis and differ on the amount of background rejection they offer, as well as on their average photon selection efficiency. The higher the efficiency of a given ID, the lower the amount of background that is rejected, and vice-versa. \autoref{IDtable} shows the cut values that are applied to photons that are found within both the ECAL barrel and endcap range. The associated values to the efficiency and the background rejection rate are shown for each of the three different photon ID selections.\\
+d vice-versa. \autoref{IDtable} shows the cut values that are applied to photons that are found within both the ECAL barrel and endcap range. The associated values to the efficiency and the background rejection rate are shown for each of the three different photon ID selections.\\
 
 In order to obtain the high efficiency and background rejection rates shown, a robust set of identification and isolation criteria are selected. A total of five parameters are used for this simple cut based method. For photon identification, the H/E and the $\sigma I\eta I\eta$ variables are found to provide the best results. The H/E parameter is defined as the ratio of the HCAL tower energy over the ECAL seed cluster energy. A threshold value is selected on H/E to remove background from electrons that are detected in both the ECAL and HCAL but have no reconstructed track\cite{egamma}. The $\sigma I\eta I\eta$ variable is known as the photon shower shape variable and is defined in the ECAL as the energy weighted standard deviation of a single crystal within the 5 $\times$ 5 crystal $\eta$ range, centered around the crystal with maximum energy\cite{showershape}. This variable is a key component in the identification of both electrons and photons since it provides a measure of the shower width where most of the energy has been deposited in a given ECAL crystal.
 

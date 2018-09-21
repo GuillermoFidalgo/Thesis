@@ -10,20 +10,16 @@
 \BOOKMARK [1][-]{section.4.1}{Developing the Algorithm}{chapter.4}% 10
 \BOOKMARK [1][-]{section.4.2}{Teaching the Algorithm}{chapter.4}% 11
 \BOOKMARK [0][-]{chapter.5}{Results }{}% 12
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 13
-\BOOKMARK [1][-]{section.5.2}{The Irreducible Zbar Background}{chapter.5}% 14
-\BOOKMARK [1][-]{section.5.3}{The Loose +jets Control Region}{chapter.5}% 15
-\BOOKMARK [2][-]{subsection.5.3.1}{Photon ID and Isolation}{section.5.3}% 16
-\BOOKMARK [2][-]{subsection.5.3.2}{Photon Selection}{section.5.3}% 17
-\BOOKMARK [2][-]{subsection.5.3.3}{Photon Purity and Fake Rate}{section.5.3}% 18
-\BOOKMARK [1][-]{section.5.4}{The Z+- Control Region}{chapter.5}% 19
-\BOOKMARK [2][-]{subsection.5.4.1}{Muon ID and Isolation}{section.5.4}% 20
-\BOOKMARK [2][-]{subsection.5.4.2}{Muon Selection in the Tight Control Region}{section.5.4}% 21
-\BOOKMARK [1][-]{section.5.5}{Analysis}{chapter.5}% 22
-\BOOKMARK [2][-]{subsection.5.5.1}{Shape Correction Using the \040+ jets Control Sample}{section.5.5}% 23
-\BOOKMARK [2][-]{subsection.5.5.2}{Normalization Correction Using the tight Z+- Control Sample}{section.5.5}% 24
-\BOOKMARK [1][-]{section.5.6}{Results}{chapter.5}% 25
-\BOOKMARK [2][-]{subsection.5.6.1}{Systematics}{section.5.6}% 26
-\BOOKMARK [2][-]{subsection.5.6.2}{Zbar Estimation for the Search Bins}{section.5.6}% 27
-\BOOKMARK [0][-]{appendix.A}{Appendix Title}{}% 28
-\BOOKMARK [0][-]{appendix.B}{References}{}% 29
+\BOOKMARK [1][-]{subsection.5.0.1}{Photon Selection}{chapter.5}% 13
+\BOOKMARK [2][-]{subsection.5.0.2}{Photon Purity and Fake Rate}{subsection.5.0.1}% 14
+\BOOKMARK [1][-]{section.5.1}{The Z+- Control Region}{chapter.5}% 15
+\BOOKMARK [2][-]{subsection.5.1.1}{Muon ID and Isolation}{section.5.1}% 16
+\BOOKMARK [2][-]{subsection.5.1.2}{Muon Selection in the Tight Control Region}{section.5.1}% 17
+\BOOKMARK [1][-]{section.5.2}{Analysis}{chapter.5}% 18
+\BOOKMARK [2][-]{subsection.5.2.1}{Shape Correction Using the \040+ jets Control Sample}{section.5.2}% 19
+\BOOKMARK [2][-]{subsection.5.2.2}{Normalization Correction Using the tight Z+- Control Sample}{section.5.2}% 20
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 21
+\BOOKMARK [2][-]{subsection.5.3.1}{Systematics}{section.5.3}% 22
+\BOOKMARK [2][-]{subsection.5.3.2}{Zbar Estimation for the Search Bins}{section.5.3}% 23
+\BOOKMARK [0][-]{appendix.A}{Appendix Title}{}% 24
+\BOOKMARK [0][-]{appendix.B}{References}{}% 25
