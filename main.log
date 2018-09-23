@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.10)  21 SEP 2018 13:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.10)  23 SEP 2018 11:22
 entering extended mode
 **./main.tex
 (main.tex
@@ -1361,29 +1361,29 @@ LaTeX Warning: Label `tightmumu@cref' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bas
 e\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 93.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 95.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psn
 fss\ot1ptm.fd"
@@ -1468,7 +1468,7 @@ nitx\siunitx-abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 \AtBeginShipoutBox=\box74
-Package hyperref Info: Link coloring ON on input line 93.
+Package hyperref Info: Link coloring ON on input line 95.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyp
 erref\nameref.sty"
@@ -1480,22 +1480,22 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count329
 )
-LaTeX Info: Redefining \ref on input line 93.
-LaTeX Info: Redefining \pageref on input line 93.
-LaTeX Info: Redefining \nameref on input line 93.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 93.
+LaTeX Font Info:    Try loading font information for U+msa on input line 95.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ams
 fonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 93.
+LaTeX Font Info:    Try loading font information for U+msb on input line 95.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ams
 fonts\umsb.fd"
@@ -1509,7 +1509,7 @@ LaTeX Font Info:    Try loading font information for OT1+phv on input line 9.
 fss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-<images/university.png, id=106, 1204.5pt x 1204.5pt>
+<images/university.png, id=102, 1204.5pt x 1204.5pt>
 File: images/university.png Graphic file (type png)
 <use images/university.png>
 Package pdftex.def Info: images/university.png  used on input line 58.
@@ -1520,7 +1520,7 @@ Package pdftex.def Info: images/university.png  used on input line 58.
 {C:/Users/GuillermoAFidalgoRod/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.ma
 p} <./images/university.png>])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 103.
  [1
 
 
@@ -1533,7 +1533,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 \openout5 = `main.lof'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1620,7 +1620,7 @@ Chapter 2.
 (Chapters/Chapter02.tex [3
 
 ]
-<images/CMSLayout.png, id=277, 3189.9175pt x 2253.41875pt>
+<images/CMSLayout.png, id=272, 3189.9175pt x 2253.41875pt>
 File: images/CMSLayout.png Graphic file (type png)
 <use images/CMSLayout.png>
 Package pdftex.def Info: images/CMSLayout.png  used on input line 21.
@@ -1628,7 +1628,7 @@ Package pdftex.def Info: images/CMSLayout.png  used on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
  [4 <./images/CMSLayout.png>]
-<images/CMSLayers.PNG, id=287, 746.79pt x 380.92313pt>
+<images/CMSLayers.PNG, id=282, 746.79pt x 380.92313pt>
 File: images/CMSLayers.PNG Graphic file (type png)
 <use images/CMSLayers.PNG>
 Package pdftex.def Info: images/CMSLayers.PNG  used on input line 28.
@@ -1650,42 +1650,42 @@ Underfull \vbox (badness 1635) has occurred while \output is active []
 
 ]
 [10]
-<images/Good_image.jpg, id=321, 130.98938pt x 167.87718pt>
+<images/Good_image.jpg, id=316, 130.98938pt x 167.87718pt>
 File: images/Good_image.jpg Graphic file (type jpg)
 <use images/Good_image.jpg>
 Package pdftex.def Info: images/Good_image.jpg  used on input line 23.
 (pdftex.def)             Requested size: 102.43134pt x 131.27924pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-<images/Dead_image_5x5.jpg, id=322, 146.04562pt x 167.87718pt>
+<images/Dead_image_5x5.jpg, id=317, 146.04562pt x 167.87718pt>
 File: images/Dead_image_5x5.jpg Graphic file (type jpg)
 <use images/Dead_image_5x5.jpg>
 Package pdftex.def Info: images/Dead_image_5x5.jpg  used on input line 29.
 (pdftex.def)             Requested size: 113.95436pt x 130.99234pt.
-<images/Hot_image_5x5.jpg, id=323, 136.25906pt x 167.87718pt>
+<images/Hot_image_5x5.jpg, id=318, 136.25906pt x 167.87718pt>
 File: images/Hot_image_5x5.jpg Graphic file (type jpg)
 <use images/Hot_image_5x5.jpg>
 Package pdftex.def Info: images/Hot_image_5x5.jpg  used on input line 35.
 (pdftex.def)             Requested size: 107.55203pt x 132.5088pt.
  [11 <./images/Good_image.jpg> <./images/Dead_image_5x5.jpg> <./images/Hot_imag
 e_5x5.jpg>]
-<images/Weights_and_biases.png, id=329, 261.1575pt x 158.337pt>
+<images/Weights_and_biases.png, id=324, 261.1575pt x 158.337pt>
 File: images/Weights_and_biases.png Graphic file (type png)
 <use images/Weights_and_biases.png>
 Package pdftex.def Info: images/Weights_and_biases.png  used on input line 51.
 (pdftex.def)             Requested size: 290.21498pt x 175.95425pt.
  [12 <./images/Weights_and_biases.png>]
-<images/GD.png, id=338, 480.29437pt x 270.25969pt>
+<images/GD.png, id=333, 480.29437pt x 270.25969pt>
 File: images/GD.png Graphic file (type png)
 <use images/GD.png>
 Package pdftex.def Info: images/GD.png  used on input line 69.
 (pdftex.def)             Requested size: 341.43436pt x 192.1249pt.
-<images/Loss_function1.png, id=339, 316.3455pt x 177.7185pt>
+<images/Loss_function1.png, id=334, 316.3455pt x 177.7185pt>
 File: images/Loss_function1.png Graphic file (type png)
 <use images/Loss_function1.png>
 Package pdftex.def Info: images/Loss_function1.png  used on input line 81.
 (pdftex.def)             Requested size: 213.39566pt x 119.88158pt.
-<images/Loss_function2.png, id=340, 317.331pt x 178.704pt>
+<images/Loss_function2.png, id=335, 317.331pt x 178.704pt>
 File: images/Loss_function2.png Graphic file (type png)
 <use images/Loss_function2.png>
 Package pdftex.def Info: images/Loss_function2.png  used on input line 85.
@@ -1694,396 +1694,379 @@ Package pdftex.def Info: images/Loss_function2.png  used on input line 85.
 [14 <./images/Loss_function1.png> <./images/Loss_function2.png>]
 Chapter 5.
 (Chapters/Chapter05.tex
-<images/Good_image_1x1.png, id=353, 140.02313pt x 189.70876pt>
+<images/Good_image_1x1.png, id=348, 140.02313pt x 189.70876pt>
 File: images/Good_image_1x1.png Graphic file (type png)
 <use images/Good_image_1x1.png>
-Package pdftex.def Info: images/Good_image_1x1.png  used on input line 6.
-(pdftex.def)             Requested size: 140.02278pt x 189.70828pt.
-
-Overfull \hbox (11.98409pt too wide) in paragraph at lines 6--7
-[][] 
- []
-
-<images/Dead_image_1x1.png, id=354, 163.3603pt x 240.9pt>
+Package pdftex.def Info: images/Good_image_1x1.png  used on input line 7.
+(pdftex.def)             Requested size: 133.58719pt x 180.99806pt.
+<images/Dead_image_1x1.png, id=349, 163.3603pt x 240.9pt>
 File: images/Dead_image_1x1.png Graphic file (type png)
 <use images/Dead_image_1x1.png>
-Package pdftex.def Info: images/Dead_image_1x1.png  used on input line 10.
+Package pdftex.def Info: images/Dead_image_1x1.png  used on input line 11.
 (pdftex.def)             Requested size: 128.0387pt x 188.81284pt.
-<images/Hot_image_1x1.png, id=355, 134.00063pt x 198.7425pt>
+<images/Hot_image_1x1.png, id=350, 134.00063pt x 198.7425pt>
 File: images/Hot_image_1x1.png Graphic file (type png)
 <use images/Hot_image_1x1.png>
-Package pdftex.def Info: images/Hot_image_1x1.png  used on input line 14.
-(pdftex.def)             Requested size: 134.00027pt x 198.742pt.
-
-Overfull \hbox (5.96158pt too wide) in paragraph at lines 14--15
-[][] 
- []
+Package pdftex.def Info: images/Hot_image_1x1.png  used on input line 15.
+(pdftex.def)             Requested size: 128.0387pt x 189.89905pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+LaTeX Warning: Reference `IDtable' on page 15 undefined on input line 23.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 [15
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16 <./images/Good_image_1x1.png> <./images/Dead_image_1x1.png> <./images/Hot_
-image_1x1.png>]
-Underfull \vbox (badness 3118) has occurred while \output is active []
-
- [17]
+ <./images/Good_image_1x1.png> <./images/Dead_image_1x1.png> <./images/Hot_imag
+e_1x1.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 62.
+(hyperref)                than one, level fixed on input line 27.
 
 
-LaTeX Warning: Reference `photonID' on page 18 undefined on input line 63.
+LaTeX Warning: Reference `photonID' on page 16 undefined on input line 28.
 
-
-LaTeX Warning: Reference `baseline' on page 18 undefined on input line 63.
-
-
-LaTeX Warning: Reference `lepVeto' on page 18 undefined on input line 63.
-
-<images/dataMC_PhotonPt_LooseLepVeto.pdf, id=378, 519.9425pt x 569.12625pt>
+<images/dataMC_PhotonPt_LooseLepVeto.pdf, id=355, 519.9425pt x 569.12625pt>
 File: images/dataMC_PhotonPt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_PhotonPt_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_PhotonPt_LooseLepVeto.pdf  used on input
- line 68.
+ line 33.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
-<images/dataMC_MetGamma_LooseLepVeto.pdf, id=379, 519.9425pt x 569.12625pt>
+<images/dataMC_MetGamma_LooseLepVeto.pdf, id=356, 519.9425pt x 569.12625pt>
 File: images/dataMC_MetGamma_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_MetGamma_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_MetGamma_LooseLepVeto.pdf  used on input
- line 71.
+ line 36.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-[18 <./images/dataMC_PhotonPt_LooseLepVeto.pdf> <./images/dataMC_MetGamma_Loose
+[16 <./images/dataMC_PhotonPt_LooseLepVeto.pdf> <./images/dataMC_MetGamma_Loose
 LepVeto.pdf>]
-<images/FakeRate_empty.pdf, id=476, 569.12625pt x 552.0625pt>
+<images/FakeRate_empty.pdf, id=452, 569.12625pt x 552.0625pt>
 File: images/FakeRate_empty.pdf Graphic file (type pdf)
 <use images/FakeRate_empty.pdf>
-Package pdftex.def Info: images/FakeRate_empty.pdf  used on input line 91.
+Package pdftex.def Info: images/FakeRate_empty.pdf  used on input line 56.
 (pdftex.def)             Requested size: 209.1301pt x 202.86157pt.
-<images/Purity_empty.pdf, id=477, 569.12625pt x 552.0625pt>
+<images/Purity_empty.pdf, id=453, 569.12625pt x 552.0625pt>
 File: images/Purity_empty.pdf Graphic file (type pdf)
 <use images/Purity_empty.pdf>
-Package pdftex.def Info: images/Purity_empty.pdf  used on input line 94.
+Package pdftex.def Info: images/Purity_empty.pdf  used on input line 59.
 (pdftex.def)             Requested size: 209.1301pt x 202.86157pt.
 
-Underfull \vbox (badness 1189) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
-<images/FakeRate_LooseLepVeto.pdf, id=484, 569.12625pt x 552.0625pt>
+ [17]
+<images/FakeRate_LooseLepVeto.pdf, id=459, 569.12625pt x 552.0625pt>
 File: images/FakeRate_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/FakeRate_LooseLepVeto.pdf>
-Package pdftex.def Info: images/FakeRate_LooseLepVeto.pdf  used on input line 1
-05.
+Package pdftex.def Info: images/FakeRate_LooseLepVeto.pdf  used on input line 7
+0.
 (pdftex.def)             Requested size: 209.1301pt x 202.86157pt.
-<images/Purity_LooseLepVeto.pdf, id=485, 569.12625pt x 552.0625pt>
+<images/Purity_LooseLepVeto.pdf, id=460, 569.12625pt x 552.0625pt>
 File: images/Purity_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/Purity_LooseLepVeto.pdf>
-Package pdftex.def Info: images/Purity_LooseLepVeto.pdf  used on input line 108
-.
+Package pdftex.def Info: images/Purity_LooseLepVeto.pdf  used on input line 73.
+
 (pdftex.def)             Requested size: 209.1301pt x 202.86157pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-[20 <./images/FakeRate_empty.pdf, page is rotated 90 degrees> <./images/Purity_
+[18 <./images/FakeRate_empty.pdf, page is rotated 90 degrees> <./images/Purity_
 empty.pdf, page is rotated 90 degrees> <./images/FakeRate_LooseLepVeto.pdf, pag
 e is rotated 90 degrees> <./images/Purity_LooseLepVeto.pdf, page is rotated 90 
 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-[21]
+[19]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 148.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 148.
+(hyperref)                removing `math shift' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 148.
+(hyperref)                removing `\rightarrow' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 148.
+(hyperref)                removing `\mu' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 148.
+(hyperref)                removing `superscript' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 148.
+(hyperref)                removing `\mu' on input line 113.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 148.
+(hyperref)                removing `superscript' on input line 113.
 
 
-LaTeX Warning: Reference `ZnunuSection' on page 22 undefined on input line 150.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 113.
 
 
-[22]
-<images/table1muons.png, id=686, 839.135pt x 152.57pt>
+LaTeX Warning: Reference `ZnunuSection' on page 20 undefined on input line 115.
+
+
+[20]
+<images/table1muons.png, id=662, 839.135pt x 152.57pt>
 File: images/table1muons.png Graphic file (type png)
 <use images/table1muons.png>
-Package pdftex.def Info: images/table1muons.png  used on input line 158.
+Package pdftex.def Info: images/table1muons.png  used on input line 123.
 (pdftex.def)             Requested size: 256.0774pt x 46.55821pt.
-<images/table2muons.png, id=687, 756.8275pt x 303.1325pt>
+<images/table2muons.png, id=663, 756.8275pt x 303.1325pt>
 File: images/table2muons.png Graphic file (type png)
 <use images/table2muons.png>
-Package pdftex.def Info: images/table2muons.png  used on input line 166.
+Package pdftex.def Info: images/table2muons.png  used on input line 131.
 (pdftex.def)             Requested size: 170.71393pt x 68.373pt.
-<images/table3muons.png, id=688, 575.14874pt x 173.64874pt>
+<images/table3muons.png, id=664, 575.14874pt x 173.64874pt>
 File: images/table3muons.png Graphic file (type png)
 <use images/table3muons.png>
-Package pdftex.def Info: images/table3muons.png  used on input line 174.
+Package pdftex.def Info: images/table3muons.png  used on input line 139.
 (pdftex.def)             Requested size: 128.0387pt x 38.65593pt.
- [23 <./images/table1muons.png> <./images/table2muons.png> <./images/table3muon
+ [21 <./images/table1muons.png> <./images/table2muons.png> <./images/table3muon
 s.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 188.
+(hyperref)                removing `math shift' on input line 153.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 188.
+(hyperref)                removing `\gamma' on input line 153.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 188.
+(hyperref)                removing `math shift' on input line 153.
 
-<images/ZgammaRatio.png, id=703, 639.38875pt x 501.875pt>
+<images/ZgammaRatio.png, id=679, 639.38875pt x 501.875pt>
 File: images/ZgammaRatio.png Graphic file (type png)
 <use images/ZgammaRatio.png>
-Package pdftex.def Info: images/ZgammaRatio.png  used on input line 194.
+Package pdftex.def Info: images/ZgammaRatio.png  used on input line 159.
 (pdftex.def)             Requested size: 256.0774pt x 200.99915pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-<images/dataMC_Photon_nj_Log_LooseLepVeto.pdf, id=713, 519.9425pt x 569.12625pt
+ [22]
+<images/dataMC_Photon_nj_Log_LooseLepVeto.pdf, id=689, 519.9425pt x 569.12625pt
 >
 File: images/dataMC_Photon_nj_Log_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_Photon_nj_Log_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_Photon_nj_Log_LooseLepVeto.pdf  used on 
-input line 219.
+input line 184.
 (pdftex.def)             Requested size: 180.53197pt x 197.60797pt.
-<images/ShapeCorr_LooseLepVeto.pdf, id=714, 569.12625pt x 552.0625pt>
+<images/ShapeCorr_LooseLepVeto.pdf, id=690, 569.12625pt x 552.0625pt>
 File: images/ShapeCorr_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/ShapeCorr_LooseLepVeto.pdf>
 Package pdftex.def Info: images/ShapeCorr_LooseLepVeto.pdf  used on input line 
-222.
+187.
 (pdftex.def)             Requested size: 213.39566pt x 206.99765pt.
 
-[25 <./images/ZgammaRatio.png>]
-<images/NjetsShapeCorr.png, id=722, 639.38875pt x 726.715pt>
+[23 <./images/ZgammaRatio.png>]
+<images/NjetsShapeCorr.png, id=697, 639.38875pt x 726.715pt>
 File: images/NjetsShapeCorr.png Graphic file (type png)
 <use images/NjetsShapeCorr.png>
-Package pdftex.def Info: images/NjetsShapeCorr.png  used on input line 234.
+Package pdftex.def Info: images/NjetsShapeCorr.png  used on input line 199.
 (pdftex.def)             Requested size: 170.71393pt x 194.03117pt.
-<images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf, id=723, 519.9425pt x 569.12625pt>
+<images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf, id=698, 519.9425pt x 569.12625pt>
 
 File: images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf  used on i
-nput line 246.
+nput line 211.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
-<images/dataMC_MetGamma_Wgt_LooseLepVeto.pdf, id=724, 519.9425pt x 569.12625pt>
+<images/dataMC_MetGamma_Wgt_LooseLepVeto.pdf, id=699, 519.9425pt x 569.12625pt>
 
 File: images/dataMC_MetGamma_Wgt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_MetGamma_Wgt_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_MetGamma_Wgt_LooseLepVeto.pdf  used on i
-nput line 249.
+nput line 214.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26 <./images/dataMC_Photon_nj_Log_LooseLepVeto.pdf> <./images/ShapeCorr_Loose
+ [24 <./images/dataMC_Photon_nj_Log_LooseLepVeto.pdf> <./images/ShapeCorr_Loose
 LepVeto.pdf, page is rotated 90 degrees> <./images/NjetsShapeCorr.png>]
-<images/dataMC_Photon_nb_Log_LooseLepVeto.pdf, id=818, 519.9425pt x 569.12625pt
+<images/dataMC_Photon_nb_Log_LooseLepVeto.pdf, id=793, 519.9425pt x 569.12625pt
 >
 File: images/dataMC_Photon_nb_Log_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_Photon_nb_Log_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_Photon_nb_Log_LooseLepVeto.pdf  used on 
-input line 262.
+input line 227.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
-<images/dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf, id=819, 519.9425pt x 569.126
+<images/dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf, id=794, 519.9425pt x 569.126
 25pt>
 File: images/dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf  used
- on input line 265.
+ on input line 230.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
-<images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf, id=820, 519.9425pt x 569.12625pt
+<images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf, id=795, 519.9425pt x 569.12625pt
 >
 File: images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf  used on 
-input line 277.
+input line 242.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
-<images/dataMC_Photon_mt2_Wgt_LooseLepVeto.pdf, id=821, 519.9425pt x 569.12625p
+<images/dataMC_Photon_mt2_Wgt_LooseLepVeto.pdf, id=796, 519.9425pt x 569.12625p
 t>
 File: images/dataMC_Photon_mt2_Wgt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_Photon_mt2_Wgt_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_Photon_mt2_Wgt_LooseLepVeto.pdf  used on
- input line 280.
+ input line 245.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `math shift' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 287.
+(hyperref)                removing `\rightarrow' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 287.
+(hyperref)                removing `\mu' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 287.
+(hyperref)                removing `superscript' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 287.
+(hyperref)                removing `\mu' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 287.
+(hyperref)                removing `superscript' on input line 252.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `math shift' on input line 252.
 
-[27 <./images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf> <./images/dataMC_MetGamma_W
+[25 <./images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf> <./images/dataMC_MetGamma_W
 gt_LooseLepVeto.pdf> <./images/dataMC_Photon_nb_Log_LooseLepVeto.pdf> <./images
 /dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
-<images/Rnorm1.png, id=1000, 1026.83624pt x 563.10374pt>
+<images/Rnorm1.png, id=976, 1026.83624pt x 563.10374pt>
 File: images/Rnorm1.png Graphic file (type png)
 <use images/Rnorm1.png>
-Package pdftex.def Info: images/Rnorm1.png  used on input line 301.
+Package pdftex.def Info: images/Rnorm1.png  used on input line 266.
 (pdftex.def)             Requested size: 426.79134pt x 234.04457pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf> <./images/dataMC_Photon_m
+ [26 <./images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf> <./images/dataMC_Photon_m
 t2_Wgt_LooseLepVeto.pdf>]
-<images/Rnorm2.png, id=1093, 995.72pt x 547.04375pt>
+<images/Rnorm2.png, id=1069, 995.72pt x 547.04375pt>
 File: images/Rnorm2.png Graphic file (type png)
 <use images/Rnorm2.png>
-Package pdftex.def Info: images/Rnorm2.png  used on input line 314.
+Package pdftex.def Info: images/Rnorm2.png  used on input line 279.
 (pdftex.def)             Requested size: 426.79134pt x 234.48132pt.
 
 
-LaTeX Warning: Reference `AnalysisChap' on page 29 undefined on input line 323.
+LaTeX Warning: Reference `AnalysisChap' on page 27 undefined on input line 288.
 
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./images/Rnorm1.png> <./images/Rnorm2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+ [27 <./images/Rnorm1.png> <./images/Rnorm2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
-<images/UncZnunu.png, id=1100, 842.14626pt x 570.13pt>
+<images/UncZnunu.png, id=1076, 842.14626pt x 570.13pt>
 File: images/UncZnunu.png Graphic file (type png)
 <use images/UncZnunu.png>
-Package pdftex.def Info: images/UncZnunu.png  used on input line 331.
+Package pdftex.def Info: images/UncZnunu.png  used on input line 296.
 (pdftex.def)             Requested size: 341.43436pt x 231.15367pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [28]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 340.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 340.
+(hyperref)                removing `math shift' on input line 305.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 340.
+(hyperref)                removing `\rightarrow' on input line 305.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nu' on input line 340.
+(hyperref)                removing `\nu' on input line 305.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 340.
+(hyperref)                removing `\nu' on input line 305.
 
-[31 <./images/UncZnunu.png>]
-<images/Results.png, id=1113, 735.74875pt x 503.8825pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 305.
+
+[29 <./images/UncZnunu.png>]
+<images/Results.png, id=1088, 735.74875pt x 503.8825pt>
 File: images/Results.png Graphic file (type png)
 <use images/Results.png>
-Package pdftex.def Info: images/Results.png  used on input line 346.
+Package pdftex.def Info: images/Results.png  used on input line 311.
 (pdftex.def)             Requested size: 341.43436pt x 233.84161pt.
-) [32 <./images/Results.png>]
-Appendix A.
-(main.bbl [33
+) (main.bbl [30 <./images/Results.png>]
+Chapter 6.
 
-]
-Appendix B.
-
-Underfull \hbox (badness 1590) in paragraph at lines 44--48
+Underfull \hbox (badness 2326) in paragraph at lines 17--21
 []\OT1/ptm/m/n/12 M. Klasen, C. Klein-Bosing, and H. Pop-pen-borg, ``Prompt pho
 -ton pro-duc-
  []
 
-[34
 
-]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 51.
+Underfull \hbox (badness 1259) in paragraph at lines 17--21
+\OT1/ptm/m/n/12 tion and photon-jet cor-re-la-tions at the LHC,'' \OT1/ptm/m/it
+/12 JHEP\OT1/ptm/m/n/12 , vol. 03, p. 081, 2018.
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 24.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psn
 fss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) [35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
+)) [31
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 63750B51BE970ED729305BB4328CCCE2;1724.
+(rerunfilecheck)             Checksum: 2DA5DB2136B5D8D2FC8B439C3EF3DDEF;1675.
 
 
 LaTeX Warning: There were undefined references.
@@ -2091,21 +2074,21 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 118 (\begingroup)
-### semi simple group (level 1) entered at line 100 (\begingroup)
+### semi simple group (level 2) entered at line 120 (\begingroup)
+### semi simple group (level 1) entered at line 102 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33582 strings out of 492972
- 672013 string characters out of 3119962
- 792083 words of memory out of 3000000
- 36810 multiletter control sequences out of 15000+200000
+ 33564 strings out of 492972
+ 671826 string characters out of 3119962
+ 786580 words of memory out of 3000000
+ 36802 multiletter control sequences out of 15000+200000
  579286 words of font info for 137 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,22n,77p,1823b,1192s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,13n,77p,1823b,1050s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.
 9/fonts/enc/dvips/base/8r.enc}<C:/Users/GuillermoAFidalgoRod/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/GuillermoAF
@@ -2132,9 +2115,9 @@ ms/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/GuillermoAFidalgoRod/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Gu
 illermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on main.pdf (41 pages, 5929555 bytes).
+Output written on main.pdf (37 pages, 5915406 bytes).
 PDF statistics:
- 1226 PDF objects out of 1440 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
- 393 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1187 PDF objects out of 1200 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 

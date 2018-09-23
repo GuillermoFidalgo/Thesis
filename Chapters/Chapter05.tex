@@ -1,17 +1,18 @@
-Here first the limitations of Scikit-learn predefined ML models - Logistic Regression(LR) and Multi-Layer-Perceptron(MLP), are described. The Logistic Regression Model seems to work almost perfectly with all 3 classes when the bad region size is 5x5 (as in \autoref{Occupancymaps5x5}) with either the same or randomized location. When the bad region size is 1x1 like in \autoref{Ocuppancymaps1x1} the LR Model performs poorly with an accuracy of approximately 20\%. The MLP does not seem to work in any of the used cases that are studied as it always performs poorly with an accuracy of ~ 40\%.
+Here first the limitations of Scikit-learn predefined ML models - Logistic Regression(LR) and Multi-Layer-Perceptron(MLP), are described. The Logistic Regression Model seems to work almost perfectly with all 3 classes when the bad region size is 5x5 (as in \autoref{Occupancymaps5x5}) with either the same or randomized location. When the bad region size is 1x1 like in \autoref{Ocuppancymaps1x1} the LR Model performs poorly with an accuracy of approximately 20\%.
+ The MLP does not seem to work in any of the used cases that are studied as it always performs poorly with an accuracy of $\approx 40\%$.
 
-\begin{figure}
+\begin{figure}[h]
 \centering
-\begin{subfigure}{.3\textwidth}
-\includegraphics{Good_image_1x1.png}
+\begin{subfigure}[t]{.313\textwidth}
+\includegraphics[width=\textwidth]{Good_image_1x1.png}
 \caption{}
 \end{subfigure}
-\begin{subfigure}{.3\textwidth}
+\begin{subfigure}[t]{.3\textwidth}
 \includegraphics[width=\textwidth]{Dead_image_1x1.png}
 \caption{}
 \end{subfigure}
-\begin{subfigure}{.3\textwidth}
-\includegraphics{Hot_image_1x1.png}
+\begin{subfigure}[t]{.3\textwidth}
+\includegraphics[width=\textwidth]{Hot_image_1x1.png}
 \caption{}
 \end{subfigure}
 \vspace{1cm}
@@ -21,46 +22,10 @@ Here first the limitations of Scikit-learn predefined ML models - Logistic Regre
 
 d vice-versa. \autoref{IDtable} shows the cut values that are applied to photons that are found within both the ECAL barrel and endcap range. The associated values to the efficiency and the background rejection rate are shown for each of the three different photon ID selections.\\
 
-In order to obtain the high efficiency and background rejection rates shown, a robust set of identification and isolation criteria are selected. A total of five parameters are used for this simple cut based method. For photon identification, the H/E and the $\sigma I\eta I\eta$ variables are found to provide the best results. The H/E parameter is defined as the ratio of the HCAL tower energy over the ECAL seed cluster energy. A threshold value is selected on H/E to remove background from electrons that are detected in both the ECAL and HCAL but have no reconstructed track\cite{egamma}. The $\sigma I\eta I\eta$ variable is known as the photon shower shape variable and is defined in the ECAL as the energy weighted standard deviation of a single crystal within the 5 $\times$ 5 crystal $\eta$ range, centered around the crystal with maximum energy\cite{showershape}. This variable is a key component in the identification of both electrons and photons since it provides a measure of the shower width where most of the energy has been deposited in a given ECAL crystal.
-
-\begin{table}[H]
-\centering
-\caption{Identification and isolation cut values for photons provided by the CMS EGM POG. Values are provided for the three working points described (loose, medium and tight) for both the ECAL barrel and endcaps. The photon selection efficiency of the three working points, as well as their associated background rejection rate, are provided.}
-\label{IDtable}
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|l|l|l|}
-\hline
-\textbf{Barrel} & \textbf{Loose (90.06\%)} & \textbf{Medium (80.19\%)} & \textbf{Tight (70.01\%)} \\ \hline
-\textbf{Background Rejection} & \textbf{Loose (85.73\%)} & \textbf{Medium (88.87\%)} & \textbf{Tight (90.66\%)} \\ \hline
-H/E & 0.105 & 0.035 & 0.020 \\ \hline
-$\sigma I\eta I\eta$ & 0.0103 & 0.0103 & 0.0103 \\ \hline
-\begin{tabular}[c]{@{}l@{}}$\rho$-corrected PF charged \\ hadron isolation\end{tabular} & 2.839 & 1.416 & 1.158 \\ \hline
-\begin{tabular}[c]{@{}l@{}}$\rho$-corrected PF neutral \\ hadron isolation\end{tabular} & \begin{tabular}[c]{@{}l@{}}$9.188 + 0.0126 \cdot{p_\text{T}^\gamma} +$ \\ $0.000026\cdot{p_\text{T}^\gamma}^2$\end{tabular} & \begin{tabular}[c]{@{}l@{}}$2.491 + 0.0126 \cdot{p_\text{T}^\gamma} +$ \\ $0.000026\cdot{p_\text{T}^\gamma}^2$\end{tabular} & \begin{tabular}[c]{@{}l@{}}$1.267 + 0.0126 \cdot{p_\text{T}^\gamma} +$ \\ $0.000026\cdot{p_\text{T}^\gamma}^2$\end{tabular} \\ \hline
-\begin{tabular}[c]{@{}l@{}}$\rho$-corrected PF photon \\ isolation\end{tabular} & $2.956 + 0.0035 \cdot{p_\text{T}^\gamma}$ & $2.952 + 0.0040 \cdot{p_\text{T}^\gamma}$ & $2.065 + 0.0035 \cdot{p_\text{T}^\gamma}$ \\ \hline
-\end{tabular}%
-}
-
-\vspace{1em}
-
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|l|l|l|}
-\hline
-\textbf{End Cap} & \textbf{Loose (90.81\%)} & \textbf{Medium (80.06\%)} & \textbf{Tight (70.11\%)} \\ \hline
-\textbf{Background Rejection} & \textbf{Loose (76.90\%)} & \textbf{Medium (81.50\%)} & \textbf{Tight (84.34\%)} \\ \hline
-H/E & 0.029 & 0.027 & 0.025 \\ \hline
-$\sigma I\eta I\eta$ & 0.0276 & 0.0271 & 0.0271 \\ \hline
-\begin{tabular}[c]{@{}l@{}}$\rho$-corrected PF charged \\ hadron isolation\end{tabular} & 2.150 & 1.012 & 0.575 \\ \hline
-\begin{tabular}[c]{@{}l@{}}$\rho$-corrected PF neutral \\ hadron isolation\end{tabular} & \begin{tabular}[c]{@{}l@{}}$10.471 + 0.0119 \cdot{p_\text{T}^\gamma} +$ \\ $0.000025\cdot{p_\text{T}^\gamma}^2$\end{tabular} & \begin{tabular}[c]{@{}l@{}}$9.131 + 0.0119 \cdot{p_\text{T}^\gamma} +$ \\ $0.000025\cdot{p_\text{T}^\gamma}^2$\end{tabular} & \begin{tabular}[c]{@{}l@{}}$8.916 + 0.0119 \cdot{p_\text{T}^\gamma} +$ \\ $0.000025\cdot{p_\text{T}^\gamma}^2$\end{tabular} \\ \hline
-\begin{tabular}[c]{@{}l@{}}$\rho$-corrected PF photon \\ isolation\end{tabular} & $4.895 + 0.0040\cdot{p_\text{T}^\gamma}$ & $4.095 + 0.0040 \cdot{p_\text{T}^\gamma}$ & $3.272 + 0.0040 \cdot{p_\text{T}^\gamma}$ \\ \hline
-\end{tabular}
-}
-\end{table}
-
-The other three parameters considered, comprise the isolation portion of the photon selection cuts. These are the $\rho$-corrected particle flow (PF) charged hadron, neutral hadron and photon isolation parameters. As can be seen from \autoref{IDtable}, two of these parameters (the neutral hadron and photon isolation) have a dependence on $p_\text{T}^\gamma$. These cuts are used to ensure that the identified photon is well isolated within its own cone and by rejecting photons that are identified within close proximity to either a charged or a neutral hadron\cite{PFref2}. The value $\rho$ included in the name of each of these parameters refers to the total pileup density\cite{RhoRef}. Therefore, the term ``$\rho$-corrected'' implies that these values, which are sensitive to the residual contamination that arises from pile-up, have been corrected to include these contributions.
+In order to obtain the high efficiency and background rejection rae contributions.
 
 \subsection{Photon Selection}\label{photonSelection}
-The event selection process for the $\gamma$+jets control region starts with photon candidates that have a $p_\text{T} > 200$ GeV and are within the acceptance range of the CMS ECAL (given by $|\eta| < 1.4442$ for the barrel and $1.566 < |\eta| < 2.5$ for the endcaps). The photons are subjected to pass the loose ID/isolation cuts described in \autoref{photonID} in order to remove $\sim85\%$ of the background processes and obtain a prompt photon sample that is $\sim90\%$ pure, on average. Additional restrictions include some of the same requirements imposed on the signal baseline selection discussed in \autoref{baseline}. These include $N_j \geq 4$, an $H_\text{T} > 300$ GeV, the $\Delta\phi$ requirements for leading jets and the lepton vetoes described in \autoref{lepVeto}. The lepton veto, in particular, greatly improves the prompt photon selection by removing many of the events in the simulated samples where a lepton gets misidentified as a photon.
+The event selection process for the $\gamma$+jets control region starts with photon candidates that have a $p_\text{T} > 200$ GeV and are within the acceptance range of the CMS ECAL (given by $|\eta| < 1.4442$ for the barrel and $1.566 < |\eta| < 2.5$ for the endcaps). The photons are subjected to pass the loose ID/isolation cuts described in \autoref{photonID} in order to remove $\sim85\%$ of the background processes and obtain a prompt phototly improves the prompt photon selection by removing many of the events in the simulated samples where a lepton gets misidentified as a photon.
 
 \begin{figure}[H]
 \begin{center}

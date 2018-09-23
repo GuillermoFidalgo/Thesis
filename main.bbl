@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{datataking}
 CERN, ``Processing what to record?,'' 2018.
@@ -12,33 +12,6 @@ Coursera, ``Machine learning,'' 2018.
 \bibitem{optimizaiton_algorithms}
 A.~S. Walia, ``Types of optimization algorithms used in neural networks and
   ways to optimize gradient descent,'' 2018.
-
-\bibitem{egamma}
-J.~Berryhill, ``{Electron Detection at CMS}.'' The Egamma Physics Object Group,
-  2009.
-\newblock
-  \href{https://indico.cern.ch/event/46651/contribution/19/attachments/950877/1349268/berryhill_ele_090113.ppt}{ppt}.
-
-\bibitem{showershape}
-{CMS Collaboration}, ``{Performance of Photon Reconstruction and Identification
-  with the CMS Detector in Proton-Proton Collisions at sqrt(s) = 8 TeV},'' {\em
-  JINST}, vol.~10, no.~08, p.~P08010, 2015.
-\newblock
-  \href{https://doi.org/10.1088/1748-0221/10/08/P08010}{doi:10.1088/1748-0221/10/08/P08010}.
-
-\bibitem{PFref2}
-A.~M. Sirunyan {\em et~al.}, ``{Particle-flow reconstruction and global event
-  description with the CMS detector},'' {\em JINST}, vol.~12, no.~10,
-  p.~P10003, 2017.
-\newblock
-  \href{https://doi.org/10.1088/1748-0221/12/10/P10003}{doi:10.1088/1748-0221/12/10/P10003}.
-
-\bibitem{RhoRef}
-J.~de~Favereau, C.~Delaere, P.~Demin, A.~Giammanco, V.~Lemaitre, A.~Mertens,
-  and M.~Selvaggi, ``{DELPHES 3, A modular framework for fast simulation of a
-  generic collider experiment},'' {\em JHEP}, vol.~02, p.~057, 2014.
-\newblock
-  \href{https://doi.org/10.1007/JHEP02(2014)057}{doi:10.1007/JHEP02(2014)057}.
 
 \bibitem{promptPho}
 M.~Klasen, C.~Klein-Bosing, and H.~Poppenborg, ``{Prompt photon production and
