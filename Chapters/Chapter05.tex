@@ -3,11 +3,11 @@ Here first the limitations of Scikit-learn predefined ML models - Logistic Regre
 
 \begin{figure}[h]
 \centering
-\begin{subfigure}[t]{.313\textwidth}
+\begin{subfigure}[t]{.316\textwidth}
 \includegraphics[width=\textwidth]{Good_image_1x1.png}
 \caption{}
 \end{subfigure}
-\begin{subfigure}[t]{.3\textwidth}
+\begin{subfigure}[t]{.305\textwidth}
 \includegraphics[width=\textwidth]{Dead_image_1x1.png}
 \caption{}
 \end{subfigure}
@@ -15,88 +15,49 @@ Here first the limitations of Scikit-learn predefined ML models - Logistic Regre
 \includegraphics[width=\textwidth]{Hot_image_1x1.png}
 \caption{}
 \end{subfigure}
-\vspace{1cm}
+\vspace{5mm}
 \caption{Occupancy Maps with 1x1 bad regions. A) Good image B) Dead image C) Hot image\label{Ocuppancymaps1x1}}
 \end{figure}
 
+Also, the use of Scikit-learn’s library is limited in comparison with the Keras module since one cannot customize the structure of the ML model with detail. Moreover, Keras is an ML library designed for developing deep neural networks. Hence it was decided to use Keras primarily for the creation of the model.
+ With the Keras library, numerous models were designed with both, SL method and SSL learning method. Using SL method, we are interested in detecting anomalies and classifying what type of anomaly is seen. With SSL method, we are interested in looking at the error of the reconstruction of an image to give an idea that the image given can be considered good or that it might have some unseen anomalies
 
-d vice-versa. \autoref{IDtable} shows the cut values that are applied to photons that are found within both the ECAL barrel and endcap range. The associated values to the efficiency and the background rejection rate are shown for each of the three different photon ID selections.\\
+\section{SL Models for known anomalies in the HCAL data for DQM}
+We considered three SL Models for classification of known anomalies in the HCAL data for DQM. 
+These models are based on Convolutional Neural Networks and differ in the number of layers utilized, their ordering and number of units in each layer. The Models and the corresponding results are described below.
 
-In order to obtain the high efficiency and background rejection rae contributions.
 
-\subsection{Photon Selection}\label{photonSelection}
-The event selection process for the $\gamma$+jets control region starts with photon candidates that have a $p_\text{T} > 200$ GeV and are within the acceptance range of the CMS ECAL (given by $|\eta| < 1.4442$ for the barrel and $1.566 < |\eta| < 2.5$ for the endcaps). The photons are subjected to pass the loose ID/isolation cuts described in \autoref{photonID} in order to remove $\sim85\%$ of the background processes and obtain a prompt phototly improves the prompt photon selection by removing many of the events in the simulated samples where a lepton gets misidentified as a photon.
+\subsection{Two Convolutional Layers for binary classification}
+Several variations of the two Convolutional Layers Model were tested and optimized on the DQM data. This led to an optimal value of 8 units/neurons in the Convolutional layers. 
+The detail of selecting the number of units per layer is of great importance to find a balance between efficiency and complexity of a model. More complex models (more layers and connections) are “heavy” to train in terms of computational cost, provide better results and are prone to “overfitting” to the training data.
+ Simpler models (fewer layers and connections) are quicker to train, efficient and computationally economic. However, simpler models are more likely to “underfit” to the data. The \autoref{fig:2convlayermodel} below shows a code snippet with this model.
 
-\begin{figure}[H]
+
+\begin{figure}
 \begin{center}
-\begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{dataMC_PhotonPt_LooseLepVeto.pdf}
-\end{minipage}
-\begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{dataMC_MetGamma_LooseLepVeto.pdf}
-\end{minipage}
+    \includegraphics[width=.9\textwidth]{2_conv_layers_model.png}
 \end{center}
-\vspace{-1em}
-\caption{Shown are both the $p_\text{T}^{\gamma}$ (left) and $p_\text{T}^{\gamma (miss)}$ (right) distributions before applying any corrections. $p_\text{T}^{\gamma (miss)}$ is obtained by adding the $p_\text{T}^{\gamma}$ to the total $p_\text{T}^{miss}$ in every event.}
-\label{PtMetPt}
+\caption{Two Convolutional Layers Model\label{fig:2convlayermodel}}
 \end{figure}
-\vspace{1em}
 
-To further emulate the Z$\rightarrow\nu\bar{\nu}$+jets background, a variable in which the photons are treated as $p_\text{T}^{miss}$ is defined. We call this variable $p_\text{T}^{\gamma (miss)}$ and we obtain it by adding the $p_\text{T}^{\gamma}$ for every event to the total $p_\text{T}^{miss}$ in the event. Both the $p_\text{T}^{\gamma}$ and the resulting $p_\text{T}^{\gamma (miss)}$ distributions are shown in \autoref{PtMetPt} as data/MC comparison plots, where the simulated backgrounds are stacked in order of ascending contribution.\\
 
-The main contributions from simulation arise from the $\gamma+$jets, QCD and to a lesser extent, t$\bar{\text{t}}\gamma$. Other non-dominant backgrounds in the control region include contributions from W($l\nu$)+jets, t$\bar{\text{t}}$, Diboson, tW, t$\bar{\text{t}}$Z and rare processes. Most of these lesser backgrounds are nearly negligible (several orders of magnitude lower than the dominant backgrounds) and are considered to be mostly composed of fake photons. In addition to the cuts described, all of the simulation samples are subjected to weights that apply corrections to pileup as well as the b-tagging efficiency. Data, on the other hand, is obtained from a sample that contains events with at least one identified photon. Photons in this sample are also subjected to the high-level trigger HLT\_Photon175, which restricts the selection to photons that have a $p_\text{T} >$ 175 GeV. Both simulation and data are subjected to the same selection criteria established in this section. 
+Figure 9 below shows the learning curve for this model trained with Good and Hot images for fixed 5x5 location and the corresponding Confusion Matrix.
+
+\begin{figure}
+\centering
+	\begin{subfigure}{.45\textwidth}
+ 	\includegraphics[width=.9\textwidth]{CM_2x2_with_5x5_good_hot_fixed.png}
+	\end{subfigure}
+	\begin{subfigure}{.45\textwidth}
+	\includegraphics[width=.9\textwidth]{Learning_curve_5x5_good_hot_fixed.png}
+	\end{subfigure}
+	%\caption{•}
+ \end{figure}
+  of fake photons. In addition to the cuts described, all of the simulation samples are subjected to weights that apply corrections to pileup as well as the b-tagging efficiency. Data, on the other hand, is obtained from a sample that contains events with at least one identified photon. Photons in this sample are also subjected to the high-level trigger LT\_Photon175, which restricts the selection to photons that have a $p_\text{T} >$ 175 GeV. Both simulation and data are subjected to the same selection criteria established in this section. 
 
 \subsection{Photon Purity and Fake Rate}\label{purity&fakerate}
 
 Three different types of photons make up the $\gamma+$jets CS: prompt photons, produced either directly or through fragmentation, and fake photons. Prompt photons are defined as photons which are formed shortly after the proton-proton collision (i.e. before the produced quarks and gluons have had enough time to form hadrons). Two types of photons fit in this category. The first type, which we designate as direct photons, are photons that are produced directly from the proton-proton interaction\cite{promptPho}. A secondary type of prompt photon, that is virtually indistinguishable from the direct photons at the detector level, originates from the decay of $\pi^0$ mesons and are called fragmentation photons. The final type of photon found in the CS corresponds to fake (or non-prompt) photons. The fake photon contribution typically arises from leptons (mostly electrons) whose tracks are not properly reconstructed, yet leave energy measurements in the ECAL.
-
-\begin{figure}[H]
-\begin{center}
-\begin{minipage}[b]{0.49\textwidth}
-\includegraphics[width=\textwidth]{FakeRate_empty.pdf}
-\end{minipage}
-\begin{minipage}[b]{0.49\textwidth}
-    \includegraphics[width=\textwidth]{Purity_empty.pdf}
-\end{minipage}
-\end{center}
-\vspace{-1em}
-\caption{Plots for Fake Rate (left) and Purity (right) as a function of the photon $p_\text{T}$ are shown. The events are selected are required to have a $p_\text{T} > 200$ GeV, be within the ECAL acceptance range, and pass the loose ID selection cuts. This selection was produced in order to verify the values given by the E/$\gamma$ POG. As can be seen, the efficiency (purity) is seen to agree with the values of the loose photon ID/isolation selection.}
-\label{FakeRatePurityLoose}
-\end{figure}
-
-\begin{figure}[H]
-\begin{center}
-\begin{minipage}[b]{0.49\textwidth}
-\includegraphics[width=\textwidth]{FakeRate_LooseLepVeto.pdf}
-\end{minipage}
-\begin{minipage}[b]{0.49\textwidth}
-    \includegraphics[width=\textwidth]{Purity_LooseLepVeto.pdf}
-\end{minipage}
-\end{center}
-\vspace{-1em}
-\caption{Plots for Fake Rate (left) and Purity (right) as a function of the photon $p_\text{T}$ are shown. These plots include photons with the full control region selection. Aside from exhibiting lower statistics, the plots seem to agree with the fake rate and purity before all the control region cuts are applied.}
-\label{FakeRatePurityCR}
-\end{figure}
-
-\vspace{1em}
-
-In order to identify prompt photons, reconstructed photons from the $\gamma+$jets and QCD samples are matched to generator-level photons in space and momentum by requiring $\Delta R(\gamma_\text{gen},\gamma_\text{reco}) < 0.4$ and $0.5 < p_\text{T}^\text{gen}/p_\text{T}^\text{reco} < 2.0$, respectively. Any reconstructed photon which fails to get matched to a generator level photon is labeled as a fake/non-prompt photon. Direct photons are identified by further requiring that the reconstructed photons be matched to a parton (a gluon or quark) in space as $\Delta R(\gamma,\text{parton}) > 0.4$. This requirement is intended to distinguish the reconstructed photons from highly boosted $\pi^0$'s, which compose a large portion of the experimentally indistinguishable fragmentation photons. Finally, fragmentation photons are obtained exclusively from QCD simulation and are required to have $\Delta R(\gamma,\text{parton}) < 0.4$ in order to avoid double counting photons from the $\gamma+$jets sample.\\
-
-With all three types of photons defined, a study can be carried out from simulation to estimate their respective contributions to the defined control region. The study takes into account that any reconstructed photon in the $\gamma+$jets or QCD samples can only be categorized as prompt (through direct production or fragmentation) or non-prompt (fake). The purity and fake rate can then be defined in terms of the relative proportions of prompt or non-prompt photons with respect to the sum of the contributions from all three types of photons. Identified direct photons are taken from the $\gamma+$jets sample exclusively. Meanwhile, the fragmentation and fake photon contributions are taken from the QCD sample. The three quantities are then added together and their respective contributions are determined in terms of the photon $p_\text{T}$ (\autoref{FakeRatePurityLoose}).\\
-
-The photon purity (\autoref{FakeRatePurityLoose} and \autoref{FakeRatePurityCR}, right) is defined in terms of the prompt and non-prompt photons as:\\
-
-\begingroup
-	\large
-	\begin{center}
-	%\begin{equation}
-		$p_\gamma = \frac{prompt}{prompt+fake}$ ,
-	\end{center}
-	%\end{equation}
-\endgroup
-\vspace{1em}
-
-\noindent{where the prompt photon portion comes from the sum of the direct photons (extracted from the $\gamma$+ jets sample) and the fragmentation photons (extracted from the QCD sample). The remaining non-prompt (or fake) photons all come from photons in the QCD sample that were not matched to truth-level photons in space and momentum with the specified required conditions. Meanwhile, the photon fake rate (\autoref{FakeRatePurityLoose} and \autoref{FakeRatePurityCR}, left) is defined from this same combination of samples as:}\\
 
 \begingroup
 	\large
@@ -110,62 +71,6 @@ The photon purity (\autoref{FakeRatePurityLoose} and \autoref{FakeRatePurityCR},
 
 \autoref{FakeRatePurityLoose} shows the purity and fakerate for photons that pass the loose ID/selection, have a $p_\text{T} > 200$ GeV and are within the ECAL acceptance range. A sample is obtained in which 77\% of the photons are direct, 12\% are fragmentation and 11\% are fakes. This implies an average purity of $\sim$89\% for this sample, well within the value that is expected. \autoref{FakeRatePurityCR} shows the same ratios for the loose $\gamma$+ jets control region described in \autoref{photonSelection}. Although the amount of statistics has decreased due to the additional cuts, a similar trend can be observed.
 
-\section{The Z$\rightarrow\mu^{+}\mu^{-}$ Control Region}
-
-The Z$\rightarrow\mu^{+}\mu^{-}$ control region defined in this section is in every respect identical to the one applied in the 2016 analysis (\autoref{ZnunuSection}. The only difference between the 2016 method and the one discussed in this chapter is that the Drell-Yan (DY) sample is only used for the normalization correction of the Z$\rightarrow\nu\bar{\nu}$ background. Therefore, the loose $\mu\mu$ control region is not used or applied in the calculation of the scale factors. In the following subsections only the tight $\mu\mu$ control region, and its usage to obtain the normalization scale factor $R_{norm}$, is discussed.
-
-\subsection{Muon ID and Isolation}
-
-The muons are selected using the ``medium muon'' selection\cite{muonID}, per the recommendation of the muon POG. The muon candidates in this selection satisfy $p_\text{T} > 10$ GeV and $|\eta| < 2.4$. Other additional cuts are applied to aid in the muon candidate selection, such as an impact parameter cut. Muons are also subjected to a PF relative-isolation (also referred to as mini-isolation) in which the cone size is inversely proportional to the muon $p_\text{T}$. This requirement enforces the $p_\text{T}$ within the isolation cone to be at most 20\% of the muon $p_\text{T}$ in order to eliminate events with an isolated muon. Details of the medium photon selection are included in \autoref{table1muons} and \autoref{table2muons}, while details of the impact parameter cut are summarized in \autoref{table3muons}.
-
-\begin{table}[H]
-\begin{center}
-\includegraphics[width=0.6\textwidth]{table1muons}
-\caption{Muon Medium ID 2016 HIP Safe}
-\label{table1muons}
-\end{center}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\includegraphics[width=0.4\textwidth]{table2muons}
-\caption{Muon Medium ID HIP Safe Good Global Muon}
-\label{table2muons}
-\end{center}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\includegraphics[width=0.3\textwidth]{table3muons}
-\caption{Additional Impact Parameter cut on Muons}
-\label{table3muons}
-\end{center}
-\end{table}
-
-\subsection{Muon Selection in the Tight Control Region}\label{tightmumu}
-
-Events are selected from data samples that contain exactly two oppositely charged muons ($\mu^{+}\mu^{-}$), which fall within the invariant mass $81 < m_{ll} < 101$ GeV window for the Z boson. Additional cuts for the tight muon selection include baseline requirements such as an $H_\text{T} > 300$ GeV, $N_j \geq 4$, the $\Delta\phi$ baseline cut on leading jets, a $p_\text{T}^{miss} > 250$ GeV, an $m_\text{T2} > 200$ GeV and at least 1 top-tagged jet $N_t \geq 1$. In addition, the $p_\text{T}$ of the two muons are required to be $p_\text{T} > 50$ GeV for the leading muon and $p_\text{T} > 20$ GeV for the sub-leading one. The only difference, when compared to the signal region is the missing lepton veto, in addition to the dimuon events being treated as $p_\text{T}^{miss}$. This makes for a region that exhibits very similar kinematics to the Z$\rightarrow\nu\bar{\nu}$ signal region, yet suffers from a lack of statistics.
-
-\section{Analysis}
-
-In this section a detailed explanation of the calculation of the scale factors for both shape and normalization corrections is provided. The following methods make use of the loose $\gamma+$jets and the tight $\mu\mu$ control regions defined in the previous sections. The procedure involves extracting the shape corrections $S_\gamma$ from the $\gamma+$jets control region and afterwards obtain a single normalization correction factor $R_{norm}$ from the tight $\mu\mu$ control region. Both factors will then be applied to the final prediction of the Z$\rightarrow\nu\bar{\nu}$ background in each of the required search bins. 
-
-\subsection{Shape Correction Using the $\gamma$ + jets Control Sample}
-
-In this section the validation of the $\gamma+$jets simulation is discussed in terms of the shape of the loose photon control region. As it was shown in \autoref{purity&fakerate}, this control region has high purity for $\gamma+$jets events, particularly in regions of high $p_\text{T}$ ($\gtrsim 300$). In order to apply this correction factor it is assumed that the shape differences between data and simulation are similar between Z$\rightarrow\nu\bar{\nu}$ and $\gamma+$jets events. This assumption is validated in studies which compare the cross-section ratio of Z+jets to $\gamma+$jets events\cite{ZtoGamma}. \autoref{Zgamma} shows the results of this study, conducted in 2014, for both data and MadGraph simulation with an integrated luminosity of 19.7fb$^{-1}$ and a center-of-mass energy of 8 TeV. It can be seen that for values of $p_\text{T}^{Z/\gamma} \gtrsim 300$ GeV, the ratio of the cross-section of both processes becomes nearly constant. It is then a matter of applying a factor to account for the difference in the amount of events between the Z+jets and $\gamma+$jets events in order to obtain the total amount of Z$\rightarrow\nu\bar{\nu}$+jets events. This factor is obtained from the tight $\mu\mu$ control region, as shown in \autoref{tightmumu}.
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=0.6\textwidth]{ZgammaRatio.png}
-\end{center}
-\vspace{-1em}
-\caption[Results of study of the Z+jets to $\gamma+$jets cross-section ratio for both data and MadGraph simulation.]{Results of study of the Z+jets to $\gamma+$jets cross-section ratio for both data and MadGraph simulation. For high values of the vector boson transverse momentum, the ratio between these processes is observed to be nearly constant.}
-\label{Zgamma}
-\end{figure}
-
-\vspace{1em}
-
-In order to obtain the shape corrections, the ratio between data and simulation of the jet multiplicity distribution is used (\autoref{NjetsCR}). This is due to it exhibiting the highest difference between the observed data and MC. The re-weight for the $\gamma+$jets simulation sample is then accomplished by applying the $N_{jet}$ dependent factor $S_\gamma(N_j)$. This scale factor is determined by taking the ratio of the data and simulation, after subtracting all other MC samples from data events:
 
 \begingroup
 	\Large
