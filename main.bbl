@@ -19,15 +19,4 @@ M.~Klasen, C.~Klein-Bosing, and H.~Poppenborg, ``{Prompt photon production and
 \newblock
   \href{https://doi.org/10.1007/JHEP03(2018)081}{doi:10.1007/JHEP03(2018)081}.
 
-\bibitem{muonID}
-S.~Folgueras, ``{Baseline muon selections for Run-II}.''
-  \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideMuonIdRun2}.
-\newblock Accessed: 2018-05-13.
-
-\bibitem{ZtoGamma}
-{CMS Collaboration}, ``{Measurement of the Z/gamma*+jets/photon+jets cross
-  section ratio in pp collisions at sqrt(s)=8 TeV},'' 2014.
-\newblock
-  \href{http://inspirehep.net/search?ln=en&cc=Experiments&p=119__a\%3ACERN-LHC-CMS&of=hd}{CMS-PAS-SMP-14-005}.
-
 \end{thebibliography}

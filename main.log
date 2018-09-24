@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.10)  23 SEP 2018 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.10)  23 SEP 2018 22:03
 entering extended mode
 **./main.tex
 (main.tex
@@ -1521,10 +1521,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 
 ] (main.lof
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 
 
-LaTeX Warning: Reference `PtMetPt' on page iii undefined on input line 18.
+LaTeX Warning: Reference `PtMetPt' on page iii undefined on input line 19.
 
 )
 \tf@lof=\write5
@@ -1618,7 +1618,7 @@ Chapter 2.
 (Chapters/Chapter02.tex [3
 
 ]
-<images/CMSLayout.png, id=219, 3189.9175pt x 2253.41875pt>
+<images/CMSLayout.png, id=221, 3189.9175pt x 2253.41875pt>
 File: images/CMSLayout.png Graphic file (type png)
 <use images/CMSLayout.png>
 Package pdftex.def Info: images/CMSLayout.png  used on input line 21.
@@ -1626,7 +1626,7 @@ Package pdftex.def Info: images/CMSLayout.png  used on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
  [4 <./images/CMSLayout.png>]
-<images/CMSLayers.PNG, id=229, 746.79pt x 380.92313pt>
+<images/CMSLayers.PNG, id=231, 746.79pt x 380.92313pt>
 File: images/CMSLayers.PNG Graphic file (type png)
 <use images/CMSLayers.PNG>
 Package pdftex.def Info: images/CMSLayers.PNG  used on input line 28.
@@ -1648,42 +1648,42 @@ Underfull \vbox (badness 1635) has occurred while \output is active []
 
 ]
 [10]
-<images/Good_image.jpg, id=263, 130.98938pt x 167.87718pt>
+<images/Good_image.jpg, id=265, 130.98938pt x 167.87718pt>
 File: images/Good_image.jpg Graphic file (type jpg)
 <use images/Good_image.jpg>
 Package pdftex.def Info: images/Good_image.jpg  used on input line 23.
 (pdftex.def)             Requested size: 102.43134pt x 131.27924pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-<images/Dead_image_5x5.jpg, id=264, 146.04562pt x 167.87718pt>
+<images/Dead_image_5x5.jpg, id=266, 146.04562pt x 167.87718pt>
 File: images/Dead_image_5x5.jpg Graphic file (type jpg)
 <use images/Dead_image_5x5.jpg>
 Package pdftex.def Info: images/Dead_image_5x5.jpg  used on input line 29.
 (pdftex.def)             Requested size: 113.95436pt x 130.99234pt.
-<images/Hot_image_5x5.jpg, id=265, 136.25906pt x 167.87718pt>
+<images/Hot_image_5x5.jpg, id=267, 136.25906pt x 167.87718pt>
 File: images/Hot_image_5x5.jpg Graphic file (type jpg)
 <use images/Hot_image_5x5.jpg>
 Package pdftex.def Info: images/Hot_image_5x5.jpg  used on input line 35.
 (pdftex.def)             Requested size: 107.55203pt x 132.5088pt.
  [11 <./images/Good_image.jpg> <./images/Dead_image_5x5.jpg> <./images/Hot_imag
 e_5x5.jpg>]
-<images/Weights_and_biases.png, id=271, 261.1575pt x 158.337pt>
+<images/Weights_and_biases.png, id=273, 261.1575pt x 158.337pt>
 File: images/Weights_and_biases.png Graphic file (type png)
 <use images/Weights_and_biases.png>
 Package pdftex.def Info: images/Weights_and_biases.png  used on input line 51.
 (pdftex.def)             Requested size: 290.21498pt x 175.95425pt.
  [12 <./images/Weights_and_biases.png>]
-<images/GD.png, id=280, 480.29437pt x 270.25969pt>
+<images/GD.png, id=282, 480.29437pt x 270.25969pt>
 File: images/GD.png Graphic file (type png)
 <use images/GD.png>
 Package pdftex.def Info: images/GD.png  used on input line 69.
 (pdftex.def)             Requested size: 341.43436pt x 192.1249pt.
-<images/Loss_function1.png, id=281, 316.3455pt x 177.7185pt>
+<images/Loss_function1.png, id=283, 316.3455pt x 177.7185pt>
 File: images/Loss_function1.png Graphic file (type png)
 <use images/Loss_function1.png>
 Package pdftex.def Info: images/Loss_function1.png  used on input line 81.
 (pdftex.def)             Requested size: 213.39566pt x 119.88158pt.
-<images/Loss_function2.png, id=282, 317.331pt x 178.704pt>
+<images/Loss_function2.png, id=284, 317.331pt x 178.704pt>
 File: images/Loss_function2.png Graphic file (type png)
 <use images/Loss_function2.png>
 Package pdftex.def Info: images/Loss_function2.png  used on input line 85.
@@ -1692,17 +1692,17 @@ Package pdftex.def Info: images/Loss_function2.png  used on input line 85.
 [14 <./images/Loss_function1.png> <./images/Loss_function2.png>]
 Chapter 5.
 (Chapters/Chapter05.tex
-<images/Good_image_1x1.png, id=295, 140.02313pt x 189.70876pt>
+<images/Good_image_1x1.png, id=297, 140.02313pt x 189.70876pt>
 File: images/Good_image_1x1.png Graphic file (type png)
 <use images/Good_image_1x1.png>
 Package pdftex.def Info: images/Good_image_1x1.png  used on input line 7.
 (pdftex.def)             Requested size: 134.8636pt x 182.72621pt.
-<images/Dead_image_1x1.png, id=296, 163.3603pt x 240.9pt>
+<images/Dead_image_1x1.png, id=298, 163.3603pt x 240.9pt>
 File: images/Dead_image_1x1.png Graphic file (type png)
 <use images/Dead_image_1x1.png>
 Package pdftex.def Info: images/Dead_image_1x1.png  used on input line 11.
 (pdftex.def)             Requested size: 130.16823pt x 191.952pt.
-<images/Hot_image_1x1.png, id=297, 134.00063pt x 198.7425pt>
+<images/Hot_image_1x1.png, id=299, 134.00063pt x 198.7425pt>
 File: images/Hot_image_1x1.png Graphic file (type png)
 <use images/Hot_image_1x1.png>
 Package pdftex.def Info: images/Hot_image_1x1.png  used on input line 15.
@@ -1713,19 +1713,19 @@ Package pdftex.def Info: images/Hot_image_1x1.png  used on input line 15.
 e_1x1.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
-<images/2_conv_layers_model.png, id=303, 392.96812pt x 153.57375pt>
+<images/2_conv_layers_model.png, id=305, 392.96812pt x 153.57375pt>
 File: images/2_conv_layers_model.png Graphic file (type png)
 <use images/2_conv_layers_model.png>
 Package pdftex.def Info: images/2_conv_layers_model.png  used on input line 38.
 
 (pdftex.def)             Requested size: 384.10959pt x 150.12161pt.
-<images/CM_2x2_with_5x5_good_hot_fixed.png, id=304, 259.7203pt x 226.59656pt>
+<images/CM_2x2_with_5x5_good_hot_fixed.png, id=307, 259.7203pt x 226.59656pt>
 File: images/CM_2x2_with_5x5_good_hot_fixed.png Graphic file (type png)
 <use images/CM_2x2_with_5x5_good_hot_fixed.png>
 Package pdftex.def Info: images/CM_2x2_with_5x5_good_hot_fixed.png  used on inp
 ut line 49.
 (pdftex.def)             Requested size: 172.84813pt x 150.80237pt.
-<images/Learning_curve_5x5_good_hot_fixed.png, id=305, 319.94531pt x 433.62pt>
+<images/Learning_curve_5x5_good_hot_fixed.png, id=308, 319.94531pt x 433.62pt>
 File: images/Learning_curve_5x5_good_hot_fixed.png Graphic file (type png)
 <use images/Learning_curve_5x5_good_hot_fixed.png>
 Package pdftex.def Info: images/Learning_curve_5x5_good_hot_fixed.png  used on 
@@ -1746,20 +1746,20 @@ LaTeX Warning: Reference `photonSelection' on page 18 undefined on input line 7
 2.
 
 [18]
-<images/dataMC_Photon_nj_Log_LooseLepVeto.pdf, id=325, 519.9425pt x 569.12625pt
+<images/dataMC_Photon_nj_Log_LooseLepVeto.pdf, id=327, 519.9425pt x 569.12625pt
 >
 File: images/dataMC_Photon_nj_Log_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_Photon_nj_Log_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_Photon_nj_Log_LooseLepVeto.pdf  used on 
 input line 89.
 (pdftex.def)             Requested size: 180.53197pt x 197.60797pt.
-<images/ShapeCorr_LooseLepVeto.pdf, id=326, 569.12625pt x 552.0625pt>
+<images/ShapeCorr_LooseLepVeto.pdf, id=328, 569.12625pt x 552.0625pt>
 File: images/ShapeCorr_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/ShapeCorr_LooseLepVeto.pdf>
 Package pdftex.def Info: images/ShapeCorr_LooseLepVeto.pdf  used on input line 
 92.
 (pdftex.def)             Requested size: 213.39566pt x 206.99765pt.
-<images/NjetsShapeCorr.png, id=327, 639.38875pt x 726.715pt>
+<images/NjetsShapeCorr.png, id=329, 639.38875pt x 726.715pt>
 File: images/NjetsShapeCorr.png Graphic file (type png)
 <use images/NjetsShapeCorr.png>
 Package pdftex.def Info: images/NjetsShapeCorr.png  used on input line 104.
@@ -1769,14 +1769,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./images/dataMC_Photon_nj_Log_LooseLepVeto.pdf> <./images/ShapeCorr_Loose
 LepVeto.pdf, page is rotated 90 degrees>]
-<images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf, id=420, 519.9425pt x 569.12625pt>
+<images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf, id=422, 519.9425pt x 569.12625pt>
 
 File: images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_PhotonPt_Wgt_LooseLepVeto.pdf  used on i
 nput line 116.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
-<images/dataMC_MetGamma_Wgt_LooseLepVeto.pdf, id=421, 519.9425pt x 569.12625pt>
+<images/dataMC_MetGamma_Wgt_LooseLepVeto.pdf, id=423, 519.9425pt x 569.12625pt>
 
 File: images/dataMC_MetGamma_Wgt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_MetGamma_Wgt_LooseLepVeto.pdf>
@@ -1790,14 +1790,14 @@ LaTeX Warning: Reference `PtMetPt' on page 20 undefined on input line 123.
 
 LaTeX Warning: Reference `PtMetPt' on page 20 undefined on input line 123.
 
-<images/dataMC_Photon_nb_Log_LooseLepVeto.pdf, id=422, 519.9425pt x 569.12625pt
+<images/dataMC_Photon_nb_Log_LooseLepVeto.pdf, id=424, 519.9425pt x 569.12625pt
 >
 File: images/dataMC_Photon_nb_Log_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_Photon_nb_Log_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_Photon_nb_Log_LooseLepVeto.pdf  used on 
 input line 132.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
-<images/dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf, id=423, 519.9425pt x 569.126
+<images/dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf, id=425, 519.9425pt x 569.126
 25pt>
 File: images/dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf>
@@ -1809,14 +1809,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20 <./images/NjetsShapeCorr.png> <./images/dataMC_PhotonPt_Wgt_LooseLepVeto.p
 df> <./images/dataMC_MetGamma_Wgt_LooseLepVeto.pdf>]
-<images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf, id=517, 519.9425pt x 569.12625pt
+<images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf, id=519, 519.9425pt x 569.12625pt
 >
 File: images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf>
 Package pdftex.def Info: images/dataMC_Photon_ht_Wgt_LooseLepVeto.pdf  used on 
 input line 147.
 (pdftex.def)             Requested size: 192.0548pt x 210.21736pt.
-<images/dataMC_Photon_mt2_Wgt_LooseLepVeto.pdf, id=518, 519.9425pt x 569.12625p
+<images/dataMC_Photon_mt2_Wgt_LooseLepVeto.pdf, id=520, 519.9425pt x 569.12625p
 t>
 File: images/dataMC_Photon_mt2_Wgt_LooseLepVeto.pdf Graphic file (type pdf)
 <use images/dataMC_Photon_mt2_Wgt_LooseLepVeto.pdf>
@@ -1859,12 +1859,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-<images/Rnorm1.png, id=697, 1026.83624pt x 563.10374pt>
+<images/Rnorm1.png, id=699, 1026.83624pt x 563.10374pt>
 File: images/Rnorm1.png Graphic file (type png)
 <use images/Rnorm1.png>
 Package pdftex.def Info: images/Rnorm1.png  used on input line 171.
 (pdftex.def)             Requested size: 426.79134pt x 234.04457pt.
-<images/Rnorm2.png, id=700, 995.72pt x 547.04375pt>
+<images/Rnorm2.png, id=702, 995.72pt x 547.04375pt>
 File: images/Rnorm2.png Graphic file (type png)
 <use images/Rnorm2.png>
 Package pdftex.def Info: images/Rnorm2.png  used on input line 184.
@@ -1883,7 +1883,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
  []
 
 [23 <./images/Rnorm2.png>]
-<images/UncZnunu.png, id=711, 842.14626pt x 570.13pt>
+<images/UncZnunu.png, id=713, 842.14626pt x 570.13pt>
 File: images/UncZnunu.png Graphic file (type png)
 <use images/UncZnunu.png>
 Package pdftex.def Info: images/UncZnunu.png  used on input line 201.
@@ -1913,7 +1913,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <./images/UncZnunu.png>]
-<images/Results.png, id=719, 735.74875pt x 503.8825pt>
+<images/Results.png, id=721, 735.74875pt x 503.8825pt>
 File: images/Results.png Graphic file (type png)
 <use images/Results.png>
 Package pdftex.def Info: images/Results.png  used on input line 216.
@@ -1932,12 +1932,7 @@ Underfull \hbox (badness 1259) in paragraph at lines 17--21
 /12 JHEP\OT1/ptm/m/n/12 , vol. 03, p. 081, 2018.
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 24.
-
-("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psn
-fss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)) [26
+) [26
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
@@ -1959,11 +1954,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
 ### semi simple group (level 1) entered at line 102 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33495 strings out of 492972
- 670333 string characters out of 3119962
- 781898 words of memory out of 3000000
- 36755 multiletter control sequences out of 15000+200000
- 579286 words of font info for 137 fonts, out of 3000000 for 9000
+ 33458 strings out of 492972
+ 669781 string characters out of 3119962
+ 782909 words of memory out of 3000000
+ 36725 multiletter control sequences out of 15000+200000
+ 578771 words of font info for 135 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,77p,1823b,1067s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.
@@ -1983,16 +1978,15 @@ s/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Guill
 ermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/urw/courier/ucrr8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/GuillermoAFida
-lgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/U
-sers/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/tim
-es/utmbi8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/urw/times/utmr8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (31 pages, 5279503 bytes).
+nts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/GuillermoAFidalg
+oRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Us
+ers/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/time
+s/utmr8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (31 pages, 5266504 bytes).
 PDF statistics:
- 812 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
+ 804 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
  318 words of extra memory for PDF output out of 10000 (max. 10000000)
 

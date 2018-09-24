@@ -13,6 +13,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Occupancy Maps with 1x1 bad regions. A) Good image B) Dead image C) Hot image\relax }}{15}{figure.caption.11}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Two Convolutional Layers Model\relax }}{17}{figure.caption.12}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \relax }}{17}{figure.caption.13}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Jet multiplicity and the associated S$_\gamma $ scale factor in the loose photon control region before any corrections are applied.\relax }}{19}{figure.caption.14}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces $N_{jet}$ distribution in the tight $\mu \mu $ control region after $S_\gamma $ corrections.}}{20}{figure.caption.15}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces $p_\text {T}^\gamma $ (left) and $p_\text {T}^{\gamma (miss)}$ (right) distributions after applying the $S_\gamma $($N_j$) scale factor. Comparing to \autoref {PtMetPt}, an improvement in the agreement between data/MC can be observed.\relax }}{20}{figure.caption.16}

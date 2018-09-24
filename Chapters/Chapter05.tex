@@ -41,7 +41,7 @@ The detail of selecting the number of units per layer is of great importance to 
 \end{figure}
 
 
-Figure 9 below shows the learning curve for this model trained with Good and Hot images for fixed 5x5 location and the corresponding Confusion Matrix.
+\autoref{fig:2convlayermodelfixed} below shows the learning curve for this model trained with Good and Hot images for fixed 5x5 location and the corresponding Confusion Matrix.
 
 \begin{figure}
 \centering
@@ -51,10 +51,10 @@ Figure 9 below shows the learning curve for this model trained with Good and Hot
 	\begin{subfigure}{.45\textwidth}
 	\includegraphics[width=.9\textwidth]{Learning_curve_5x5_good_hot_fixed.png}
 	\end{subfigure}
-	%\caption{•}
+	\caption{\label{fig:2convlayermodelfixed}}
  \end{figure}
-  of fake photons. In addition to the cuts described, all of the simulation samples are subjected to weights that apply corrections to pileup as well as the b-tagging efficiency. Data, on the other hand, is obtained from a sample that contains events with at least one identified photon. Photons in this sample are also subjected to the high-level trigger LT\_Photon175, which restricts the selection to photons that have a $p_\text{T} >$ 175 GeV. Both simulation and data are subjected to the same selection criteria established in this section. 
-
+ 
+ 
 \subsection{Photon Purity and Fake Rate}\label{purity&fakerate}
 
 Three different types of photons make up the $\gamma+$jets CS: prompt photons, produced either directly or through fragmentation, and fake photons. Prompt photons are defined as photons which are formed shortly after the proton-proton collision (i.e. before the produced quarks and gluons have had enough time to form hadrons). Two types of photons fit in this category. The first type, which we designate as direct photons, are photons that are produced directly from the proton-proton interaction\cite{promptPho}. A secondary type of prompt photon, that is virtually indistinguishable from the direct photons at the detector level, originates from the decay of $\pi^0$ mesons and are called fragmentation photons. The final type of photon found in the CS corresponds to fake (or non-prompt) photons. The fake photon contribution typically arises from leptons (mostly electrons) whose tracks are not properly reconstructed, yet leave energy measurements in the ECAL.
