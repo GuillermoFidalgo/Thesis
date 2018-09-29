@@ -13,10 +13,4 @@ Coursera, ``Machine learning,'' 2018.
 A.~S. Walia, ``Types of optimization algorithms used in neural networks and
   ways to optimize gradient descent,'' 2018.
 
-\bibitem{promptPho}
-M.~Klasen, C.~Klein-Bosing, and H.~Poppenborg, ``{Prompt photon production and
-  photon-jet correlations at the LHC},'' {\em JHEP}, vol.~03, p.~081, 2018.
-\newblock
-  \href{https://doi.org/10.1007/JHEP03(2018)081}{doi:10.1007/JHEP03(2018)081}.
-
 \end{thebibliography}
