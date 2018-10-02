@@ -33,7 +33,7 @@ The detail of selecting the number of units per layer is of great importance to 
  Simpler models (fewer layers and connections) are quicker to train, efficient and computationally economic. However, simpler models are more likely to “underfit” to the data. The \autoref{fig:2convlayermodel} below shows a code snippet with this model.
 \autoref{fig:2convlayermodelfixedresults} below shows the learning curve for this model trained with Good and Hot images for fixed $5\times 5$ location and the corresponding Confusion Matrix.
 
-\autoref{fig:2convlayermodelrandomresults} shows the learning curve for this model trained with Good and Hot images for fixed 5x5 location and the corresponding Confusion Matrix.
+\autoref{fig:2convlayermodelrandomresults} shows the learning curve for this model trained with Good and Hot images for fixed $5\times5$  location and the corresponding Confusion Matrix.
 
 \begin{figure}
 \begin{center}
@@ -68,7 +68,7 @@ The detail of selecting the number of units per layer is of great importance to 
  
 
 \begin{figure}
-	\begin{subfigure}{.495\textwidth}
+	\begin{subfigure}{.5\textwidth}
  		\includegraphics[width=\textwidth]{3x3CMwith_5x5_good_hot_dead_random.png}
  	\end{subfigure}
  	\begin{subfigure}{.45\textwidth}
@@ -78,143 +78,34 @@ The detail of selecting the number of units per layer is of great importance to 
 	 for $5\times5$ damaged area with an extra class to identify with random location for all trials\label{fig:2convlayermodelGHDrandomresults}}
  \end{figure}
  
-\autoref{fig:2convlayermodelGHDrandomresults} shows the learning curve for this model trained with Good, Hot and Dead images for random 5x5 location and the corresponding Confusion Matrix
+\autoref{fig:2convlayermodelGHDrandomresults} shows the learning curve for this model trained with Good, Hot and Dead images for random $5\times5$ location and the corresponding Confusion Matrix
 
-Figure 12 below shows the learning curve for this model trained with Good, Hot and Dead images for random 1x1 location and the corresponding Confusion Matrix. The corresponding learning curves and confusion matrix for a fixed location for 3-class (Good, Hot, Dead) configuration give the same behavior as 2-labels (Good, Hot) images
-
-
-
-\begingroup
-	\large
-	\begin{center}
-	%\begin{equation}
-		$f = \frac{fake}{prompt+fake}$ ,
-	\end{center}
-	%\end{equation}
-\endgroup
-\vspace{1em}
-
-\autoref{FakeRatePurityLoose} shows the purity and fakerate for photons that pass the loose ID/selection, have a $p_\text{T} > 200$ GeV and are within the ECAL acceptance range. A sample is obtained in which 77\% of the photons are direct, 12\% are fragmentation and 11\% are fakes. This implies an average purity of $\sim$89\% for this sample, well within the value that is expected. \autoref{FakeRatePurityCR} shows the same ratios for the loose $\gamma$+ jets control region described in \autoref{photonSelection}. Although the amount of statistics has decreased due to the additional cuts, a similar trend can be observed.
+\autoref{fig:2convlayermodelGHD1x1randomresults} shows the learning curve for this model trained with Good, Hot and Dead images 
+for random 1x1 location and the corresponding Confusion Matrix. 
+The corresponding learning curves and confusion matrix for a fixed location for 3-class 
+(Good, Hot, Dead) configuration give the same behavior as 2-labels (Good, Hot) images
 
 
-\begingroup
-	\Large
-	\begin{center}
-	%\begin{equation}
-		$S^{i}_{\gamma} = \frac{\text{Data}^{i} - \text{M}\text{C}^{i}_\text{other}}{\text{M}\text{C}_{\gamma+\text{jets}}^i}$,
-	\end{center}
-	%\end{equation}
-\endgroup
 
-\noindent {where i denotes any given bin in the $N_j$ distribution. The shape correction factors $S^{i}_{\gamma}$ are displayed graphically in \autoref{NjetsCR} (right) for each $N_j$ bin. These factors correct for differences in the jet multiplicity shape, while the overall normalization is estimated from the tight $\mu\mu$ control region. \autoref{NjetsShapeCorr} shows the $N_j$ distribution in the tight $\mu\mu$ control region after the calculated scale factors have been applied. The $S_{\gamma}$ correction will be applied to the Z$\rightarrow\nu\bar{\nu}$ simulation final prediction for each of the analysis search bins. The uncertainty associated with the scale factor is estimated from the event yields in the loose photon control region. This uncertainty will form part of the total systematic uncertainty in the final prediction.}
-
-\begin{figure}[H]
-\begin{center}
-\begin{minipage}[b]{0.45\textwidth}
-\includegraphics[width=0.94\textwidth]{dataMC_Photon_nj_Log_LooseLepVeto.pdf}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-    \includegraphics[width=\textwidth]{ShapeCorr_LooseLepVeto.pdf}
-\end{minipage}
-\end{center}
-\vspace{-1em}
-\caption{Jet multiplicity and the associated S$_\gamma$ scale factor in the loose photon control region before any corrections are applied.}
-\label{NjetsCR}
+\begin{figure}
+\begin{subfigure}{.5\textwidth}
+\includegraphics[width=\textwidth]{3x3CMwith_1x1_good_hot_dead_random.png}
+\end{subfigure}
+\begin{subfigure}{.45\textwidth}
+\includegraphics[width=\textwidth]{Learning_curve_1x1_good_hot_dead_random.png}
+\end{subfigure}
+\caption{Confusion Matrix results and Learning curve for $1\times1$ damaged area with random location for all trials
+ \label{fig:2convlayermodelGHD1x1randomresults}}
 \end{figure}
-
-%\vspace{1em}
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=0.4\textwidth]{NjetsShapeCorr.png}
-\end{center}
-\vspace{-1em}
-\caption[$N_{jet}$ distribution in the tight $\mu\mu$ control region after $S_\gamma$ corrections.]{$N_{jet}$ distribution in the tight $\mu\mu$ control region after $S_\gamma$ corrections.}
-\label{NjetsShapeCorr}
-\end{figure}
-
-The effect of the $S_{\gamma}$($N_j$) scale factor is shown for various distributions. These results show that the overall agreement between data and simulation improves after applying the corresponding shape corrections.
-
-\begin{figure}[H]
-\begin{center}
-\begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{dataMC_PhotonPt_Wgt_LooseLepVeto.pdf}
-\end{minipage}
-\begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{dataMC_MetGamma_Wgt_LooseLepVeto.pdf}
-\end{minipage}
-\end{center}
-\vspace{-1em}
-\caption{$p_\text{T}^\gamma$ (left) and $p_\text{T}^{\gamma (miss)}$ (right) distributions after applying the $S_\gamma$($N_j$) scale factor. Comparing to \autoref{PtMetPt}, an improvement in the agreement between data/MC can be observed.}
-\label{PtMetPtCorr}
-\end{figure}
-
-\vspace {1em}
-
-\begin{figure}[H]
-\begin{center}
-\begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{dataMC_Photon_nb_Log_LooseLepVeto.pdf}
-\end{minipage}
-\begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{dataMC_Photon_nb_Log_Wgt_LooseLepVeto.pdf}
-\end{minipage}
-\end{center}
-\vspace{-1em}
-\caption{$N_b$ distribution before (left) and after (right) applying the $S_\gamma$($N_j$) scale factor. }
-\end{figure}
-
-%\vspace {1em}
-
-\begin{figure}[tb]
-\begin{center}
-\begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{dataMC_Photon_ht_Wgt_LooseLepVeto.pdf}
-\end{minipage}
-\begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{dataMC_Photon_mt2_Wgt_LooseLepVeto.pdf}
-\end{minipage}
-\end{center}
-\vspace{-1em}
-\caption{$H_\text{T}$ and $m_\text{T2}$ distributions applying the $S_\gamma$($N_j$) scale factor. }
-\end{figure}
-
-\subsection{Normalization Correction Using the tight Z$\rightarrow\mu^{+}\mu^{-}$ Control Sample}\label{tightmumu}
-
-In order to constrain the normalization of the Z$\rightarrow\nu\bar{\nu}$ simulation sample, a normalization correction factor $R_{norm}$ is calculated from the tight $\mu\mu$ control region defined in \autoref{tightmumu}. Two categories are considered: the zero b-tagged jet category ($N_b = 0$), and the $\geq 1$ b-tagged jet category ($N_b \geq 1$). Both of these categories are statistically consistent with each other but the inclusive region ($N_b \geq 0$) has a lower overall uncertainty. The method used to calculate the normalization scale factor requires that the $N_j$-dependent shape correction factors already be applied. Then, the $R_{norm}$ factor can be extracted from the ratio of the total event yield in data to that in the simulation. This factor is found to be:
-
-\begingroup
-	\begin{center}
-		$R_{norm} = 1.070 \pm 0.085$,
-	\end{center}
-\endgroup
-
-\noindent where the uncertainty includes only the associated statistical uncertainties on data and simulation. This uncertainty is found to be propagated to the final background prediction, see \autoref{systematics}.\\
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=\textwidth]{Rnorm1}
-\end{center}
-\vspace{-1em}
-\caption{Shown are data/MC comparisons for the $p_\text{T}^{miss}$ (left) and $H_\text{T}$ (right) distributions after applying both the $N_j$-dependent shape corrections ($S_\gamma$) and the global normalization scale factor ($R_{norm}$).}
-\label{Rnorm1}
-\end{figure}
-
-\vspace{1em}
-
-Data/MC comparisons are shown in \autoref{Rnorm1} and \autoref{Rnorm2} after applying $R_{norm}$ for several distributions in the study. With this final global scale factor all the required ingredients for the central value of the Z$\rightarrow\nu\bar{\nu}$ background prediction are obtained. 
-
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=\textwidth]{Rnorm2}
-\end{center}
-\vspace{-1em}
-\caption{Shown are data/MC comparisons for the $N_j$ (left) and $N_b$ (right) distributions after applying both the $N_j$-dependent shape corrections ($S_\gamma$) and the global normalization scale factor ($R_{norm}$).}
-\label{Rnorm2}
-\end{figure}
-
-\section{Results}
-
+	
+	
+In a more realistic scenario, the problems with HCAL DQM would be more granular i.e. $1\times1$ type. 
+When this model is tested for problematic channels in $1\times1$ configuration the learning curves for the training (blue) and validation (orange) sets depart after few epochs as shown in Figure 12 (right part).
+From the left part of the figure, dividing the sum of numbers along the diagonal (377+398+36) by the sum of all the numbers in the matrix gives ~1/3. This demonstrates that the model is “overfitting” to the training set and misclassifies images $\approx 33\% $ of times. Hence, we consider adding a Convolutional layer to gain more prediction accuracy as shown in the next section.	
+	
+	
+	
+	
 In this section the results for the final estimation of the of the Z$\rightarrow\nu\bar{\nu}$ are presented. The current study includes preliminary results using only data obtained at the CMS detector during 2016. The results for this study are intended to confirm the assumption that the additional $\gamma+$jets control region introduced in this analysis reduce the overall uncertainties obtained in the 2016 analyses (described in \autoref{AnalysisChap}). Furthermore, this study is intended as a benchmark for future analyses of the SUSY stop group based in Fermilab and will be the method used for the 2017 CMS data.
 
 \subsection{Systematics}\label{systematics}
