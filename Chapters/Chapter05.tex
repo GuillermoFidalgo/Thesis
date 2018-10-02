@@ -1,4 +1,4 @@
-Here first the limitations of Scikit-learn predefined ML models - Logistic Regression(LR) and Multi-Layer-Perceptron(MLP), are described. The Logistic Regression Model seems to work almost perfectly with all 3 classes when the bad region size is 5x5 (as in \autoref{Occupancymaps5x5}) with either the same or randomized location. When the bad region size is 1x1 like in \autoref{Ocuppancymaps1x1} the LR Model performs poorly with an accuracy of approximately 20\%.
+Here first the limitations of Scikit-learn predefined ML models - Logistic Regression(LR) and Multi-Layer-Perceptron(MLP), are described. The Logistic Regression Model seems to work almost perfectly with all 3 classes when the bad region size is $5\times5$ (as in \autoref{Occupancymaps5x5}) with either the same or randomized location. When the bad region size is 1x1 like in \autoref{Ocuppancymaps1x1} the LR Model performs poorly with an accuracy of approximately 20\%.
  The MLP does not seem to work in any of the used cases that are studied as it always performs poorly with an accuracy of $\approx 40\%$.
 
 \begin{figure}[h]
@@ -31,7 +31,7 @@ These models are based on Convolutional Neural Networks and differ in the number
 Several variations of the two Convolutional Layers Model were tested and optimized on the DQM data. This led to an optimal value of 8 units/neurons in the Convolutional layers. 
 The detail of selecting the number of units per layer is of great importance to find a balance between efficiency and complexity of a model. More complex models (more layers and connections) are “heavy” to train in terms of computational cost, provide better results and are prone to “overfitting” to the training data.
  Simpler models (fewer layers and connections) are quicker to train, efficient and computationally economic. However, simpler models are more likely to “underfit” to the data. The \autoref{fig:2convlayermodel} below shows a code snippet with this model.
-\autoref{fig:2convlayermodelfixedresults} below shows the learning curve for this model trained with Good and Hot images for fixed 5x5 location and the corresponding Confusion Matrix.
+\autoref{fig:2convlayermodelfixedresults} below shows the learning curve for this model trained with Good and Hot images for fixed $5\times 5$ location and the corresponding Confusion Matrix.
 
 \autoref{fig:2convlayermodelrandomresults} shows the learning curve for this model trained with Good and Hot images for fixed 5x5 location and the corresponding Confusion Matrix.
 
@@ -63,25 +63,26 @@ The detail of selecting the number of units per layer is of great importance to 
  	\includegraphics[width=\textwidth]{Learning_curve_5x5_good_hot_random.png}
  	\end{subfigure}
  \caption{Confusion Matrix results and Learning curve
-	 for $5x5$ damaged area with on the random location for all trials\label{fig:2convlayermodelrandomresults}}
+	 for $5\times5$ damaged area with on the random location for all trials\label{fig:2convlayermodelrandomresults}}
  \end{figure}
  
 
 \begin{figure}
-	\begin{subfigure}{.45\textwidth}
- 		\includegraphics[width=1.25\textwidth]{3x3CMwith_5x5_good_hot_dead_random.png}
+	\begin{subfigure}{.495\textwidth}
+ 		\includegraphics[width=\textwidth]{3x3CMwith_5x5_good_hot_dead_random.png}
  	\end{subfigure}
  	\begin{subfigure}{.45\textwidth}
  	\includegraphics[width=\textwidth]{Learning_curve_5x5_good_hot_dead_random.png}
  	\end{subfigure}
  \caption{Confusion Matrix results and Learning curve
-	 for $5x5$ damaged area with an extra class to identify with random location for all trials\label{fig:2convlayermodelGHDrandomresults}}
+	 for $5\times5$ damaged area with an extra class to identify with random location for all trials\label{fig:2convlayermodelGHDrandomresults}}
  \end{figure}
  
 \autoref{fig:2convlayermodelGHDrandomresults} shows the learning curve for this model trained with Good, Hot and Dead images for random 5x5 location and the corresponding Confusion Matrix
 
+Figure 12 below shows the learning curve for this model trained with Good, Hot and Dead images for random 1x1 location and the corresponding Confusion Matrix. The corresponding learning curves and confusion matrix for a fixed location for 3-class (Good, Hot, Dead) configuration give the same behavior as 2-labels (Good, Hot) images
 
- on contribution typically arises from leptons (mostly electrons) whose tracks are not properly reconstructed, yet leave energy measurements in the ECAL.
+
 
 \begingroup
 	\large
