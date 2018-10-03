@@ -153,3 +153,18 @@ In this model, we try to generalize the learning strategy using SSL to identify 
 \includegraphics[width=\textwidth]{SSL_model.png}
 \caption{\label{fig:sslmodel}}
 \end{figure}
+
+\autoref{SSLresults1} shows the input image, reconstruction image, and distance between the two for good, dead and hot scenarios with a $5\times5$ affected region. As can be seen from the maximum value of the vertical color bar for the distance map for each scenario, the good scenario has the least value; signifying efficient reconstruction and hence less error. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{SSL_inputs_outputs.png}
+\caption{Inputs, Reconstruction and distance maps for the SSL model\label{SSLresults1}}
+\end{figure}
+
+This also means that our model separates the three scenarios very well. This separation is highlighted in the histogram in \autoref{histo}. 
+
+
+\begin{figure}
+\includegraphics[width=\textwidth]{SSL_histo.png}
+\caption{This histogram shows the distribution of error of the reconstruction and the dot plot on the right show the error of reconstruction of each image\label{histo}}
+\end{figure}
