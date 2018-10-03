@@ -1,10 +1,12 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
-The style file: ieeetr.bst
+The style file: plain.bst
 Database file #1: references.bib
 Warning--entry type for "datataking" isn't style-file defined
---line 1278 of file references.bib
+--line 8 of file references.bib
 Warning--entry type for "Coursera" isn't style-file defined
---line 1285 of file references.bib
+--line 15 of file references.bib
 Warning--entry type for "optimizaiton_algorithms" isn't style-file defined
---line 1291 of file references.bib
-(There were 3 warnings)
+--line 21 of file references.bib
+Warning--entry type for "Med18" isn't style-file defined
+--line 29 of file references.bib
+(There were 4 warnings)

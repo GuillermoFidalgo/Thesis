@@ -48,7 +48,7 @@
 
 %Set Header and Footer for all pages
 \usepackage{fancyhdr}
-\bibliographystyle{ieeetr}
+%\bibliographystyle{ieeetr}
 
 \pagestyle{fancy}
 \fancyhead{}
@@ -124,7 +124,7 @@ I wish to thank United States State Department and University of Michigan for pr
 \doublespace
 \mainmatter
 \chapter{Introduction}
-\input{chapters/introduction}
+\input{Chapters/Introduction}
 
 \chapter{The CMS Experiment\label{LHCCMS}}
 \input{Chapters/Chapter02}
@@ -137,10 +137,7 @@ I wish to thank United States State Department and University of Michigan for pr
 
 \chapter{Results \label{ch:results}}
 \input{Chapters/Chapter05}
-%
-%\chapter{Estimation of the Z$\rightarrow \nu\bar{\nu}$ Background}\label{estimation}
-%\input{chapters/chapter05}
-%
+
 %\chapter{Conclusion}\label{conclusion}
 %\input{chapters/conclusion}
 
@@ -150,7 +147,6 @@ I wish to thank United States State Department and University of Michigan for pr
 %%\input{chapters/appendix}
 
 \bibliography{references}
-
-
+\bibliographystyle{plain}
 
 \end{document}

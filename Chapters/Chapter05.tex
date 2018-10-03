@@ -27,7 +27,7 @@ We considered three SL Models for classification of known anomalies in the HCAL 
 These models are based on Convolutional Neural Networks and differ in the number of layers utilized, their ordering and number of units in each layer. The Models and the corresponding results are described below.
 
 
-\subsection{Two Convolutional Layers for binary classification}
+\subsection{Two Convolutional Layers for binary classification\label{sect:2convlayermodel}}
 Several variations of the two Convolutional Layers Model were tested and optimized on the DQM data. This led to an optimal value of 8 units/neurons in the Convolutional layers. 
 The detail of selecting the number of units per layer is of great importance to find a balance between efficiency and complexity of a model. More complex models (more layers and connections) are “heavy” to train in terms of computational cost, provide better results and are prone to “overfitting” to the training data.
  Simpler models (fewer layers and connections) are quicker to train, efficient and computationally economic. However, simpler models are more likely to “underfit” to the data. The \autoref{fig:2convlayermodel} below shows a code snippet with this model.
@@ -81,9 +81,8 @@ The detail of selecting the number of units per layer is of great importance to 
 \autoref{fig:2convlayermodelGHDrandomresults} shows the learning curve for this model trained with Good, Hot and Dead images for random $5\times5$ location and the corresponding Confusion Matrix
 
 \autoref{fig:2convlayermodelGHD1x1randomresults} shows the learning curve for this model trained with Good, Hot and Dead images 
-for random 1x1 location and the corresponding Confusion Matrix. 
-The corresponding learning curves and confusion matrix for a fixed location for 3-class 
-(Good, Hot, Dead) configuration give the same behavior as 2-labels (Good, Hot) images
+for random $1\times1 $ location and the corresponding Confusion Matrix. The corresponding learning curves and 
+confusion matrix for a fixed location for 3-class (Good, Hot, Dead) configuration give the same behavior as 2-labels (Good, Hot) images
 
 
 
@@ -100,39 +99,57 @@ The corresponding learning curves and confusion matrix for a fixed location for 
 	
 	
 In a more realistic scenario, the problems with HCAL DQM would be more granular i.e. $1\times1$ type. 
-When this model is tested for problematic channels in $1\times1$ configuration the learning curves for the training (blue) and validation (orange) sets depart after few epochs as shown in Figure 12 (right part).
+When this model is tested for problematic channels in $1\times1$ configuration the learning curves for the training (\textcolor{blue}{blue}) and validation (\textcolor{orange}{orange}) sets depart after few epochs as shown in Figure 12 (right part).
 From the left part of the figure, dividing the sum of numbers along the diagonal (377+398+36) by the sum of all the numbers in the matrix gives ~1/3. This demonstrates that the model is “overfitting” to the training set and misclassifies images $\approx 33\% $ of times. Hence, we consider adding a Convolutional layer to gain more prediction accuracy as shown in the next section.	
 	
 	
+\subsection{Three Convolutional Layer for multiclass classification}
 	
-	
-In this section the results for the final estimation of the of the Z$\rightarrow\nu\bar{\nu}$ are presented. The current study includes preliminary results using only data obtained at the CMS detector during 2016. The results for this study are intended to confirm the assumption that the additional $\gamma+$jets control region introduced in this analysis reduce the overall uncertainties obtained in the 2016 analyses (described in \autoref{AnalysisChap}). Furthermore, this study is intended as a benchmark for future analyses of the SUSY stop group based in Fermilab and will be the method used for the 2017 CMS data.
+In this model we add another Convolutional layer to increase the prediction accuracy for a more realistic scenario in the HCAL, that is, $1\times1$ test cases and overcome the deficiency of the previous model. The code snippet in \autoref{fig:3convmodelsnippet} reflects the changes made with respect to the \autoref{sect:2convlayermodel}.
 
-\subsection{Systematics}\label{systematics}
 
-Two categories of uncertainties for the Z$\rightarrow\nu\bar{\nu}$ prediction are considered: uncertainties that are associated to the use of MC simulation and the uncertainties specifically associated to the background prediction method. Several sources are acknowledged in the first category mentioned such as PDF and renormalization/factorization scale choices, jet and $p_\text{T}^{miss}$ energy scale uncertainties b-tag scale factor uncertainties, and trigger efficiency uncertainties. Given that the simulation sample is normalized to data in the tight control region, uncertainties associated with the luminosity and cross-section are excluded. In addition, the overall Z$\rightarrow\nu\bar{\nu}$ statistical uncertainty from MC simulation is also taken into account.\\
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=0.8\textwidth]{UncZnunu}
-\end{center}
-\vspace{-1em}
-\caption{Systematic uncertainty in the final prediction, as a function of the search bin, associated to the MC statistics.}
-\label{UncZnunu}
+\begin{figure}
+\includegraphics[width=\textwidth]{3_conv_layers_model.png}
+\caption{Code snippet of a ML model with three convolutional layers for better identification\label{fig:3convmodelsnippet}}
+\end{figure}
+\vspace{1cm}
+
+\autoref{fig:model2results} shows the performance of this model. The learning curves on the right-side show that the training (\textcolor{blue}{blue}) and validation (\textcolor{orange}{orange}) sets correlate well with each other. In other words, the model can successfully apply what it learns from the images. The \textbf{ROC} curve on the lower left 
+shows the variation of the true positive rate (\textbf{TPR}) versus the false positive rate (\textbf{FPR}) for three classes 0, 1 and 2 corresponding to the labels Good, Hot and Dead, respectively.
+ “Each point on the \textbf{ROC} curve represents a sensitivity/specificity pair corresponding to a decision threshold” \cite{Med18}.
+  The top left of the figure shows the Confusion Matrix (CM) for this model, which when compared to the CM of the previous model \autoref{sect:2convlayermodel} is more diagonal. 
+  
+\vspace{1cm}
+  
+\begin{figure}
+\includegraphics[width=\textwidth]{Performance_of_2nd_model.png}
+\caption{Three convolutional layers model results\label{fig:model2results}}
 \end{figure}
 
-The statistical uncertainty associated with each bin in the MC is propagated as a systematic uncertainty. The relative uncertainty per bin can be see in \autoref{UncZnunu}. It shows that the uncertainties for the MC vary from as low as 1\% up to 81\% and even 100\% in some regions. Since the final estimation is scaled using the global normalization factor from the tight $\mu\mu$ control region ($R_{norm}$), the total uncertainty, due to limited amounts of events in data, is propagated in the final prediction. This is also true for the $S_\gamma$($N_j$) scale factor, in which the residual differences in search variables other than $N_j$ are evaluated in the loose photon control region. Both the uncertainty arising from the $N_j$ re-weighting as well as the residual differences are evaluated together. The uncertainty from $R_{norm}$ is propagated as a flat value of 7.9\% uncertainty per each search bin.
+\subsection{Three Convolutional Layers with a new architecture for multiclass classification}
 
-\subsection{Z$\rightarrow\nu\bar{\nu}$ Estimation for the Search Bins}
+As can be seen in the CM of \autoref{fig:model2results}  that there is still scope to improve the prediction accuracy and minimize FPR.
+  To achieve this, we introduce the use of BatchNorm before every activation layer as can be seen in the code snippet in \autoref{bestidmodel}.
+  This model makes the CM more diagonal and brings the ROC AUC (Area Under the Curve) closer to 1 compared to previous model (previous section) as seen in \autoref{bestidmodelresults}.
 
-The final estimation for the Z$\rightarrow\nu\bar{\nu}$ background calculated for all 84 search bins is shown in \autoref{results}. The statistical uncertainty in bins that have zero events is treated as the average weight (the sum of the weights squared over the weight) times the poisson error on 0 which is 1.8. This average weight is calculated on the basis of a relaxed cut in which $N_b \geq 2$ is required. For comparison, a cut in which $N_t > 2$ where two tops are fake for the Z$\rightarrow\nu\bar{\nu}$ is used.
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=0.8\textwidth]{Results.png}
-\end{center}
-\vspace{-1em}
-\caption{Z$\rightarrow\nu\bar{\nu}$ background prediction for all search bins, including the breakdown of the various uncertainties.}
-\label{results}
+\begin{figure}
+\includegraphics[width=\textwidth]{best_idmodel.png}
+\caption{\label{bestidmodel}}
 \end{figure}
 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{best_idmodelresults.png}
+\caption{\label{bestidmodelresults}}
+\end{figure}
+
+\section{SSL Model for unknown anomalies in the HCAL data for DQM}
+
+In this model, we try to generalize the learning strategy using SSL to identify unfamiliar anomalies in the HCAL DQM data. We use the reconstruction error as the discriminating factor to identify deviations from the good images. \autoref{fig:sslmodel} shows the code snippet for the SSL model.
+
+\begin{figure}
+\includegraphics[width=\textwidth]{SSL_model.png}
+\caption{\label{fig:sslmodel}}
+\end{figure}

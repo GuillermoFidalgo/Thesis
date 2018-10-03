@@ -12,6 +12,7 @@
 \contentsline {chapter}{\numberline {5}Results }{15}{chapter.5}
 \contentsline {section}{\numberline {5.1}SL Models for known anomalies in the HCAL data for DQM}{16}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Two Convolutional Layers for binary classification}{16}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Systematics}{20}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Z$\rightarrow \nu \bar {\nu }$ Estimation for the Search Bins}{21}{subsection.5.1.3}
-\contentsline {chapter}{\numberline {6}References}{22}{chapter.6}
+\contentsline {subsection}{\numberline {5.1.2}Three Convolutional Layer for multiclass classification}{19}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Three Convolutional Layers with a new architecture for multiclass classification}{20}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}SSL Model for unknown anomalies in the HCAL data for DQM}{23}{section.5.2}
+\contentsline {chapter}{\numberline {6}References}{24}{chapter.6}

@@ -1,16 +1,25 @@
 \begin{thebibliography}{1}
 
 \bibitem{datataking}
-CERN, ``Processing what to record?,'' 2018.
+CERN.
+\newblock Processing what to record?, 2018.
 
 \bibitem{cmscomputing}
-CMS, ``{The CMS Computing Project},'' tech. rep., CERN, 2005.
+CMS.
+\newblock {The CMS Computing Project}.
+\newblock Technical report, CERN, 2005.
 
 \bibitem{Coursera}
-Coursera, ``Machine learning,'' 2018.
+Coursera.
+\newblock Machine learning, 2018.
+
+\bibitem{Med18}
+MedCalc.
+\newblock Roc curve analysis, 2018.
 
 \bibitem{optimizaiton_algorithms}
-A.~S. Walia, ``Types of optimization algorithms used in neural networks and
-  ways to optimize gradient descent,'' 2018.
+Anish~Singh Walia.
+\newblock Types of optimization algorithms used in neural networks and ways to
+  optimize gradient descent, 2018.
 
 \end{thebibliography}
