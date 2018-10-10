@@ -1,25 +1,31 @@
 \begin{thebibliography}{1}
 
 \bibitem{datataking}
-CERN.
-\newblock Processing what to record?, 2018.
+CERN, ``{Processing what to record?},'' 2018.
+\newblock
+  \href{https://home.cern/about/computing/processing-what-record}{https://home.cern/about/computing/processing-what-record}.
 
 \bibitem{cmscomputing}
-CMS.
-\newblock {The CMS Computing Project}.
-\newblock Technical report, CERN, 2005.
+CMS, ``{The CMS Computing Project},'' tech. rep., CERN, 2005.
 
 \bibitem{Coursera}
-Coursera.
-\newblock Machine learning, 2018.
-
-\bibitem{Med18}
-MedCalc.
-\newblock Roc curve analysis, 2018.
+Coursera, ``Machine learning,'' 2018.
+\newblock
+  \href{https://www.coursera.org/learn/machine-learning/supplement/aAgxl/what-is-machine-learning}{https://www.coursera.org/learn/machine-learning/supplement/aAgxl/what-is-machine-learning}.
 
 \bibitem{optimizaiton_algorithms}
-Anish~Singh Walia.
-\newblock Types of optimization algorithms used in neural networks and ways to
-  optimize gradient descent, 2018.
+A.~S. Walia, ``Types of optimization algorithms used in neural networks and
+  ways to optimize gradient descent,'' 2018.
+\newblock
+  \href{https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f}{https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f}.
+
+\bibitem{Med18}
+MedCalc, ``{ROC curve analysis},'' 2018.
+\newblock
+  \href{https://www.medcalc.org/manual/roc-curves.php}{https://www.medcalc.org/manual/roc-curves.php}.
+
+\bibitem{CMS_detector}
+CERN, ``{CMS Detector},'' 2018.
+\newblock \href{https://cms.cern/detector}{https://cms.cern/detector}.
 
 \end{thebibliography}
