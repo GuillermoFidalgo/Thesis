@@ -1,7 +1,44 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{What_is_CERN}
+For more information on CERN go to
+  \href{https://home.cern/about}{https://home.cern/about}.
+
+\bibitem{What_is_CMS}
+For more information on CMS experiment go to
+  \href{http://cms.web.cern.ch/news/what-cms}{http://cms.web.cern.ch/news/what-cms}.
+
+\bibitem{What_is_LHC}
+For more information on the Large Hadron Collider go to
+  \href{https://home.cern/topics/large-hadron-collider}{https://home.cern/topics/large-hadron-collider}.
+
+\bibitem{What_is_ATLAS}
+For more information on ATLAS experiment go to
+  \href{https://atlas.cern/}{https://atlas.cern/}.
+
+\bibitem{What_is_SM}
+For more information on the Standard Model go to
+  \href{https://home.cern/about/physics/standard-model}{https://home.cern/about/physics/standard-model}.
+
+\bibitem{What_is_ALICE}
+For more information on ALICE go to
+  \href{https://home.cern/about/experiments/alice}{https://home.cern/about/experiments/alice}.
+
+\bibitem{What_is_LHCb}
+For more information on LHCb go to
+  \href{https://home.cern/about/experiments/lhcb
+  }{https://home.cern/about/experiments/lhcb }.
+
+\bibitem{What_is_SUSY}
+For more information on Super Symmetry go to
+  \href{https://home.cern/about/physics/supersymmetry}{https://home.cern/about/physics/supersymmetry}.
+
+\bibitem{What_is_DM}
+For more information on Dark Matter go to
+  \href{https://home.cern/about/physics/dark-matter}{https://home.cern/about/physics/dark-matter}.
 
 \bibitem{datataking}
-CERN, ``{Processing what to record?},'' 2018.
+CERN, ``Processing what to record?,'' 2018.
 \newblock
   \href{https://home.cern/about/computing/processing-what-record}{https://home.cern/about/computing/processing-what-record}.
 

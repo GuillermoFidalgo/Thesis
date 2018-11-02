@@ -11,4 +11,22 @@ Warning--entry type for "Med18" isn't style-file defined
 --line 32 of file references.bib
 Warning--entry type for "CMS_detector" isn't style-file defined
 --line 40 of file references.bib
-(There were 5 warnings)
+Warning--entry type for "What_is_CERN" isn't style-file defined
+--line 47 of file references.bib
+Warning--entry type for "What_is_CMS" isn't style-file defined
+--line 51 of file references.bib
+Warning--entry type for "What_is_LHC" isn't style-file defined
+--line 54 of file references.bib
+Warning--entry type for "What_is_ATLAS" isn't style-file defined
+--line 57 of file references.bib
+Warning--entry type for "What_is_LHCb" isn't style-file defined
+--line 60 of file references.bib
+Warning--entry type for "What_is_ALICE" isn't style-file defined
+--line 65 of file references.bib
+Warning--entry type for "What_is_SM" isn't style-file defined
+--line 68 of file references.bib
+Warning--entry type for "What_is_SUSY" isn't style-file defined
+--line 71 of file references.bib
+Warning--entry type for "What_is_DM" isn't style-file defined
+--line 74 of file references.bib
+(There were 14 warnings)
