@@ -45,6 +45,12 @@ CERN, ``Processing what to record?,'' 2018.
 \bibitem{cmscomputing}
 CMS, ``{The CMS Computing Project},'' tech. rep., CERN, 2005.
 
+\bibitem{1742-6596-219-7-072020}
+L.~Tuura, A.~Meyer, I.~Segoni, and G.~D. Ricca, ``Cms data quality monitoring:
+  Systems and experiences,'' {\em Journal of Physics: Conference Series},
+  vol.~219, no.~7, p.~072020, 2010.
+\newblock For a more in depth review of DQM look in this article.
+
 \bibitem{Coursera}
 Coursera, ``Machine learning,'' 2018.
 \newblock
