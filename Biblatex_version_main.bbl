@@ -1,0 +1,293 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{What_is_CERN}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{note}{For more information on CERN go to \href{https://home.cern/about}{https://home.cern/about}}
+      \true{nocite}
+    \endentry
+    \entry{What_is_CMS}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{note}{For more information on CMS experiment go to \href{http://cms.web.cern.ch/news/what-cms}{http://cms.web.cern.ch/news/what-cms}}
+      \true{nocite}
+    \endentry
+    \entry{What_is_LHC}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{note}{For more information on the Large Hadron Collider go to \href{https://home.cern/topics/large-hadron-collider}{https://home.cern/topics/large-hadron-collider}}
+      \true{nocite}
+    \endentry
+    \entry{What_is_ATLAS}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{note}{For more information on ATLAS experiment go to \href{https://atlas.cern/}{https://atlas.cern/}}
+      \true{nocite}
+    \endentry
+    \entry{What_is_SM}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{note}{For more information on the Standard Model go to \href{https://home.cern/about/physics/standard-model}{https://home.cern/about/physics/standard-model}}
+      \true{nocite}
+    \endentry
+    \entry{What_is_ALICE}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{note}{For more information on ALICE go to \href{https://home.cern/about/experiments/alice}{https://home.cern/about/experiments/alice}}
+      \true{nocite}
+    \endentry
+    \entry{What_is_LHCb}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{note}{For more information on LHCb go to \href{https://home.cern/about/experiments/lhcb }{https://home.cern/about/experiments/lhcb }}
+      \true{nocite}
+    \endentry
+    \entry{What_is_SUSY}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{note}{For more information on Super Symmetry go to \href{https://home.cern/about/physics/supersymmetry}{https://home.cern/about/physics/supersymmetry}}
+      \true{nocite}
+    \endentry
+    \entry{What_is_DM}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{note}{For more information on Dark Matter go to \href{https://home.cern/about/physics/dark-matter}{https://home.cern/about/physics/dark-matter}}
+      \true{nocite}
+    \endentry
+    \entry{datataking}{online}{}
+      \name{author}{1}{}{%
+        {{hash=350ae988c85cf1a13c8cc0d38f28d0ee}{%
+           family={CERN},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{fullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{bibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorbibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authornamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorfullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Processing what to record?}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://home.cern/about/computing/processing-what-record
+      \endverb
+      \verb{url}
+      \verb https://home.cern/about/computing/processing-what-record
+      \endverb
+    \endentry
+    \entry{cmscomputing}{report}{}
+      \name{author}{1}{}{%
+        {{hash=c7da501f54544eba6787960200d9efdb}{%
+           family={CMS},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{fullhash}{c7da501f54544eba6787960200d9efdb}
+      \strng{bibnamehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{authorbibnamehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{authornamehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{authorfullhash}{c7da501f54544eba6787960200d9efdb}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The CMS Computing Project}}
+      \field{type}{techreport}
+      \field{year}{2005}
+      \true{nocite}
+    \endentry
+    \entry{1742-6596-219-7-072020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=65a66054522e547f801cf6e185cbab64}{%
+           family={Tuura},
+           familyi={T\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8e544b338c93d652a84b44044acdb4eb}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1ddf44f5fd444757b98b7f0db8a46cd0}{%
+           family={Segoni},
+           familyi={S\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod}}}%
+        {{hash=211d1879b3db6eb6d179d10bf4573681}{%
+           family={Ricca},
+           familyi={R\bibinitperiod},
+           given={G\bibnamedelima Della},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dce67f0cc339be199a22b78d197949ba}
+      \strng{fullhash}{b65ff8ed66e1dfa4e29c9499807110b6}
+      \strng{bibnamehash}{b65ff8ed66e1dfa4e29c9499807110b6}
+      \strng{authorbibnamehash}{b65ff8ed66e1dfa4e29c9499807110b6}
+      \strng{authornamehash}{dce67f0cc339be199a22b78d197949ba}
+      \strng{authorfullhash}{b65ff8ed66e1dfa4e29c9499807110b6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the last two years the CMS experiment has commissioned a full end to end data quality monitoring system in tandem with progress in the detector commissioning. We present the data quality monitoring and certification systems in place, from online data taking to delivering certified data sets for physics analyses, release validation and offline re-reconstruction activities at Tier-1s. We discuss the main results and lessons learnt so far in the commissioning and early detector operation. We outline our practical operations arrangements and the key technical implementation aspects.}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{note}{For a more in depth review of DQM look in this article.}
+      \field{number}{7}
+      \field{title}{CMS data quality monitoring: Systems and experiences}
+      \field{volume}{219}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{072020}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://stacks.iop.org/1742-6596/219/i=7/a=072020
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/1742-6596/219/i=7/a=072020
+      \endverb
+    \endentry
+    \entry{Coursera}{online}{}
+      \name{author}{1}{}{%
+        {{hash=31a74a3d90482bebd296c057539e548c}{%
+           family={Coursera},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{31a74a3d90482bebd296c057539e548c}
+      \strng{fullhash}{31a74a3d90482bebd296c057539e548c}
+      \strng{bibnamehash}{31a74a3d90482bebd296c057539e548c}
+      \strng{authorbibnamehash}{31a74a3d90482bebd296c057539e548c}
+      \strng{authornamehash}{31a74a3d90482bebd296c057539e548c}
+      \strng{authorfullhash}{31a74a3d90482bebd296c057539e548c}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.coursera.org/learn/machine-learning/supplement/aAgxl/what-is-machine-learning
+      \endverb
+      \verb{url}
+      \verb https://www.coursera.org/learn/machine-learning/supplement/aAgxl/what-is-machine-learning
+      \endverb
+    \endentry
+    \entry{optimizaiton_algorithms}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7224e23a302655a62d04af2309881c8d}{%
+           family={Walia},
+           familyi={W\bibinitperiod},
+           given={Anish\bibnamedelima Singh},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{organization}{1}{%
+        {Towards Data Science}%
+      }
+      \strng{namehash}{7224e23a302655a62d04af2309881c8d}
+      \strng{fullhash}{7224e23a302655a62d04af2309881c8d}
+      \strng{bibnamehash}{7224e23a302655a62d04af2309881c8d}
+      \strng{authorbibnamehash}{7224e23a302655a62d04af2309881c8d}
+      \strng{authornamehash}{7224e23a302655a62d04af2309881c8d}
+      \strng{authorfullhash}{7224e23a302655a62d04af2309881c8d}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Types of Optimization Algorithms used in Neural Networks and Ways to Optimize Gradient Descent}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f
+      \endverb
+    \endentry
+    \entry{Med18}{online}{}
+      \name{author}{1}{}{%
+        {{hash=71809292a234d4cbde0e6e3394a3b487}{%
+           family={MedCalc},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {MedCalc Software}%
+      }
+      \strng{namehash}{71809292a234d4cbde0e6e3394a3b487}
+      \strng{fullhash}{71809292a234d4cbde0e6e3394a3b487}
+      \strng{bibnamehash}{71809292a234d4cbde0e6e3394a3b487}
+      \strng{authorbibnamehash}{71809292a234d4cbde0e6e3394a3b487}
+      \strng{authornamehash}{71809292a234d4cbde0e6e3394a3b487}
+      \strng{authorfullhash}{71809292a234d4cbde0e6e3394a3b487}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{ROC curve analysis}}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.medcalc.org/manual/roc-curves.php
+      \endverb
+      \verb{url}
+      \verb https://www.medcalc.org/manual/roc-curves.php
+      \endverb
+    \endentry
+    \entry{CMS_detector}{online}{}
+      \name{author}{1}{}{%
+        {{hash=350ae988c85cf1a13c8cc0d38f28d0ee}{%
+           family={CERN},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {CMS}%
+      }
+      \strng{namehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{fullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{bibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorbibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authornamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorfullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CMS Detector}}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,32 +1,8 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
-The style file: ieeetr.bst
-Database file #1: references.bib
-Warning--entry type for "datataking" isn't style-file defined
---line 8 of file references.bib
-Warning--entry type for "Coursera" isn't style-file defined
---line 16 of file references.bib
-Warning--entry type for "optimizaiton_algorithms" isn't style-file defined
---line 23 of file references.bib
-Warning--entry type for "Med18" isn't style-file defined
---line 32 of file references.bib
-Warning--entry type for "CMS_detector" isn't style-file defined
---line 40 of file references.bib
-Warning--entry type for "What_is_CERN" isn't style-file defined
---line 47 of file references.bib
-Warning--entry type for "What_is_CMS" isn't style-file defined
---line 51 of file references.bib
-Warning--entry type for "What_is_LHC" isn't style-file defined
---line 54 of file references.bib
-Warning--entry type for "What_is_ATLAS" isn't style-file defined
---line 57 of file references.bib
-Warning--entry type for "What_is_LHCb" isn't style-file defined
---line 60 of file references.bib
-Warning--entry type for "What_is_ALICE" isn't style-file defined
---line 65 of file references.bib
-Warning--entry type for "What_is_SM" isn't style-file defined
---line 68 of file references.bib
-Warning--entry type for "What_is_SUSY" isn't style-file defined
---line 71 of file references.bib
-Warning--entry type for "What_is_DM" isn't style-file defined
---line 74 of file references.bib
-(There were 14 warnings)
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[25] biber-MSWIN64:315> INFO - === 
+[46] Biber.pm:371> INFO - Reading 'main.bcf'
+[120] Utils.pm:209> ERROR - Error: Found biblatex control file version 3.4, expected version 3.5.
+This means that your biber (2.12) and biblatex (3.11) versions are incompatible.
+See compat matrix in biblatex or biber PDF documentation.
+[120] Biber.pm:114> INFO - ERRORS: 1
