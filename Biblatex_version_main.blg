@@ -1,15 +1,15 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'Biblatex_version_main.blg'
-[35] biber-MSWIN64:315> INFO - === 
-[64] Biber.pm:371> INFO - Reading 'Biblatex_version_main.bcf'
-[172] Biber.pm:886> INFO - Using all citekeys in bib section 0
-[188] Biber.pm:4093> INFO - Processing section 0
-[203] Biber.pm:4254> INFO - Looking for bibtex format file 'bilatex_version_references.bib' for section 0
-[207] bibtex.pm:1523> INFO - LaTeX decoding ...
-[225] bibtex.pm:1340> INFO - Found BibTeX data source 'bilatex_version_references.bib'
-[288] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[288] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[288] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[288] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[307] bbl.pm:636> INFO - Writing 'Biblatex_version_main.bbl' with encoding 'UTF-8'
-[312] bbl.pm:739> INFO - Output to Biblatex_version_main.bbl
+[55] biber-MSWIN64:315> INFO - === 
+[94] Biber.pm:371> INFO - Reading 'Biblatex_version_main.bcf'
+[280] Biber.pm:886> INFO - Using all citekeys in bib section 0
+[310] Biber.pm:4093> INFO - Processing section 0
+[339] Biber.pm:4254> INFO - Looking for bibtex format file 'bilatex_version_references.bib' for section 0
+[346] bibtex.pm:1523> INFO - LaTeX decoding ...
+[382] bibtex.pm:1340> INFO - Found BibTeX data source 'bilatex_version_references.bib'
+[500] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[500] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[500] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[501] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[534] bbl.pm:636> INFO - Writing 'Biblatex_version_main.bbl' with encoding 'UTF-8'
+[545] bbl.pm:739> INFO - Output to Biblatex_version_main.bbl

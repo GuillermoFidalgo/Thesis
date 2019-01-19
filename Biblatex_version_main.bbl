@@ -73,6 +73,36 @@
       \field{note}{For more information on Dark Matter go to \href{https://home.cern/about/physics/dark-matter}{https://home.cern/about/physics/dark-matter}}
       \true{nocite}
     \endentry
+    \entry{CMS_detector}{online}{}
+      \name{author}{1}{}{%
+        {{hash=350ae988c85cf1a13c8cc0d38f28d0ee}{%
+           family={CERN},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {CMS}%
+      }
+      \strng{namehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{fullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{bibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorbibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authornamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorfullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CMS Detector}}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://cms.cern/detector
+      \endverb
+      \verb{url}
+      \verb https://cms.cern/detector
+      \endverb
+    \endentry
     \entry{datataking}{online}{}
       \name{author}{1}{}{%
         {{hash=350ae988c85cf1a13c8cc0d38f28d0ee}{%
@@ -85,7 +115,7 @@
       \strng{authorbibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
       \strng{authornamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
       \strng{authorfullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -115,6 +145,7 @@
       \strng{authorbibnamehash}{c7da501f54544eba6787960200d9efdb}
       \strng{authornamehash}{c7da501f54544eba6787960200d9efdb}
       \strng{authorfullhash}{c7da501f54544eba6787960200d9efdb}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -263,14 +294,38 @@
       \verb https://www.medcalc.org/manual/roc-curves.php
       \endverb
     \endentry
-    \entry{CMS_detector}{online}{}
+    \entry{HCAL}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c7da501f54544eba6787960200d9efdb}{%
+           family={CMS},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{fullhash}{c7da501f54544eba6787960200d9efdb}
+      \strng{bibnamehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{authorbibnamehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{authornamehash}{c7da501f54544eba6787960200d9efdb}
+      \strng{authorfullhash}{c7da501f54544eba6787960200d9efdb}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Energy of Hadrons (HCAL)}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://cms.cern/detector/measuring-energy/energy-hadrons-hcal
+      \endverb
+      \verb{url}
+      \verb https://cms.cern/detector/measuring-energy/energy-hadrons-hcal
+      \endverb
+    \endentry
+    \entry{hist_CERN}{online}{}
       \name{author}{1}{}{%
         {{hash=350ae988c85cf1a13c8cc0d38f28d0ee}{%
            family={CERN},
            familyi={C\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {CMS}%
       }
       \strng{namehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
       \strng{fullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
@@ -278,14 +333,59 @@
       \strng{authorbibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
       \strng{authornamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
       \strng{authorfullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{CMS Detector}}
+      \field{title}{History of CERN}
       \field{year}{2018}
       \true{nocite}
+      \verb{urlraw}
+      \verb https://timeline.web.cern.ch/timelines/The-history-of-CERN
+      \endverb
+      \verb{url}
+      \verb https://timeline.web.cern.ch/timelines/The-history-of-CERN
+      \endverb
+    \endentry
+    \entry{1742-6596-513-3-032024}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3ac3f45388337cde674103083a6f6bb8}{%
+           family={Guio},
+           familyi={G\bibinitperiod},
+           given={Federico\bibnamedelima De},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=26f3508b493e131393507f645a9f0093}{%
+           family={Cms\bibnamedelima Collaboration},
+           familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           prefix={the},
+           prefixi={t\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc229b8250737e80af0d9edad8c815ea}
+      \strng{fullhash}{dc229b8250737e80af0d9edad8c815ea}
+      \strng{bibnamehash}{dc229b8250737e80af0d9edad8c815ea}
+      \strng{authorbibnamehash}{dc229b8250737e80af0d9edad8c815ea}
+      \strng{authornamehash}{dc229b8250737e80af0d9edad8c815ea}
+      \strng{authorfullhash}{dc229b8250737e80af0d9edad8c815ea}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Data Quality Monitoring (DQM) Software proved to be a central tool in the CMS experiment. Its flexibility allowed its integration in several environments: Online, for real-time detector monitoring; Offline, for the final, fine-grained Data Certification; Release-Validation, to constantly validate the functionality and the performance of the reconstruction software; in Monte Carlo productions. The central tool to deliver Data Quality information is a web site for browsing data quality histograms (DQM GUI). In this contribution the structure of the DQM framework is described and the usage of the DQM software in the different environments and the performance of the system after the first years of data taking are presented.}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{number}{3}
+      \field{title}{The CMS data quality monitoring software: experience and future prospects}
+      \field{volume}{513}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{032024}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://stacks.iop.org/1742-6596/513/i=3/a=032024
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/1742-6596/513/i=3/a=032024
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

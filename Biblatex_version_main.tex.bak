@@ -24,6 +24,7 @@
 %\usepackage[subfigure,titles]{tocloft}
 %\usepackage{cite}
 \usepackage{url}
+\urlstyle{same}
 \usepackage{xfrac}
 \usepackage[backend=biber,style=phys]{biblatex}
 \addbibresource{bilatex_version_references.bib}
@@ -143,7 +144,7 @@ I wish to thank United States State Department and University of Michigan for pr
 %\input{chapters/conclusion}
 
 
-%\appendix
+\appendix
 %\chapter{Appendix Title}
 %%\input{chapters/appendix}
 \nocite{*}

@@ -2008,12 +2008,13 @@
     <bcf:citekey order="7">What_is_LHCb</bcf:citekey>
     <bcf:citekey order="8">What_is_SUSY</bcf:citekey>
     <bcf:citekey order="9">What_is_DM</bcf:citekey>
-    <bcf:citekey order="10">datataking</bcf:citekey>
-    <bcf:citekey order="11">cmscomputing</bcf:citekey>
-    <bcf:citekey order="12">1742-6596-219-7-072020</bcf:citekey>
-    <bcf:citekey order="13">Coursera</bcf:citekey>
-    <bcf:citekey order="14">optimizaiton_algorithms</bcf:citekey>
-    <bcf:citekey order="15">Med18</bcf:citekey>
+    <bcf:citekey order="10">CMS_detector</bcf:citekey>
+    <bcf:citekey order="11">datataking</bcf:citekey>
+    <bcf:citekey order="12">cmscomputing</bcf:citekey>
+    <bcf:citekey order="13">1742-6596-219-7-072020</bcf:citekey>
+    <bcf:citekey order="14">Coursera</bcf:citekey>
+    <bcf:citekey order="15">optimizaiton_algorithms</bcf:citekey>
+    <bcf:citekey order="16">Med18</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

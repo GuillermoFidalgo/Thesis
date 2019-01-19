@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.15)  15 JAN 2019 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.15)  18 JAN 2019 21:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -1240,30 +1240,30 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 102.
 
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bas
 e\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 100.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 102.
 
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psn
@@ -1349,7 +1349,7 @@ nitx\siunitx-abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 100.
+Package hyperref Info: Link coloring ON on input line 102.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyp
 erref\nameref.sty"
@@ -1361,22 +1361,22 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count330
 )
-LaTeX Info: Redefining \ref on input line 100.
-LaTeX Info: Redefining \pageref on input line 100.
-LaTeX Info: Redefining \nameref on input line 100.
+LaTeX Info: Redefining \ref on input line 102.
+LaTeX Info: Redefining \pageref on input line 102.
+LaTeX Info: Redefining \nameref on input line 102.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 100.
+LaTeX Font Info:    Try loading font information for U+msa on input line 102.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ams
 fonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 100.
+LaTeX Font Info:    Try loading font information for U+msb on input line 102.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ams
 fonts\umsb.fd"
@@ -1384,18 +1384,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (Title.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-<images/university.png, id=74, 1204.5pt x 1204.5pt>
-File: images/university.png Graphic file (type png)
-<use images/university.png>
-Package pdftex.def Info: images/university.png  used on input line 58.
-(pdftex.def)             Requested size: 426.79134pt x 426.801pt.
  [1
 
 
 {C:/Users/GuillermoAFidalgoRod/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.ma
-p} <./images/university.png>])
+p}])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 110.
  [1
 
 
@@ -1405,8 +1400,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
-
-[3
+ [3
 
 ] (main.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -1420,28 +1414,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 ]
 Chapter 1.
 (Chapters/Introduction.tex
-
-LaTeX Warning: Citation `What_is_CERN' on page 1 undefined on input line 2.
-
-
-LaTeX Warning: Citation `What_is_CMS' on page 1 undefined on input line 2.
-
-
-LaTeX Warning: Citation `What_is_LHC' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `What_is_ATLAS' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `What_is_SM' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `What_is_ALICE' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `What_is_LHCb' on page 1 undefined on input line 3.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
@@ -1473,7 +1445,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 11--129
+Underfull \hbox (badness 10000) in paragraph at lines 11--131
 
  []
 
@@ -1485,17 +1457,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 Chapter 2.
-(Chapters/Chapter02.tex
-
-LaTeX Warning: Citation `What_is_SUSY' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `What_is_DM' on page 3 undefined on input line 4.
-
-[3
+(Chapters/Chapter02.tex [3
 
 ]
-<images/CMSLayout.png, id=186, 3189.9175pt x 2253.41875pt>
+<images/CMSLayout.png, id=206, 3189.9175pt x 2253.41875pt>
 File: images/CMSLayout.png Graphic file (type png)
 <use images/CMSLayout.png>
 Package pdftex.def Info: images/CMSLayout.png  used on input line 22.
@@ -1503,7 +1468,7 @@ Package pdftex.def Info: images/CMSLayout.png  used on input line 22.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
  [4 <./images/CMSLayout.png>]
-<images/CMSLayers.PNG, id=196, 746.79pt x 380.92313pt>
+<images/CMSLayers.PNG, id=219, 746.79pt x 380.92313pt>
 File: images/CMSLayers.PNG Graphic file (type png)
 <use images/CMSLayers.PNG>
 Package pdftex.def Info: images/CMSLayers.PNG  used on input line 29.
@@ -1511,17 +1476,6 @@ Package pdftex.def Info: images/CMSLayers.PNG  used on input line 29.
 ) [5 <./images/CMSLayers.PNG>]
 Chapter 3.
 (Chapters/Chapter03.tex
-
-LaTeX Warning: Citation `datataking' on page 6 undefined on input line 5.
-
-
-LaTeX Warning: Citation `cmscomputing' on page 6 undefined on input line 8.
-
-
-LaTeX Warning: Citation `1742-6596-219-7-072020' on page 6 undefined on input l
-ine 12.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6
@@ -1530,78 +1484,69 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [7]) [8]
 Chapter 4.
 (Chapters/Chapter04.tex
-
-LaTeX Warning: Citation `Coursera' on page 9 undefined on input line 3.
-
-
 Underfull \vbox (badness 1635) has occurred while \output is active []
 
  [9
 
 ]
 [10]
-<images/Good_image.jpg, id=224, 130.98938pt x 167.87718pt>
+<images/Good_image.jpg, id=255, 130.98938pt x 167.87718pt>
 File: images/Good_image.jpg Graphic file (type jpg)
 <use images/Good_image.jpg>
 Package pdftex.def Info: images/Good_image.jpg  used on input line 23.
 (pdftex.def)             Requested size: 102.43134pt x 131.27924pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-<images/Dead_image_5x5.jpg, id=225, 146.04562pt x 167.87718pt>
+<images/Dead_image_5x5.jpg, id=256, 146.04562pt x 167.87718pt>
 File: images/Dead_image_5x5.jpg Graphic file (type jpg)
 <use images/Dead_image_5x5.jpg>
 Package pdftex.def Info: images/Dead_image_5x5.jpg  used on input line 29.
 (pdftex.def)             Requested size: 113.95436pt x 130.99234pt.
-<images/Hot_image_5x5.jpg, id=226, 136.25906pt x 167.87718pt>
+<images/Hot_image_5x5.jpg, id=257, 136.25906pt x 167.87718pt>
 File: images/Hot_image_5x5.jpg Graphic file (type jpg)
 <use images/Hot_image_5x5.jpg>
 Package pdftex.def Info: images/Hot_image_5x5.jpg  used on input line 35.
 (pdftex.def)             Requested size: 107.55203pt x 132.5088pt.
  [11 <./images/Good_image.jpg> <./images/Dead_image_5x5.jpg> <./images/Hot_imag
 e_5x5.jpg>]
-<images/Weights_and_biases.png, id=232, 261.1575pt x 158.337pt>
+<images/Weights_and_biases.png, id=263, 261.1575pt x 158.337pt>
 File: images/Weights_and_biases.png Graphic file (type png)
 <use images/Weights_and_biases.png>
 Package pdftex.def Info: images/Weights_and_biases.png  used on input line 51.
 (pdftex.def)             Requested size: 290.21498pt x 175.95425pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 56.
-
-
-LaTeX Warning: Citation `optimizaiton_algorithms' on page 12 undefined on input
- line 60.
-
-[12 <./images/Weights_and_biases.png>]
-<images/GD.png, id=240, 480.29437pt x 270.25969pt>
+ [12 <./images/Weights_and_biases.png>]
+<images/GD.png, id=273, 480.29437pt x 270.25969pt>
 File: images/GD.png Graphic file (type png)
 <use images/GD.png>
 Package pdftex.def Info: images/GD.png  used on input line 69.
 (pdftex.def)             Requested size: 341.43436pt x 192.1249pt.
-<images/Loss_function1.png, id=241, 316.3455pt x 177.7185pt>
+<images/Loss_function1.png, id=274, 316.3455pt x 177.7185pt>
 File: images/Loss_function1.png Graphic file (type png)
 <use images/Loss_function1.png>
 Package pdftex.def Info: images/Loss_function1.png  used on input line 81.
 (pdftex.def)             Requested size: 384.10959pt x 215.78575pt.
-<images/Loss_function2.png, id=242, 317.331pt x 178.704pt>
+<images/Loss_function2.png, id=275, 317.331pt x 178.704pt>
 File: images/Loss_function2.png Graphic file (type png)
 <use images/Loss_function2.png>
 Package pdftex.def Info: images/Loss_function2.png  used on input line 85.
 (pdftex.def)             Requested size: 384.10959pt x 216.31975pt.
-) [13 <./images/GD.png>] [14 <./images/Loss_function1.png> <./images/Loss_funct
-ion2.png>]
+) [13 <./images/GD.png>]
+[14 <./images/Loss_function1.png> <./images/Loss_function2.png>]
 Chapter 5.
 (Chapters/Chapter05.tex
-<images/Good_image_1x1.png, id=255, 140.02313pt x 189.70876pt>
+<images/Good_image_1x1.png, id=288, 140.02313pt x 189.70876pt>
 File: images/Good_image_1x1.png Graphic file (type png)
 <use images/Good_image_1x1.png>
 Package pdftex.def Info: images/Good_image_1x1.png  used on input line 7.
 (pdftex.def)             Requested size: 134.8636pt x 182.72621pt.
-<images/Dead_image_1x1.png, id=256, 163.3603pt x 240.9pt>
+<images/Dead_image_1x1.png, id=289, 163.3603pt x 240.9pt>
 File: images/Dead_image_1x1.png Graphic file (type png)
 <use images/Dead_image_1x1.png>
 Package pdftex.def Info: images/Dead_image_1x1.png  used on input line 11.
 (pdftex.def)             Requested size: 130.16823pt x 191.952pt.
-<images/Hot_image_1x1.png, id=257, 134.00063pt x 198.7425pt>
+<images/Hot_image_1x1.png, id=290, 134.00063pt x 198.7425pt>
 File: images/Hot_image_1x1.png Graphic file (type png)
 <use images/Hot_image_1x1.png>
 Package pdftex.def Info: images/Hot_image_1x1.png  used on input line 15.
@@ -1613,45 +1558,45 @@ e_1x1.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
  [16]
-<images/2_conv_layers_model.png, id=269, 392.96812pt x 153.57375pt>
+<images/2_conv_layers_model.png, id=302, 392.96812pt x 153.57375pt>
 File: images/2_conv_layers_model.png Graphic file (type png)
 <use images/2_conv_layers_model.png>
 Package pdftex.def Info: images/2_conv_layers_model.png  used on input line 40.
 
 (pdftex.def)             Requested size: 384.10959pt x 150.12161pt.
-<images/CM_2x2_with_5x5_good_hot_fixed.png, id=270, 259.7203pt x 226.59656pt>
+<images/CM_2x2_with_5x5_good_hot_fixed.png, id=303, 259.7203pt x 226.59656pt>
 File: images/CM_2x2_with_5x5_good_hot_fixed.png Graphic file (type png)
 <use images/CM_2x2_with_5x5_good_hot_fixed.png>
 Package pdftex.def Info: images/CM_2x2_with_5x5_good_hot_fixed.png  used on inp
 ut line 49.
 (pdftex.def)             Requested size: 192.0548pt x 167.56126pt.
-<images/Learning_curve_5x5_good_hot_fixed.png, id=271, 319.94531pt x 433.62pt>
+<images/Learning_curve_5x5_good_hot_fixed.png, id=304, 319.94531pt x 433.62pt>
 File: images/Learning_curve_5x5_good_hot_fixed.png Graphic file (type png)
 <use images/Learning_curve_5x5_good_hot_fixed.png>
 Package pdftex.def Info: images/Learning_curve_5x5_good_hot_fixed.png  used on 
 input line 52.
 (pdftex.def)             Requested size: 192.0548pt x 260.2931pt.
-<images/2x2CMwith_5x5_good_hot_random.png, id=272, 257.46187pt x 228.855pt>
+<images/2x2CMwith_5x5_good_hot_random.png, id=305, 257.46187pt x 228.855pt>
 File: images/2x2CMwith_5x5_good_hot_random.png Graphic file (type png)
 <use images/2x2CMwith_5x5_good_hot_random.png>
 Package pdftex.def Info: images/2x2CMwith_5x5_good_hot_random.png  used on inpu
 t line 60.
 (pdftex.def)             Requested size: 192.0548pt x 170.71892pt.
-<images/Learning_curve_5x5_good_hot_random.png, id=273, 307.90031pt x 429.85594
+<images/Learning_curve_5x5_good_hot_random.png, id=306, 307.90031pt x 429.85594
 pt>
 File: images/Learning_curve_5x5_good_hot_random.png Graphic file (type png)
 <use images/Learning_curve_5x5_good_hot_random.png>
 Package pdftex.def Info: images/Learning_curve_5x5_good_hot_random.png  used on
  input line 63.
 (pdftex.def)             Requested size: 192.0548pt x 268.12802pt.
-<images/3x3CMwith_5x5_good_hot_dead_random.png, id=274, 271.76532pt x 228.855pt
+<images/3x3CMwith_5x5_good_hot_dead_random.png, id=307, 271.76532pt x 228.855pt
 >
 File: images/3x3CMwith_5x5_good_hot_dead_random.png Graphic file (type png)
 <use images/3x3CMwith_5x5_good_hot_dead_random.png>
 Package pdftex.def Info: images/3x3CMwith_5x5_good_hot_dead_random.png  used on
  input line 72.
 (pdftex.def)             Requested size: 213.39566pt x 179.71092pt.
-<images/Learning_curve_5x5_good_hot_dead_random.png, id=275, 307.1475pt x 434.3
+<images/Learning_curve_5x5_good_hot_dead_random.png, id=308, 307.1475pt x 434.3
 7282pt>
 File: images/Learning_curve_5x5_good_hot_dead_random.png Graphic file (type png
 )
@@ -1659,14 +1604,14 @@ File: images/Learning_curve_5x5_good_hot_dead_random.png Graphic file (type png
 Package pdftex.def Info: images/Learning_curve_5x5_good_hot_dead_random.png  us
 ed on input line 75.
 (pdftex.def)             Requested size: 192.0548pt x 271.60826pt.
-<images/3x3CMwith_1x1_good_hot_dead_random.png, id=278, 269.50688pt x 231.11343
+<images/3x3CMwith_1x1_good_hot_dead_random.png, id=311, 269.50688pt x 231.11343
 pt>
 File: images/3x3CMwith_1x1_good_hot_dead_random.png Graphic file (type png)
 <use images/3x3CMwith_1x1_good_hot_dead_random.png>
 Package pdftex.def Info: images/3x3CMwith_1x1_good_hot_dead_random.png  used on
  input line 91.
 (pdftex.def)             Requested size: 213.39566pt x 182.99727pt.
-<images/Learning_curve_1x1_good_hot_dead_random.png, id=279, 307.90031pt x 441.
+<images/Learning_curve_1x1_good_hot_dead_random.png, id=312, 307.90031pt x 441.
 14813pt>
 File: images/Learning_curve_1x1_good_hot_dead_random.png Graphic file (type png
 )
@@ -1679,30 +1624,26 @@ d.png> <./images/Learning_curve_5x5_good_hot_fixed.png>] [18 <./images/2x2CMwit
 h_5x5_good_hot_random.png> <./images/Learning_curve_5x5_good_hot_random.png> <.
 /images/3x3CMwith_5x5_good_hot_dead_random.png> <./images/Learning_curve_5x5_go
 od_hot_dead_random.png>]
-<images/3_conv_layers_model.png, id=291, 548.0475pt x 174.6525pt>
+<images/3_conv_layers_model.png, id=324, 548.0475pt x 174.6525pt>
 File: images/3_conv_layers_model.png Graphic file (type png)
 <use images/3_conv_layers_model.png>
 Package pdftex.def Info: images/3_conv_layers_model.png  used on input line 113
 .
 (pdftex.def)             Requested size: 426.79134pt x 136.01253pt.
-
-
-LaTeX Warning: Citation `Med18' on page 19 undefined on input line 120.
-
-[19 <./images/3x3CMwith_1x1_good_hot_dead_random.png> <./images/Learning_curve_
-1x1_good_hot_dead_random.png>]
-<images/Performance_of_2nd_model.png, id=298, 715.92468pt x 499.8675pt>
+ [19 <./images/3x3CMwith_1x1_good_hot_dead_random.png> <./images/Learning_curve
+_1x1_good_hot_dead_random.png>]
+<images/Performance_of_2nd_model.png, id=332, 715.92468pt x 499.8675pt>
 File: images/Performance_of_2nd_model.png Graphic file (type png)
 <use images/Performance_of_2nd_model.png>
 Package pdftex.def Info: images/Performance_of_2nd_model.png  used on input lin
 e 126.
 (pdftex.def)             Requested size: 426.79134pt x 297.99309pt.
-<images/best_idmodel.png, id=302, 256.887pt x 181.6605pt>
+<images/best_idmodel.png, id=336, 256.887pt x 181.6605pt>
 File: images/best_idmodel.png Graphic file (type png)
 <use images/best_idmodel.png>
 Package pdftex.def Info: images/best_idmodel.png  used on input line 138.
 (pdftex.def)             Requested size: 426.79134pt x 301.82245pt.
-<images/best_idmodelresults.png, id=303, 619.56468pt x 493.0922pt>
+<images/best_idmodelresults.png, id=337, 619.56468pt x 493.0922pt>
 File: images/best_idmodelresults.png Graphic file (type png)
 <use images/best_idmodelresults.png>
 Package pdftex.def Info: images/best_idmodelresults.png  used on input line 144
@@ -1718,64 +1659,125 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20 <./images/3_conv_layers_model.png>] [21 <./images/Performance_of_2nd_model
 .png> <./images/best_idmodel.png>] [22 <./images/best_idmodelresults.png>]
-<images/SSL_model.png, id=318, 187.902pt x 173.448pt>
+<images/SSL_model.png, id=353, 187.902pt x 173.448pt>
 File: images/SSL_model.png Graphic file (type png)
 <use images/SSL_model.png>
 Package pdftex.def Info: images/SSL_model.png  used on input line 153.
 (pdftex.def)             Requested size: 426.79134pt x 394.0152pt.
-<images/SSL_inputs_outputs.png, id=320, 549.55313pt x 612.03656pt>
+<images/SSL_inputs_outputs.png, id=355, 549.55313pt x 612.03656pt>
 File: images/SSL_inputs_outputs.png Graphic file (type png)
 <use images/SSL_inputs_outputs.png>
 Package pdftex.def Info: images/SSL_inputs_outputs.png  used on input line 160.
 
 (pdftex.def)             Requested size: 426.79134pt x 475.33203pt.
  [23 <./images/SSL_model.png>] [24 <./images/SSL_inputs_outputs.png>]
-<images/SSL_histo.png, id=330, 918.43124pt x 377.91188pt>
+<images/SSL_histo.png, id=365, 918.43124pt x 377.91188pt>
 File: images/SSL_histo.png Graphic file (type png)
 <use images/SSL_histo.png>
 Package pdftex.def Info: images/SSL_histo.png  used on input line 168.
 (pdftex.def)             Requested size: 426.79134pt x 175.61763pt.
-) (main.bbl) [25 <./images/SSL_histo.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
+) (main.bbl [25 <./images/SSL_histo.png>]
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[]\OT1/ptm/m/n/12 For more in-for-ma-tion on the Large Hadron Col-lider go to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+[]\OT1/ptm/m/n/12 For more in-for-ma-tion on the Stan-dard Model go to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+[]\OT1/ptm/m/n/12 For more in-for-ma-tion on Su-per Sym-me-try go to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+[]\OT1/ptm/m/n/12 CERN, ``Pro-cess-ing what to record?.'' [][]$https : / / home
+ . cern / about / computing /
+ []
+
+[26
+
+]
+Underfull \hbox (badness 3098) in paragraph at lines 63--67
+[]\OT1/ptm/m/n/12 A. S. Walia, ``Types of op-ti-miza-tion al-go-rithms used in 
+neu-ral net-works
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--67
+\OT1/ptm/m/n/12 and ways to op-ti-mize gra-di-ent de-scent.'' [][]$https : / / 
+towardsdatascience . com /
+ []
+
+
+Overfull \hbox (114.22626pt too wide) in paragraph at lines 63--67
+\OT1/ptm/m/n/12 types-[]of-[]optimization-[]algorithms-[]used-[]in-[]neural-[]n
+etworks-[]and-[]ways-[]to-[]optimize-[]gradient-[]95ae5d39529f$[][],
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 74--76
+[]\OT1/ptm/m/n/12 CMS, ``En-ergy of hadrons (hcal).'' [][]$https : / / cms . ce
+rn / detector / measuring-[]energy /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+[]\OT1/ptm/m/n/12 CERN, ``His-tory of cern.'' [][]$https : / / timeline . web .
+ cern . ch / timelines /
+ []
+
+) [27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 83032AF4A670FB402BF029FDC33DC3DA;1297.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: EDAE38A12302A3DC6EDA0ADC09E53E2F;1345
+(rerunfilecheck)             After:  8D7AC6E3562744EBC509359FA81AF730;1344.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 125 (\begingroup)
-### semi simple group (level 1) entered at line 107 (\begingroup)
+### semi simple group (level 2) entered at line 127 (\begingroup)
+### semi simple group (level 1) entered at line 109 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33735 strings out of 492946
- 678679 string characters out of 3119606
- 779734 words of memory out of 3000000
- 37039 multiletter control sequences out of 15000+200000
- 566374 words of font info for 105 fonts, out of 3000000 for 9000
+ 33700 strings out of 492946
+ 677512 string characters out of 3119606
+ 780345 words of memory out of 3000000
+ 36981 multiletter control sequences out of 15000+200000
+ 567452 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,77p,1795b,1020s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.
-9/fonts/enc/dvips/base/8r.enc}<C:/Users/GuillermoAFidalgoRod/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/GuillermoAFi
-dalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/GuillermoAFidalgo
-Rod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Use
-rs/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times
-/utmr8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (30 pages, 4739871 bytes).
+ 62i,12n,77p,1798b,1124s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{appendix.A} has been referenced but
+ does not exist, replaced by a fixed one
+
+{C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
+s/base/8r.enc}<C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/GuillermoAFidalgoRod/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/G
+uillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/GuillermoAFid
+algoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
+Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on main.pdf (32 pages, 4401493 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 453 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 297 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -24,6 +24,8 @@
 %\usepackage[subfigure,titles]{tocloft}
 \usepackage{cite}
 \usepackage{url}
+\urlstyle{same}
+
 \usepackage{xfrac}
 
 

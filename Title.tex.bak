@@ -1,0 +1,59 @@
+\begin{titlepage}
+    \begin{center}
+    
+      % \ThisCenterWallPaper{1}{university.png}
+       %\BgThispage
+        \vspace*{1cm}
+      \Large  
+        \textbf{Using Machine Learning Techniques for Data Quality Monitoring at CMS Experiment}
+        
+        %\normalsize
+        \vspace{0.75cm}
+        by
+        
+        \vspace{1.95cm}
+        
+        %\Large
+        Guillermo A. Fidalgo Rodríguez         
+        \vspace{2.5cm}	
+        
+%        A thesis presented for the degree of\\
+%        \vspace{0.5cm}
+%        BACHELLOR'S  OF SCIENCE??\\
+%        \vspace{0.5cm}
+%        in\\
+%        \vspace{0.5cm}
+%        Physics\\
+%        \vspace{0.5cm}
+        UNIVERSITY OF PUERTO RICO\\
+        MAYAGÜEZ CAMPUS\\
+        2018
+        \vspace{5.8cm}
+        
+        \end{center}
+        
+        Approved by:
+        
+        \vspace{1.0cm}
+
+\SignatureAndDate{Sudhir Malik, Ph.D.}
+\\President, Graduate Committee
+
+%\vspace{1.0cm}
+%
+%\SignatureAndDate{H\'ector M\'endez, Ph.D.}
+%\\Member, Graduate Committee
+%
+%\vspace{1.0cm}
+%
+%\SignatureAndDate{Samuel Santana Col\'on, Ph.D.}
+%\\Member, Graduate Committee
+%
+%\vspace{1.0cm}
+%
+%\SignatureAndDate{Rafael A. R\'amos, Ph.D.}
+%\\Chairperson of the Department
+
+
+
+\end{titlepage}

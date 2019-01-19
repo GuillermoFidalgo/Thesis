@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.15)  16 JAN 2019 01:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.15)  18 JAN 2019 21:59
 entering extended mode
 **./Biblatex_version_main.tex
 (Biblatex_version_main.tex
@@ -1517,30 +1517,30 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
  (Biblatex_version_main.aux)
 \openout1 = `Biblatex_version_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 101.
 
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bas
 e\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 100.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 101.
 
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psn
@@ -1636,8 +1636,8 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 27.
 fonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-Package biblatex Info: Reference section=0 on input line 100.
-Package biblatex Info: Reference segment=0 on input line 100.
+Package biblatex Info: Reference section=0 on input line 101.
+Package biblatex Info: Reference segment=0 on input line 101.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tra
 nslator\translator-basic-dictionary-English.dict"
@@ -1648,7 +1648,7 @@ nitx\siunitx-abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 100.
+Package hyperref Info: Link coloring ON on input line 101.
 
 ("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyp
 erref\nameref.sty"
@@ -1660,9 +1660,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count457
 )
-LaTeX Info: Redefining \ref on input line 100.
-LaTeX Info: Redefining \pageref on input line 100.
-LaTeX Info: Redefining \nameref on input line 100.
+LaTeX Info: Redefining \ref on input line 101.
+LaTeX Info: Redefining \pageref on input line 101.
+LaTeX Info: Redefining \nameref on input line 101.
  (Biblatex_version_main.out)
 (Biblatex_version_main.out)
 \@outlinefile=\write5
@@ -1671,19 +1671,14 @@ LaTeX Info: Redefining \nameref on input line 100.
  ABD: EveryShipout initializing macros (Title.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-<images/university.png, id=74, 1204.5pt x 1204.5pt>
-File: images/university.png Graphic file (type png)
-<use images/university.png>
-Package pdftex.def Info: images/university.png  used on input line 58.
-(pdftex.def)             Requested size: 426.79134pt x 426.801pt.
 
 [1
 
 
 {C:/Users/GuillermoAFidalgoRod/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.ma
-p} <./images/university.png>])
+p}])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
  [1
 
 
@@ -1695,15 +1690,15 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 
  [3
 
-]
-(Biblatex_version_main.toc
+] (Biblatex_version_main.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 )
 \tf@toc=\write7
 \openout7 = `Biblatex_version_main.toc'.
 
- [4
+
+[4
 
 ]
 Chapter 1.
@@ -1739,7 +1734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 11--129
+Underfull \hbox (badness 10000) in paragraph at lines 11--130
 
  []
 
@@ -1754,7 +1749,7 @@ Chapter 2.
 (Chapters/Chapter02.tex [3
 
 ]
-<images/CMSLayout.png, id=204, 3189.9175pt x 2253.41875pt>
+<images/CMSLayout.png, id=201, 3189.9175pt x 2253.41875pt>
 File: images/CMSLayout.png Graphic file (type png)
 <use images/CMSLayout.png>
 Package pdftex.def Info: images/CMSLayout.png  used on input line 22.
@@ -1971,67 +1966,43 @@ File: images/SSL_histo.png Graphic file (type png)
 Package pdftex.def Info: images/SSL_histo.png  used on input line 168.
 (pdftex.def)             Requested size: 426.79134pt x 175.61763pt.
 ) [25 <./images/SSL_histo.png>]
-Overfull \hbox (0.18076pt too wide) in paragraph at lines 152--152
+Overfull \hbox (0.18076pt too wide) in paragraph at lines 153--153
 []\OT1/ptm/m/n/12 For more in-for-ma-tion on the Large Hadron Col-lider go to [
 ][]https://home.cern/topics/large-
  []
 
 
-Overfull \hbox (22.95645pt too wide) in paragraph at lines 152--152
+Overfull \hbox (22.95645pt too wide) in paragraph at lines 153--153
 []\OT1/ptm/m/n/12 For more in-for-ma-tion on the Stan-dard Model go to [][]http
 s://home.cern/about/physics/standard-
  []
 
 
-Overfull \hbox (42.3602pt too wide) in paragraph at lines 152--152
+Overfull \hbox (42.3602pt too wide) in paragraph at lines 153--153
 []\OT1/ptm/m/n/12 For more in-for-ma-tion on Su-per Sym-me-try go to [][]https:
 //home.cern/about/physics/supersymmetry[][]. 
  []
 
 
-Overfull \hbox (2.32837pt too wide) in paragraph at lines 152--152
+Overfull \hbox (2.32837pt too wide) in paragraph at lines 153--153
 []\OT1/ptm/m/n/12 For more in-for-ma-tion on Dark Mat-ter go to [][]https://hom
 e.cern/about/physics/dark-matter[][]. 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 152.
 
-
-("C:\Users\GuillermoAFidalgoRod\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psn
-fss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (4.30849pt too wide) in paragraph at lines 152--152
-\OT1/pcr/m/n/12 machine -[] learning / supplement / aAgxl / what -[] is -[] mac
-hine -[] learning$[][]\OT1/ptm/m/n/12 . 
- []
-
-
-Overfull \hbox (71.07909pt too wide) in paragraph at lines 152--152
+Overfull \hbox (5.90523pt too wide) in paragraph at lines 153--153
 \OT1/ptm/m/it/12 mize gra-di-ent de-scent\OT1/ptm/m/n/12 , En-glish, To-wards D
-ata Sci-ence, (2018) [][]$\OT1/pcr/m/n/12 https : / / towardsdatascience .
- []
-
-
-Overfull \hbox (24.90848pt too wide) in paragraph at lines 152--152
-\OT1/pcr/m/n/12 com / types -[] of -[] optimization -[] algorithms -[] used -[]
- in -[] neural -[] networks -[]
+ata Sci-ence, (2018) [][]$https : / / towardsdatascience .
  []
 
 [26
 
-]
-Overfull \hbox (3.36311pt too wide) in paragraph at lines 152--152
-[]\OT1/ptm/m/n/12 MedCalc, \OT1/ptm/m/it/12 ROC curve anal-y-sis\OT1/ptm/m/n/12
- , Med-Calc Soft-ware, (2018) [][]$\OT1/pcr/m/n/12 https : / / www . medcalc .
- []
-
-[27]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
+] [27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
  (Biblatex_version_main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `Biblatex_version_main.out' has not changed.
 (rerunfilecheck)             Checksum: 83032AF4A670FB402BF029FDC33DC3DA;1297.
 Package logreq Info: Writing requests to 'Biblatex_version_main.run.xml'.
@@ -2040,32 +2011,31 @@ Package logreq Info: Writing requests to 'Biblatex_version_main.run.xml'.
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 125 (\begingroup)
-### semi simple group (level 1) entered at line 107 (\begingroup)
+### semi simple group (level 2) entered at line 126 (\begingroup)
+### semi simple group (level 1) entered at line 108 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 40320 strings out of 492946
- 807302 string characters out of 3119606
- 1252779 words of memory out of 3000000
- 43527 multiletter control sequences out of 15000+200000
- 566889 words of font info for 107 fonts, out of 3000000 for 9000
+ 40231 strings out of 492946
+ 805467 string characters out of 3119606
+ 1252842 words of memory out of 3000000
+ 43440 multiletter control sequences out of 15000+200000
+ 567452 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,77p,1848b,1977s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,12n,77p,1848b,1979s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.
 9/fonts/enc/dvips/base/8r.enc}<C:/Users/GuillermoAFidalgoRod/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/GuillermoAFi
 dalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
 .pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/GuillermoAFidal
-goRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Us
-ers/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/time
-s/utmbi8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/urw/times/utmr8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Biblatex_version_main.pdf (32 pages, 4768782 bytes).
+rograms/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/GuillermoAFidalgo
+Rod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Use
+rs/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times
+/utmr8a.pfb><C:/Users/GuillermoAFidalgoRod/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on Biblatex_version_main.pdf (32 pages, 4404657 bytes).
 PDF statistics:
- 447 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 453 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 
